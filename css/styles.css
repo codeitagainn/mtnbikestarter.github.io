@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Avenir', 'cpavenir', helvetica, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.progress-form {
+  margin-top: 2000px;
+  text-align: center;
+}
+
+h1 {margin: 0;}
+
+.homepage-nav .row {
+  margin-bottom: 0;
+}
+
+.header-text {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.header-text a {
+  color: #62f9b2;
+  border-bottom: 2px solid white;
+}
