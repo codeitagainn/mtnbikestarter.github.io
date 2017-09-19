@@ -11,14 +11,17 @@
 
 @media only screen and (max-width: 480px) {
   .header-text {
-    padding-top: 200px;
-    padding-right: 25px;
+    padding-top: 150px;
     font-size: 100px;
-    position: absolute;
     top: auto;
     left: auto;
-    width: 412px;
+    width: 250px;
     bottom: auto;
     transform: none;
+    padding-left: 7px;
+  }
+
+  h3 {
+    font-size: 25px;
   }
 }
