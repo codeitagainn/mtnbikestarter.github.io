@@ -15,12 +15,12 @@ header {
   height: 100vh;
 }
 
-.progress-form {
+.question-wrapper {
   margin-top: 2000px;
   text-align: center;
 }
 
-h1 {margin: 0;}
+h1 { margin: 0; }
 
 .homepage-nav .row {
   margin-bottom: 0;

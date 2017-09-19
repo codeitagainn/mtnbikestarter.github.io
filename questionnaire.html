@@ -11,13 +11,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/override-materialize.css">
     <script src="js/script.js"></script>
   </head>
   <title>Mountain Bike Starter</title>
   <body>
-    <h3 class="progress-form">I'm the first question</h3>
-    <h3 class="progress-form">I'm the second question</h3>
-    <h3 class="progress-form">I'm the third question</h3>
-    <h3 class="progress-form">I'm the fourth question</h3>
+    <form>
+      <div class="question-wrapper">
+        <h3 class="form-text">Usage Type - Select Multiple</h3>
+        <input type="checkbox" value="trail riding">Trail Riding<br>
+        <input type="checkbox" value="downhill">Downhill<br>
+        <button type="button" class="next-question">Next question</button>
+      </div>
+
+      <div class="question-wrapper">
+        <h3 class="form-text">Usage Frequency</h3>
+        <input type="radio" class="next-question" value="weekly year round">A few hours per week year round<br>
+        <input type="radio" class="next-question" value="weekly seasonlly">A few hours per week seasonally<br>
+        <input type="radio" class="next-question" value="monthly year round">A few hours per month year round<br>
+        <input type="radio" class="next-question" value="monthly seasonally">A few hours per month seasonally<br>
+      </div>
+
+      <div class="question-wrapper">
+        <h3 class="form-text">What is your budget?</h3>
+        <input type="radio" class="next-question" value="under 500">< $500<br>
+        <input type="radio" class="next-question" value="500-1000">$500 - $1000<br>
+        <input type="radio" class="next-question" value="1000-2000">$1000- $2000<br>
+        <input type="radio" class="next-question" value="1000-3000">$1000- $3000<br>
+      </div>
+      <!-- <h3 class="progress-form">I'm the second question</h3>
+      <h3 class="progress-form">I'm the third question</h3>
+      <h3 class="progress-form">I'm the fourth question</h3> -->
+    </form>
   </body>
 </html>
