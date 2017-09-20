@@ -20,17 +20,42 @@
     <form>
       <div class="question-wrapper">
         <h3 class="form-text">Usage Type - Select Multiple</h3>
-        <input type="checkbox" value="trail riding">Trail Riding<br>
-        <input type="checkbox" value="downhill">Downhill<br>
-        <button type="button" class="next-question">Next question</button>
+        <div lass="input-field">
+          <input type="checkbox" class="checking-checked" id="trail-riding" value="trail riding">
+          <label for="trail-riding">Red</label>
+        </div>
+        <div lass="input-field">
+          <input type="checkbox" id="downhill" value="downhill">
+          <label for="downhill">Red</label>
+        </div>
+        <br>
+        <a class="waves-effect waves-light btn next-question" type="button">Next question</a>
       </div>
 
-      <div class="question-wrapper">
+      <div class="question-wrapper-radio question-wrapper">
         <h3 class="form-text">Usage Frequency</h3>
-        <input type="radio" class="next-question" value="weekly year round">A few hours per week year round<br>
-        <input type="radio" class="next-question" value="weekly seasonlly">A few hours per week seasonally<br>
-        <input type="radio" class="next-question" value="monthly year round">A few hours per month year round<br>
-        <input type="radio" class="next-question" value="monthly seasonally">A few hours per month seasonally<br>
+        <div class="input-field">
+          <input type="radio" class="radio-btn next-question" id="weekly-year-round" value="weekly year round">
+          <label for="weekly-year-round">A few hours per week year round</label>
+        </div>
+        <div class="input-field">
+          <input type="radio" class="radio-btn next-question" id="weekly-year-round" value="weekly year round">
+          <label for="weekly-year-round">A few hours per week year round</label>
+        </div>
+        <div class="input-field">
+          <input type="radio" class="radio-btn next-question" id="weekly-seasonally"  value="weekly seasonlly">
+          <label for="weekly-seasonally">A few hours per week seasonally</label>
+        </div>
+
+        <div class="input-field">
+          <input type="radio" class="next-question" id="monthly-year-round" value="monthly year round">
+          <label for="monthly-year-round">A few hours per month year round</label>
+        </div>
+
+        <div class="input-field">
+          <input type="radio" class="next-question" id="monthly-seasonally" value="monthly seasonally">
+          <label for="monthly-seasonally">A few hours per month seasonally</label>
+        </div>
       </div>
 
       <div class="question-wrapper">

@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  $('.checking-checked').click(function(){
+    console.log('checked');
+    console.log( $(this).is(':checked'));
+  });
   displayNextQuestion(0)
   slideoutLeft()
 })
@@ -36,7 +40,7 @@ function getNextQuestion(current_display) {
 
 function displayNextQuestion(question_index) {
   let question = $('.question-wrapper')[question_index]
-  $(question).animate({'margin-top': '200px'}, 1700);
+  $(question).animate({'margin-top': '300px'}, 1700);
 }
 
 // $(document).ready(function(){
