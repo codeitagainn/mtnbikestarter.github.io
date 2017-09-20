@@ -1,8 +1,4 @@
 $(document).ready(function(){
-  $('.checking-checked').click(function(){
-    console.log('checked');
-    console.log( $(this).is(':checked'));
-  });
   displayNextQuestion(0)
   slideoutLeft()
 })
@@ -29,7 +25,6 @@ function gatherAnswers(answers) {
   } else {
     arr.push($(answers).val());
   }
-  console.log(arr);
 }
 
 function getNextQuestion(current_display) {
@@ -40,28 +35,5 @@ function getNextQuestion(current_display) {
 
 function displayNextQuestion(question_index) {
   let question = $('.question-wrapper')[question_index]
-  $(question).animate({'margin-top': '300px'}, 1700);
+  $(question).animate({'margin-top': '200px'}, 1700);
 }
-
-// $(document).ready(function(){
-//   displayNextQuestion(0)
-//   slideoutLeft()
-// })
-//
-// function slideoutLeft() {
-//   $('.progress-form').click(function() {
-//     $(this).hide("slide", {direction: "left"}, 1100);
-//     getNextQuestion(this)
-//   })
-// }
-//
-// function getNextQuestion(current_display) {
-//   let current_index = $(current_display).index()
-//   let new_question_index = current_index + 1
-//   displayNextQuestion(new_question_index)
-// }
-//
-// function displayNextQuestion(question_index) {
-//   let question = $('.progress-form')[question_index]
-//   $(question).animate({'margin-top': '200px'}, 1700);
-// }

@@ -15,14 +15,43 @@ header {
   height: 100vh;
 }
 
+/*.question-wrapper {
+  margin-top: 2000px;
+  text-align: center;
+}*/
+
 .question-wrapper {
   margin-top: 2000px;
+}
+
+.question-header-wrapper {
+  text-align: center;
+}
+
+.question-options-wrapper-sm {
+  text-align: left;
+  margin-left: 43%
+}
+
+.question-options-wrapper-med {
+  text-align: left;
+  margin-left: 35%
+}
+
+.question-options-wrapper-lg {
+  text-align: left;
+  margin-left: 35%
+}
+
+.multiple-selector-button {
+  /*margin-left: 39%;*/
   text-align: center;
 }
 
 .question-wrapper-radio {
   margin-top: 2000px;
   text-align: left;
+  margin-left: 40%;
 }
 
 .next-question {
