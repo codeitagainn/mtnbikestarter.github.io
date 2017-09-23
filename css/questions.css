@@ -15,3 +15,15 @@
   color: black;
   margin-left: 42%;
 }
+
+#usage-type {
+  /*display: none;*/
+}
+
+#usage-frequency {
+  display: none;
+}
+
+#budget {
+  display: none;
+}

@@ -35,5 +35,8 @@ function getNextQuestion(current_display) {
 
 function displayNextQuestion(question_index) {
   let question = $('.question-wrapper')[question_index]
-  $(question).animate({'margin-top': '200px'}, 1700);
+  question = $(question)
+  question_id = question.attr('id')
+  $('#' + question_id).css('display', 'block')
+  question.animate({'margin-top': '200px'}, 1700);
 }
