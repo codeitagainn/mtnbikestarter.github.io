@@ -9,10 +9,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/override-materialize.css">
+    <link rel="stylesheet" href="css/questions.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="js/script.js"></script>
   </head>
   <title>Mountain Bike Starter</title>
@@ -22,7 +23,7 @@
         <div class="question-header-wrapper">
           <h3 class="form-text">Usage Type - Select Multiple</h3>
         </div>
-        <div class="question-options-wrapper-sm">
+        <div class="usage-type-question-wrapper">
           <p>
             <input type="checkbox" class="checking-checked" id="trail-riding" value="trail riding">
             <label for="trail-riding">Trail Riding</label>
@@ -42,7 +43,7 @@
         <div class="question-header-wrapper">
           <h3 class="form-text">How Often Will You Use Your Bike?</h3>
         </div>
-        <div class="question-options-wrapper-med">
+        <div class="usage-freq-question-wrapper">
           <p>
             <input type="radio" name="q2" class="radio-btn next-question" id="weekly-year-round" value="weekly year round">
             <label for="weekly-year-round">A few hours per week year round</label>
@@ -66,7 +67,7 @@
         <div class="question-header-wrapper">
           <h3 class="form-text">What is your budget?</h3>
         </div>
-        <div class="question-options-wrapper-med">
+        <div class="budget-question-wrapper">
           <p>
             <input type="radio" class="next-question" id="under-500" value="under 500">
             <label for="under-500">> $500</label>

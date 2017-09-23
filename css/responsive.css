@@ -24,4 +24,16 @@
   h3 {
     font-size: 25px;
   }
+
+  .usage-freq-question-wrapper {
+    margin-left: 12%;
+  }
+
+  .usage-type-question-wrapper {
+    margin-left: 36%;
+  }
+
+  .budget-question-wrapper {
+    margin-left: 32%;
+  }
 }
