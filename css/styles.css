@@ -39,9 +39,21 @@ h2 {
   font-size: 43.8px;
 }
 
+.comp-name {
+  position: absolute;
+  /*width: 1140px;*/
+  top: 3%;
+  left: 5%;
+  color: white;
+  border-bottom: 2px solid #2bbbad;
+}
+
+#comp-name-questions-page {
+  color: black;
+}
+
 .question-wrapper {
   margin-top: 2000px;
-  /*display: none;*/
 }
 
 .question-header-wrapper {
