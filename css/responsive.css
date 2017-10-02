@@ -3,10 +3,19 @@
 }
 
 @media only screen and (max-width: 1023px) {
-
+  .previous-arrow {
+    top: 15%;
+    font-size: 6rem;
+    left: 4%;
+  }
 }
 
 @media only screen and (max-width: 763px) {
+  .previous-arrow {
+    top: 25%;
+    font-size: 4rem;
+    left: 4%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -35,5 +44,11 @@
 
   .budget-question-wrapper {
     margin-left: 32%;
+  }
+
+  .previous-arrow {
+    top: 25%;
+    font-size: 4rem;
+    left: 4%;
   }
 }
