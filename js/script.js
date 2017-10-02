@@ -18,7 +18,7 @@ function displayBackArrow() {
   if ($('.displayed').attr('id') == 'usage-type') {
     $('.previous-arrow').css('display', 'none')
   } else {
-    $('.previous-arrow').css('display', 'block')
+    $('.previous-arrow').fadeIn(2500)
   }
 }
 
