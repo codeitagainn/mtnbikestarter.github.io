@@ -19,6 +19,22 @@
   </head>
   <title>Mountain Bike Starter</title>
   <body>
+    <ul id="slide-out" class="side-nav">
+      <li><div class="user-view">
+        <div class="background">
+          <p>hey</p>
+        </div>
+        <!-- <a href="#!user"><img class="circle" src="images/yuna.jpg"></a> -->
+        <a href="#!name"><span class="white-text name">John Doe</span></a>
+        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      </div></li>
+      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse menu-more-links">More<i class="material-icons">arrow_drop_down</i></a>
     <div class="comp-name" id="comp-name-questions-page">
       <h5>Mountain Bike Starter</h5>
     </div>
@@ -55,15 +71,15 @@
               <label for="weekly-year-round">A few hours per week year round</label>
             </p>
             <p>
-              <input type="radio" class="radio-btn next-question" id="weekly-seasonally"  value="weekly seasonlly">
+              <input type="radio" name="q2" class="radio-btn next-question" id="weekly-seasonally"  value="weekly seasonlly">
               <label for="weekly-seasonally">A few hours per week seasonally</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="monthly-year-round" value="monthly year round">
+              <input type="radio" name="q2" class="next-question" id="monthly-year-round" value="monthly year round">
               <label for="monthly-year-round">A few hours per month year round</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="monthly-seasonally" value="monthly seasonally">
+              <input type="radio" name="q2" class="next-question" id="monthly-seasonally" value="monthly seasonally">
               <label for="monthly-seasonally">A few hours per month seasonally</label>
             </p>
           </div>

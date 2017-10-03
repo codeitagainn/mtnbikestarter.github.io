@@ -51,4 +51,13 @@
     font-size: 4rem;
     left: 4%;
   }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .menu-more-links {
+    font-size: 15px;
+    left: 80%;
+  }
 }
