@@ -9,3 +9,13 @@
   opacity: 1;
   pointer-events: auto;
 }*/
+
+.side-nav li>a {
+  color: white;
+  padding-top: 2%;
+}
+
+.side-nav {
+  background-color: #2bbbad;
+  color: white;
+}
