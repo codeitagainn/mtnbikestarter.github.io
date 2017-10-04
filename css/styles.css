@@ -43,12 +43,8 @@ p.word-for-definition {
   border-bottom: 2px solid #26a69a;
 }
 
-.term-content {
-  font-size: 25px;
-}
-
 .defintion {
-  padding-top: 4%;
+  padding-top: 1%;
 }
 
 h2 {
