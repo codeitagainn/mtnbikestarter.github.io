@@ -16,6 +16,10 @@
     font-size: 4rem;
     left: 4%;
   }
+
+  #slide-out {
+    width: 170px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -59,5 +63,9 @@
   .menu-more-links {
     font-size: 15px;
     left: 80%;
+  }
+
+  #slide-out {
+    width: 160px;
   }
 }
