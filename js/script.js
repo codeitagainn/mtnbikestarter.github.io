@@ -116,7 +116,7 @@ function showNextQuestion(current_question, next_question) {
   let next = $('#' + questions[next_question])
   next.removeClass('not-displayed')
   next.addClass('displayed')
-  next.css('display', 'block')
+  // next.css('display', 'block')
   next.animate({'margin-top': '200px'}, 1700)
 
   displayBackArrow()
