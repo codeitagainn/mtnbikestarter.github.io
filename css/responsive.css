@@ -8,6 +8,14 @@
     font-size: 6rem;
     left: 4%;
   }
+
+  .page-header {
+    padding-top: 20%;
+  }
+
+  .terms-page {
+    margin-top: 8%;
+  }
 }
 
 @media only screen and (max-width: 763px) {
@@ -71,5 +79,13 @@
 
   .defintion {
     padding-top: 4%;
+  }
+
+  .page-header {
+    padding-top: 35%;
+  }
+
+  .terms-page {
+    margin-top: 12%;
   }
 }
