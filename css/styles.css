@@ -47,12 +47,10 @@ p.word-for-definition {
   margin-top: 5%;
 }
 
-.page-header {
+.page-title {
   padding-top: 12%;
-  width: 100%;
   text-align: center;
   font-size: 30px;
-  position: relative;
   color: #2bbbad;
 }
 

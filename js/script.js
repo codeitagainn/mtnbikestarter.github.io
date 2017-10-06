@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  console.log('hey');
   $(".button-collapse").sideNav({edge: 'right'});
   displayFirstQuestion(0)
   slideoutLeft()
