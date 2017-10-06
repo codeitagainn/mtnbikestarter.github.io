@@ -43,15 +43,16 @@ p.word-for-definition {
   border-bottom: 2px solid #26a69a;
 }
 
-.terms-page {
-  margin-top: 5%;
-}
-
 .page-title {
   padding-top: 12%;
   text-align: center;
   font-size: 30px;
   color: #2bbbad;
+}
+
+#terms {
+  margin: 0 auto;
+  width: 75%;
 }
 
 .defintion {
