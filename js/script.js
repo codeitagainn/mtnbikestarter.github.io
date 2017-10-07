@@ -1,11 +1,13 @@
 $(document).ready(function(){
   $(".button-collapse").sideNav({edge: 'right'});
   checkBoxEnable()
+  gatherAnswers()
   displayFirstQuestion(0)
   slideoutLeft()
   displayBackArrow()
   previousQuestionArrow()
   nextQuestionArrow()
+  determineResults()
 })
 
 function checkBoxEnable() {
@@ -19,6 +21,19 @@ function checkBoxEnable() {
     }
   })
 }
+
+function determineResults() {
+  $('.next-question').click(function() {
+    if ($('.last-question :checked').length > 0) {
+      setTimeout(function(){
+        $('.previous-arrow').css('display', 'none')
+
+        window.location.href = "file:///Users/jackburum/mountain-bike-starter/your-bike.html"
+      }, 1100)
+    }
+  })
+}
+
 function slideoutLeft() {
   $('.next-question').click(function() {
     let current_question = $('.displayed')
@@ -35,26 +50,15 @@ function displayBackArrow() {
   }
 }
 
-// let backArrowClicks = []
-// function displayForwardArrow() {
-//   let currentQuestion = $('.displayed').attr('id')
-//   backArrowClicks.push(currentQuestion)
-//   // $('.next-arrow').css('display', 'block')
-// }
-
-const arr = []
-function gatherAnswers(answers) {
-  if ($(answers).prop("tagName") === "BUTTON")  {
-    let button_siblings = $(answers).siblings()
-
-    button_siblings.each(function() {
-      if ($(this).prop("checked") == true) {
-        arr.push($(this).val())
-      }
-    })
-  } else {
-    arr.push($(answers).val());
-  }
+window.answers = { usageType: [], usageFrequency: "", budget: "" }
+function gatherAnswers() {
+  $('.next-question').click(function() {
+    let first_checkbox = $('.multiple-select-wrapper :checked')[0]
+    let second_checkbox = $('.multiple-select-wrapper :checked')[1]
+    window.answers.usageType = [$(first_checkbox).val(), $(second_checkbox).val()]
+    window.answers.usageFrequency = $('#usage-frequency :checked').val()
+    window.answers.budget = $('#budget :checked').val()
+  })
 }
 
 function getNextQuestion(current_question) {

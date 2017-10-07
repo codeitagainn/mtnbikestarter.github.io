@@ -5,6 +5,8 @@ question will have the title and inputs
 when an input is selected we will progress to the next page
 
 // TO DO's
+// based on object display the bike selected page
+// add about us page
 // question 1 of X
 // design and create useful starter links page
 // design selected bike page
@@ -12,9 +14,15 @@ when an input is selected we will progress to the next page
 // research for another day and get good questions
 // write first draft of copy for terms and stuff
 
-// DONE TODAY
-// enable and disable btn
+// buy mountain bike
+// buy orthotics
+// enable chase card
 
+// DONE TODAY
+// buy bike pants
+// enable and disable btn
+// fix homepage design
+// store questions in object
 
 // DONE
 // add show and not show to terms
