@@ -28,8 +28,7 @@
 
 @media only screen and (max-width: 480px) {
   .header-text {
-    padding-top: 150px;
-    font-size: 100px;
+    padding-top: 230px;
     top: auto;
     left: auto;
     width: 250px;
@@ -84,5 +83,16 @@
 
   .your-bike-reason-text {
     width: 300px;
+  }
+
+
+  /* hompeage font needed to be smaller */
+  h2 {
+    font-size: 25px;
+  }
+
+  /* bc viewport height doesnt work on safari mobile */
+  header {
+    height: 600px;
   }
 }

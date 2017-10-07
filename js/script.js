@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $(".button-collapse").sideNav({edge: 'right'});
+  checkBoxEnable()
   displayFirstQuestion(0)
   slideoutLeft()
   displayBackArrow()
@@ -7,6 +8,17 @@ $(document).ready(function(){
   nextQuestionArrow()
 })
 
+function checkBoxEnable() {
+  $('.multiple-select-wrapper :input').click(function() {
+    let checkBoxes = $('.multiple-select-wrapper :checked')
+
+    if (checkBoxes.length > 0) {
+      $('.multiple-select-btn').removeAttr('disabled')
+    } else {
+      $('.multiple-select-btn').attr('disabled', 'disabled')
+    }
+  })
+}
 function slideoutLeft() {
   $('.next-question').click(function() {
     let current_question = $('.displayed')

@@ -1,0 +1,29 @@
+form
+
+wrapper called question
+question will have the title and inputs
+when an input is selected we will progress to the next page
+
+// TO DO's
+// question 1 of X
+// design and create useful starter links page
+// design selected bike page
+// design and create gear page
+// research for another day and get good questions
+// write first draft of copy for terms and stuff
+
+// DONE TODAY
+// enable and disable btn
+
+
+// DONE
+// add show and not show to terms
+// display none
+// mountain bike start header
+// responsive design for questions
+// get setup on new github
+// deploy to githubpages
+// save all answers
+// figure out new margin issue
+// add validations
+// make it not go to the next screen on questions that need multiple answers (make the okay box the progression)
