@@ -30,6 +30,7 @@ function determineResults() {
         if (window.location.href == "file:///Users/jackburum/mountain-bike-starter/questionnaire.html") {
           window.location.href = "file:///Users/jackburum/mountain-bike-starter/your-bike.html"
         } else {
+          console.log('whatsup');
           window.location.href = "https://mtnbikestarter.github.io/your-bike"
         }
       }, 1100)
