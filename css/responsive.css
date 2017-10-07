@@ -12,6 +12,20 @@
   .page-title {
     padding-top: 20%;
   }
+
+  header {
+    height: 1400px;
+    width: 1000px;
+  }
+
+  .header-text {
+    position: absolute;
+    width: 750px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 }
 
 @media only screen and (max-width: 763px) {
@@ -23,6 +37,10 @@
 
   #slide-out {
     width: 170px;
+  }
+
+  header {
+    height: 900px;
   }
 }
 
@@ -93,6 +111,6 @@
 
   /* bc viewport height doesnt work on safari mobile */
   header {
-    height: 600px;
+    height: 1000px;
   }
 }

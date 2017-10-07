@@ -13,6 +13,7 @@ when an input is selected we will progress to the next page
 // design and create gear page
 // research for another day and get good questions
 // write first draft of copy for terms and stuff
+// figure out jumpiness in question display for large viewports
 
 // buy mountain bike
 // buy orthotics
