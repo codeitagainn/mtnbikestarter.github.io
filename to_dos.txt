@@ -18,8 +18,13 @@ when an input is selected we will progress to the next page
 // buy mountain bike
 // buy orthotics
 // enable chase card
+// clean room and laundry
 
 // DONE TODAY
+// Update hompepage text
+// Update question headers underlines
+
+// DONE YESTERDAY
 // buy bike pants
 // enable and disable btn
 // fix homepage design

@@ -113,4 +113,8 @@
   header {
     height: 1000px;
   }
+
+  .bike-display {
+    width: 60%;
+  }
 }
