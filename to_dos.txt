@@ -23,6 +23,7 @@ when an input is selected we will progress to the next page
 // DONE TODAY
 // Update hompepage text
 // Update question headers underlines
+// responsive bike image
 
 // DONE YESTERDAY
 // buy bike pants
