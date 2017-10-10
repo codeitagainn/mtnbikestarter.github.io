@@ -78,7 +78,7 @@ function getNextQuestion(current_question) {
 function displayFirstQuestion(question_index) {
   let question = $('.displayed')
   question.css('display', 'block')
-  question.animate({'margin-top': '250px'}, 1700)
+  checkWindowAndDisplay(question)
 }
 
 
@@ -166,9 +166,13 @@ function checkWindowAndDisplay(next) {
       console.log('414');
       next.animate({'margin-top': '290px'}, 1700)
       break
+    case 768:
+      console.log('768');
+      next.animate({'margin-top': '400px'}, 1700)
+      break
     default:
       console.log('default');
-      next.animate({'margin-top': '260px'}, 1700)
+      next.animate({'margin-top': '250px'}, 1700)
       break
   }
 }

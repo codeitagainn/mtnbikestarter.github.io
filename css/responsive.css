@@ -28,7 +28,11 @@
   }
 }
 
-@media only screen and (max-width: 763px) {
+@media only screen and (max-width: 768px) {
+  .header-text-item {
+    width: 260px;
+  }
+  
   .previous-arrow {
     top: 25%;
     font-size: 4rem;
@@ -137,6 +141,10 @@
 
 /* iPhone 6 */
 @media only screen and (max-width: 375px) {
+  .header-text-item {
+    width: 260px;
+  }
+
   .header-text {
     padding-top: 230px;
     top: auto;
@@ -218,7 +226,12 @@
 
 /* iPhone 5: NOTE: if screen is wider than 480pixels go up one media query. if 480 or less use this */
 @media only screen and (max-width: 320px) {
+  .header-text-item {
+    width: 260px;
+  }
+
   .header-text {
+    width: 260px;
     padding-top: 230px;
     top: auto;
     left: auto;
