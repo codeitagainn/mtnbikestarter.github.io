@@ -42,9 +42,19 @@
   header {
     height: 900px;
   }
+
+  .longform-text {
+    width: 300px;
+  }
+
+  .longform-text-left {
+    width: 350px;
+    margin-left: 9%;
+  }
 }
 
-@media only screen and (max-width: 480px) {
+/* iPhone 6Plus */
+@media only screen and (max-width: 414px) {
   .header-text {
     padding-top: 230px;
     top: auto;
@@ -99,8 +109,176 @@
     padding-bottom: 10%;
   }
 
-  .your-bike-reason-text {
+  .longform-text {
     width: 300px;
+  }
+
+  .longform-text-left {
+    width: 300px;
+    margin-left: 6%;
+  }
+
+
+  /* hompeage font needed to be smaller */
+  h2 {
+    font-size: 25px;
+  }
+
+  /* bc viewport height doesnt work on safari mobile */
+  header {
+    height: 1000px;
+  }
+
+  .bike-display {
+    width: 60%;
+  }
+
+}
+
+/* iPhone 6 */
+@media only screen and (max-width: 375px) {
+  .header-text {
+    padding-top: 230px;
+    top: auto;
+    left: auto;
+    width: 400px;
+    bottom: auto;
+    transform: none;
+    padding-left: 7px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .usage-freq-question-wrapper {
+    margin-left: 12%;
+  }
+
+  .usage-type-question-wrapper {
+    margin-left: 36%;
+  }
+
+  .budget-question-wrapper {
+    margin-left: 32%;
+  }
+
+  .previous-arrow {
+    top: 20%;
+    font-size: 4rem;
+    left: 4%;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .menu-more-links {
+    font-size: 15px;
+    left: 80%;
+  }
+
+  #slide-out {
+    width: 160px;
+  }
+
+  .defintion {
+    padding-top: 4%;
+  }
+
+  .page-title {
+    padding-top: 35%;
+    padding-bottom: 10%;
+  }
+
+  .longform-text {
+    width: 300px;
+  }
+
+  .longform-text-left {
+    width: 340px;
+  }
+
+
+  /* hompeage font needed to be smaller */
+  h2 {
+    font-size: 25px;
+  }
+
+  /* bc viewport height doesnt work on safari mobile */
+  header {
+    height: 1000px;
+  }
+
+  .bike-display {
+    width: 60%;
+  }
+
+}
+
+/* iPhone 5: NOTE: if screen is wider than 480pixels go up one media query. if 480 or less use this */
+@media only screen and (max-width: 320px) {
+  .header-text {
+    padding-top: 230px;
+    top: auto;
+    left: auto;
+    width: 400px;
+    bottom: auto;
+    transform: none;
+    padding-left: 7px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .usage-freq-question-wrapper {
+    margin-left: 12%;
+  }
+
+  .usage-type-question-wrapper {
+    margin-left: 36%;
+  }
+
+  .budget-question-wrapper {
+    margin-left: 32%;
+  }
+
+  .previous-arrow {
+    top: 25%;
+    font-size: 4rem;
+    left: 4%;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .menu-more-links {
+    font-size: 15px;
+    left: 80%;
+  }
+
+  #slide-out {
+    width: 160px;
+  }
+
+  .defintion {
+    padding-top: 4%;
+  }
+
+  .page-title {
+    padding-top: 35%;
+    padding-bottom: 10%;
+  }
+
+  .longform-text {
+    width: 300px;
+  }
+
+  .longform-text-left {
+    width: 300px;
+    margin-left: 6%;
   }
 
 

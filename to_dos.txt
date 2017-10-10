@@ -24,6 +24,8 @@ when an input is selected we will progress to the next page
 // Update hompepage text
 // Update question headers underlines
 // responsive bike image
+// write first draft of about page
+// write first draft of social responsibility
 
 // DONE YESTERDAY
 // buy bike pants

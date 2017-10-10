@@ -78,7 +78,7 @@ function getNextQuestion(current_question) {
 function displayFirstQuestion(question_index) {
   let question = $('.displayed')
   question.css('display', 'block')
-  question.animate({'margin-top': '200px'}, 1700)
+  question.animate({'margin-top': '250px'}, 1700)
 }
 
 
@@ -135,8 +135,6 @@ function showNextQuestion(current_question, next_question) {
   let next = $('#' + questions[next_question])
   next.removeClass('not-displayed')
   next.addClass('displayed')
-  // next.css('display', 'block')
-  next.animate({'margin-top': '200px'}, 1700)
 
   displayBackArrow()
 }
@@ -150,6 +148,27 @@ function showNextQuestionFirstRun(current_question, next_question) {
   next.removeClass('not-displayed')
   next.addClass('displayed')
   next.css('display', 'block')
-  next.animate({'margin-top': '200px'}, 1700)
+  checkWindowAndDisplay(next)
   displayBackArrow()
+}
+
+function checkWindowAndDisplay(next) {
+  switch ($(window).width()) {
+    case 320:
+      console.log('320');
+      next.animate({'margin-top': '260px'}, 1700)
+      break
+    case 375:
+      console.log('375');
+      next.animate({'margin-top': '250px'}, 1700)
+      break
+    case 414:
+      console.log('414');
+      next.animate({'margin-top': '290px'}, 1700)
+      break
+    default:
+      console.log('default');
+      next.animate({'margin-top': '260px'}, 1700)
+      break
+  }
 }

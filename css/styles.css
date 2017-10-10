@@ -83,7 +83,7 @@ h3:before{
   height: 1px;
   bottom: 0;
   left: 13%;
-  border-bottom: 2px solid #26a69a;  
+  border-bottom: 2px solid #26a69a;
 }
 
 
@@ -123,8 +123,16 @@ p.word-for-definition {
   margin: 0 auto;
 }
 
-.your-bike-reason-text {
+.longform-text {
   text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  font-size: 20px;
+}
+
+.longform-text-left {
   width: 900px;
   margin: 0 auto;
   padding-top: 2%;
