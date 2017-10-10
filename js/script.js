@@ -156,7 +156,7 @@ function checkWindowAndDisplay(next) {
   switch ($(window).width()) {
     case 320:
       console.log('320');
-      next.animate({'margin-top': '260px'}, 1700)
+      next.animate({'margin-top': '200px'}, 1700)
       break
     case 375:
       console.log('375');

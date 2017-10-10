@@ -6,8 +6,6 @@ when an input is selected we will progress to the next page
 
 // TO DO's
 // based on object display the bike selected page
-// add about us page
-// question 1 of X
 // design and create useful starter links page
 // design selected bike page
 // design and create gear page
@@ -20,18 +18,37 @@ when an input is selected we will progress to the next page
 // enable chase card
 // clean room and laundry
 
+// NEXT PRIORITY
+// Add more about IMBA to commitment page
+// Add 6 More Questions
+// Design and Build Starter Links Page
+// Design Gear Page
+// Add 20 Terms
+
 // DONE TODAY
+// Responsiveness of questions
+// About page build
+// commitment page build
+
+// DONE YESTERDAY
 // Update hompepage text
 // Update question headers underlines
 // responsive bike image
 // write first draft of about page
 // write first draft of social responsibility
 
-// DONE YESTERDAY
+// DONE THIS WEEK
+// Responsiveness of questions
+// About page build
+// commitment page build
 // buy bike pants
 // enable and disable btn
 // fix homepage design
-// store questions in object
+// store questions in object// Update hompepage text
+// Update question headers underlines
+// responsive bike image
+// write first draft of about page
+// write first draft of social responsibility
 
 // DONE
 // add show and not show to terms
