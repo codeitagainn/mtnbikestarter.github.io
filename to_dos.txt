@@ -13,9 +13,6 @@ when an input is selected we will progress to the next page
 // write first draft of copy for terms and stuff
 // figure out jumpiness in question display for large viewports
 
-// buy mountain bike
-// buy orthotics
-// enable chase card
 // clean room and laundry
 
 // NEXT PRIORITY
@@ -38,6 +35,9 @@ when an input is selected we will progress to the next page
 // write first draft of social responsibility
 
 // DONE THIS WEEK
+// enable chase card
+// buy mountain bike
+// buy orthotics
 // Responsiveness of questions
 // About page build
 // commitment page build

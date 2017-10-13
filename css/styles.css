@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-bottom: 5%;
+}
+
 html {
   font-family: 'Avenir', 'cpavenir', helvetica, sans-serif;
 }
@@ -17,6 +21,14 @@ header {
 
 label {
   color: black;
+}
+
+.product-link-wrapper {
+  color: black;
+}
+
+.products-container {
+  width: 90%;
 }
 
 h3 {
@@ -103,7 +115,15 @@ p.word-for-definition {
   color: #2bbbad;
 }
 
-#terms {
+.page-title-subheader {
+  padding-bottom: 3%;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  color: #2bbbad;
+}
+
+.terms {
   margin: 0 auto;
   width: 75%;
 }
