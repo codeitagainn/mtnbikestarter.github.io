@@ -23,16 +23,8 @@ when an input is selected we will progress to the next page
 // Add 20 Terms
 
 // DONE TODAY
-// Responsiveness of questions
-// About page build
-// commitment page build
 
 // DONE YESTERDAY
-// Update hompepage text
-// Update question headers underlines
-// responsive bike image
-// write first draft of about page
-// write first draft of social responsibility
 
 // DONE THIS WEEK
 // enable chase card
@@ -49,6 +41,14 @@ when an input is selected we will progress to the next page
 // responsive bike image
 // write first draft of about page
 // write first draft of social responsibility
+// Update hompepage text
+// Update question headers underlines
+// responsive bike image
+// write first draft of about page
+// write first draft of social responsibility
+// Responsiveness of questions
+// About page build
+// commitment page build
 
 // DONE
 // add show and not show to terms
