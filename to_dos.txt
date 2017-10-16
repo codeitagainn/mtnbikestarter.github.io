@@ -16,13 +16,14 @@ when an input is selected we will progress to the next page
 // clean room and laundry
 
 // NEXT PRIORITY
-// Add more about IMBA to commitment page
 // Add 6 More Questions
 // Design and Build Starter Links Page
 // Design Gear Page
 // Add 20 Terms
 
 // DONE TODAY
+// Add more about IMBA to commitment page
+
 
 // DONE YESTERDAY
 
