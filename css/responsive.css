@@ -32,7 +32,7 @@
   .header-text-item {
     width: 260px;
   }
-  
+
   .previous-arrow {
     top: 25%;
     font-size: 4rem;
@@ -303,6 +303,10 @@
   /* bc viewport height doesnt work on safari mobile */
   header {
     height: 1000px;
+  }
+
+  .side-nav {
+    width: 400px;
   }
 
   .bike-display {
