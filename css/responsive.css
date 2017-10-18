@@ -39,8 +39,8 @@
     left: 4%;
   }
 
-  #slide-out {
-    width: 170px;
+  .side-nav {
+    width: 200px;
   }
 
   header {
@@ -100,8 +100,8 @@
     left: 80%;
   }
 
-  #slide-out {
-    width: 160px;
+  .side-nav {
+    width: 200px;
   }
 
   .defintion {
@@ -186,8 +186,8 @@
     left: 80%;
   }
 
-  #slide-out {
-    width: 160px;
+  .side-nav {
+    width: 200px;
   }
 
   .defintion {
@@ -272,7 +272,7 @@
     left: 80%;
   }
 
-  #slide-out {
+  .side-nav {
     width: 160px;
   }
 
@@ -306,7 +306,7 @@
   }
 
   .side-nav {
-    width: 400px;
+    width: 200px;
   }
 
   .bike-display {
