@@ -19,3 +19,8 @@
   background-color: #2bbbad;
   color: white;
 }
+
+/* override materialize card action margin */
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  margin-right: 0;
+}
