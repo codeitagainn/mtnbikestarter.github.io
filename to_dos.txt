@@ -1,31 +1,27 @@
-form
-
-wrapper called question
-question will have the title and inputs
-when an input is selected we will progress to the next page
-
 // TO DO's
 // based on object display the bike selected page
 // design and create useful starter links page
-// design selected bike page
-// design and create gear page
 // research for another day and get good questions
-// write first draft of copy for terms and stuff
-// figure out jumpiness in question display for large viewports
+// change Start Mountain Biking to be link to homepage
+// review ALL text for grammar errors and content updates
+// update all css for gear items
+// about with down arrow for our commitment and contact and about us pages
+// update all menu links
+// lookup mountain bike slang youtube
+// update gear items pages texts
+// ask for feedback from fabio, noah, steven grider, ferguson?, petes sisters boyfriend, guy from contes, sam
 
-// clean room and laundry
-
-// NEXT PRIORITY
-// Add 6 More Questions
-// Design and Build Starter Links Page
-// Design Gear Page
-// Add 20 Terms
 
 // DONE TODAY
-// Add more about IMBA to commitment page
+// design and create gear page
+// add target _blank for all sub links
 
 
 // DONE YESTERDAY
+// design selected bike page
+// Add more about IMBA to commitment page
+// add a bunch of terms
+// figure out jumpiness in question display for large viewports
 
 // DONE THIS WEEK
 // enable chase card
