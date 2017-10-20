@@ -1,14 +1,8 @@
-/* materialize does not display checkboxes override this */
-/*input[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
-  opacity: 1;
-  pointer-events: auto;
-}*/
-
-/* materialize does not display radios override this */
-/*input[type="radio"]:not(:checked), [type="radio"]:checked {
-  opacity: 1;
-  pointer-events: auto;
-}*/
+h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 6%;
+}
 
 .side-nav li>a {
   color: white;
@@ -23,4 +17,19 @@
 /* override materialize card action margin */
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   margin-right: 0;
+}
+
+.card .card-action {
+  border-top: 2px solid #26a69a;
+  border: 2px solid #26a69a;
+  text-align: center;
+}
+
+/* NOTE: this overrides the color of the more info link need both selectors */
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+  color: #26a69a;
+}
+/* NOTE: this overrides the color of the more info link need both selectors */
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #26a69a;
 }
