@@ -89,6 +89,10 @@
     margin-left: 32%;
   }
 
+  .height-question-wrapper {
+    margin-left: 32%;
+  }
+
   .gender-question-wrapper {
     margin-left: 40%;
   }
@@ -180,6 +184,10 @@
     margin-left: 32%;
   }
 
+  .height-question-wrapper {
+    margin-left: 32%;
+  }
+
   .previous-arrow {
     top: 20%;
     font-size: 4rem;
@@ -263,6 +271,10 @@
   }
 
   .budget-question-wrapper {
+    margin-left: 32%;
+  }
+
+  .height-question-wrapper {
     margin-left: 32%;
   }
 
