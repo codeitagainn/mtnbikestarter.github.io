@@ -20,7 +20,7 @@
 .height-question-wrapper {
   text-align: left;
   color: black;
-  margin-left: 44%;  
+  margin-left: 44%;
 }
 
 .gender-question-wrapper {
@@ -35,5 +35,13 @@
 }
 
 #budget {
+  display: none;
+}
+
+#height {
+  display: none;
+}
+
+#gender {
   display: none;
 }
