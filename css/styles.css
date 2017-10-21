@@ -48,8 +48,9 @@ h3 {
   display: inline-block;
   padding-bottom: 12px;
   position: relative;
+  border-bottom: 2px solid #26a69a;
 }
-h3:before{
+/*h3:before{
     content: "";
     position: absolute;
     width: 75%;
@@ -57,7 +58,7 @@ h3:before{
     bottom: 0;
     left: 15%;
     border-bottom: 2px solid #26a69a;
-}
+}*/
 
 #usage-type-header-text {
   font-weight: 300;
@@ -66,7 +67,7 @@ h3:before{
   position: relative;
 }
 
-#usage-type-header-text:before{
+/*#usage-type-header-text:before{
     content: "";
     position: absolute;
     width: 75%;
@@ -74,7 +75,7 @@ h3:before{
     bottom: 0;
     left: 13%;
     border-bottom: 2px solid #26a69a;
-}
+}*/
 
 #usage-frequency-header-text {
   font-weight: 300;
@@ -83,7 +84,7 @@ h3:before{
   position: relative;
 }
 
-#usage-frequency-header-text:before {
+/*#usage-frequency-header-text:before {
   content: "";
   position: absolute;
   width: 75%;
@@ -91,7 +92,7 @@ h3:before{
   bottom: 0;
   left: 13%;
   border-bottom: 2px solid #26a69a;
-}
+}*/
 
 #budget-header-text {
   font-weight: 300;
@@ -100,7 +101,7 @@ h3:before{
   position: relative;
 }
 
-#budget-header-text:before {
+/*#budget-header-text:before {
   content: "";
   position: absolute;
   width: 75%;
@@ -108,7 +109,7 @@ h3:before{
   bottom: 0;
   left: 13%;
   border-bottom: 2px solid #26a69a;
-}
+}*/
 
 
 p.word-for-definition {

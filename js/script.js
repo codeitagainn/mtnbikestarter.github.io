@@ -82,7 +82,7 @@ function displayFirstQuestion(question_index) {
 }
 
 
-const questions = ['usage-type', 'usage-frequency', 'budget', 'height']
+const questions = ['usage-type', 'usage-frequency', 'budget', 'height', 'gender']
 function nextQuestionArrow() {
   $('.next-arrow').click(function(){
     let current_question = $('.displayed').attr('id')

@@ -39,6 +39,10 @@
     left: 4%;
   }
 
+  .usage-freq-question-wrapper {
+    margin-left: 34%;
+  }
+
   .side-nav {
     width: 200px;
   }
@@ -74,7 +78,7 @@
   }
 
   .usage-freq-question-wrapper {
-    margin-left: 12%;
+    margin-left: 20%;
   }
 
   .usage-type-question-wrapper {
@@ -84,6 +88,11 @@
   .budget-question-wrapper {
     margin-left: 32%;
   }
+
+  .gender-question-wrapper {
+    margin-left: 40%;
+  }
+
 
   .previous-arrow {
     top: 25%;
@@ -160,7 +169,7 @@
   }
 
   .usage-freq-question-wrapper {
-    margin-left: 12%;
+    margin-left: 17%;
   }
 
   .usage-type-question-wrapper {
@@ -255,6 +264,10 @@
 
   .budget-question-wrapper {
     margin-left: 32%;
+  }
+
+  .gender-question-wrapper {
+    margin-left: 34%;
   }
 
   .previous-arrow {

@@ -44,7 +44,7 @@
       <form>
         <div class="question-wrapper displayed multiple-select-wrapper" id="usage-type">
           <div class="question-header-wrapper">
-            <h3 class="form-text" id="usage-type-header-text">Usage Type (Select Multiple)</h3>
+            <h3 class="form-text" id="usage-type-header-text">Use Type (Select Multiple)</h3>
           </div>
           <div class="usage-type-question-wrapper">
             <p>
@@ -55,6 +55,10 @@
               <input type="checkbox" id="downhill" value="downhill">
               <label for="downhill">Downhill</label>
             </p>
+            <p>
+              <input type="checkbox" id="cross-country" value="cross-country">
+              <label for="cross-country">Cross Country</label>
+            </p>
             <br>
           </div>
           <div class="multiple-select-btn-styles">
@@ -64,7 +68,7 @@
 
         <div class="question-wrapper not-displayed" id="usage-frequency">
           <div class="question-header-wrapper">
-            <h3 class="form-text" id="usage-frequency-header-text">How Often Will You Use Your Bike?</h3>
+            <h3 class="form-text" id="usage-frequency-header-text">Use Frequency</h3>
           </div>
           <div class="usage-freq-question-wrapper">
             <p>
@@ -93,7 +97,7 @@
           <div class="budget-question-wrapper">
             <p>
               <input type="radio" class="next-question" id="under-500" value="under 500">
-              <label for="under-500"> $500</label>
+              <label for="under-500">< $500</label>
             </p>
             <p>
               <input type="radio" class="next-question" id="500-1000" value="500-1000">
@@ -107,13 +111,17 @@
               <input type="radio" class="next-question" id="1000-3000" value="1000-3000">
               <label for="1000-3000">$1000 - $3000</label>
             </p>
+            <p>
+              <input type="radio" class="next-question" id="greater-3000" value="greater-3000">
+              <label for="greater-3000">> $3000</label>
+            </p>
           </div>
         </div>
 
         <!-- NOTE: if this ever is not the last question make sure to update the new one to have class fo last-question -->
-        <div class="question-wrapper not-displayed last-question" id="height">
+        <div class="question-wrapper not-displayed" id="height">
           <div class="question-header-wrapper">
-            <h3 class="form-text">How tall are you?</h3>
+            <h3 class="form-text">Select Your Height</h3>
           </div>
           <div class="budget-question-wrapper">
             <p>
@@ -131,6 +139,22 @@
             <p>
               <input type="radio" class="next-question" id="6ft2-6ft5" value="6ft2-6ft5">
               <label for="6ft2-6ft5">6'2" - 6'5"</label>
+            </p>
+          </div>
+        </div>
+
+        <div class="question-wrapper not-displayed last-question" id='gender'>
+          <div class="question-header-wrapper">
+            <h3 class="form-text">Select Your Gender</h3>
+          </div>
+          <div class="gender-question-wrapper">
+            <p>
+              <input type="radio" class="next-question" id="female" value="female">
+              <label for="female">Female</label>
+            </p>
+            <p>
+              <input type="radio" class="next-question" id="male" value="male">
+              <label for="male">Male</label>
             </p>
           </div>
         </div>
