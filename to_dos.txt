@@ -4,12 +4,14 @@
 // research for another day and get good questions
 // change Start Mountain Biking to be link to homepage
 // review ALL text for grammar errors and content updates
+// make amazon links affiliate
 // update all css for gear items
 // about with down arrow for our commitment and contact and about us pages
 // update all menu links
+// make entire more info button a link
 // lookup mountain bike slang youtube
 // update gear items pages texts
-// ask for feedback from fabio, noah, steven grider, ferguson?, petes sisters boyfriend, guy from contes, sam
+// ask for feedback from fabio, noah, steven grider, ferguson?, petes sisters boyfriend, guy from contes, Gary, sam
 
 
 // DONE TODAY

@@ -82,7 +82,7 @@ function displayFirstQuestion(question_index) {
 }
 
 
-const questions = ['usage-type', 'usage-frequency', 'budget']
+const questions = ['usage-type', 'usage-frequency', 'budget', 'height']
 function nextQuestionArrow() {
   $('.next-arrow').click(function(){
     let current_question = $('.displayed').attr('id')
@@ -155,23 +155,18 @@ function showNextQuestionFirstRun(current_question, next_question) {
 function checkWindowAndDisplay(next) {
   switch ($(window).width()) {
     case 320:
-      console.log('320');
       next.animate({'margin-top': '200px'}, 1700)
       break
     case 375:
-      console.log('375');
       next.animate({'margin-top': '250px'}, 1700)
       break
     case 414:
-      console.log('414');
       next.animate({'margin-top': '290px'}, 1700)
       break
     case 768:
-      console.log('768');
       next.animate({'margin-top': '400px'}, 1700)
       break
     default:
-      console.log('default');
       next.animate({'margin-top': '250px'}, 1700)
       break
   }
