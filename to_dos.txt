@@ -4,6 +4,7 @@
 // research for another day and get good questions
 // change Start Mountain Biking to be link to homepage
 // review ALL text for grammar errors and content updates
+// update page titles to be black with green underline
 // make amazon links affiliate
 // update all css for gear items
 // about with down arrow for our commitment and contact and about us pages
@@ -12,7 +13,6 @@
 // lookup mountain bike slang youtube
 // update gear items pages texts
 // ask for feedback from fabio, noah, steven grider, ferguson?, petes sisters boyfriend, guy from contes, Gary, sam
-
 
 // DONE TODAY
 // design and create gear page

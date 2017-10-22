@@ -39,6 +39,18 @@
     left: 4%;
   }
 
+  .past-experience-question-wrapper {
+    margin-left: 40%;
+  }
+
+  .smooth-ride-vs-parts-question-wrapper {
+    margin-left: 21%;
+  }
+
+  .jump-riding-question-wrapper {
+    margin-left: 32%;
+  }
+
   .usage-freq-question-wrapper {
     margin-left: 34%;
   }
@@ -97,6 +109,21 @@
     margin-left: 40%;
   }
 
+  .snow-sand-question-wrapper {
+    margin-left: 40%;
+  }
+
+  .past-experience-question-wrapper {
+    margin-left: 30%;
+  }
+
+  .smooth-ride-vs-parts-question-wrapper {
+    margin-left: 9%;
+  }
+
+  .jump-riding-question-wrapper {
+    margin-left: 15%;
+  }
 
   .previous-arrow {
     top: 25%;
@@ -280,6 +307,22 @@
 
   .gender-question-wrapper {
     margin-left: 34%;
+  }
+
+  .snow-sand-question-wrapper {
+    margin-left: 34%;
+  }
+
+  .past-experience-question-wrapper {
+    margin-left: 25%;
+  }
+
+  .smooth-ride-vs-parts-question-wrapper {
+    margin-left: 6%;
+  }
+
+  .jump-riding-question-wrapper {
+    margin-left: 10%;
   }
 
   .previous-arrow {

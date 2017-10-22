@@ -22,17 +22,17 @@
     <ul id="slide-out" class="side-nav">
       <li><a href="about.html">About</a></li>
       <li><div class="divider"></div></li>
-      <li><a href="our-commitment.html">Our Commitment</a></li>
+      <li><a href="our-commitment.html">Our commitment</a></li>
       <li><div class="divider"></div></li>
-      <li><a href="questionnaire.html">Bike Selection Guide</a></li>
+      <li><a href="questionnaire.html">Bike selection guide</a></li>
       <li><div class="divider"></div></li>
-      <li><a href="terms.html">MTB Vocab</a></li>
+      <li><a href="terms.html">MTB vocab</a></li>
       <li><div class="divider"></div></li>
-      <li><a href="gear.html">Gear You'll Need</a></li>
+      <li><a href="gear.html">Gear you'll need</a></li>
       <li><div class="divider"></div></li>
-      <li><a href="https://www.singletracks.com/mountain-bike/trails.php">Where to Ride</a></li>
+      <li><a href="https://www.singletracks.com/mountain-bike/trails.php">Where to ride</a></li>
       <li><div class="divider"></div></li>
-      <li><a href="#">Contact / Feedback</a></li>
+      <li><a href="#">Contact / feedback</a></li>
       <li><div class="divider"></div></li>
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse menu-more-links">More<i class="material-icons">arrow_drop_down</i></a>
@@ -44,12 +44,12 @@
       <form>
         <div class="question-wrapper displayed multiple-select-wrapper" id="usage-type">
           <div class="question-header-wrapper">
-            <h3 class="form-text" id="usage-type-header-text">Use Type (Select Multiple)</h3>
+            <h3 class="form-text" id="usage-type-header-text">Use type (select multiple)</h3>
           </div>
           <div class="usage-type-question-wrapper">
             <p>
               <input type="checkbox" class="checking-checked" id="trail-riding" value="trail riding">
-              <label for="trail-riding">Trail Riding</label>
+              <label for="trail-riding">Trail riding</label>
             </p>
             <p>
               <input type="checkbox" id="downhill" value="downhill">
@@ -57,7 +57,7 @@
             </p>
             <p>
               <input type="checkbox" id="cross-country" value="cross-country">
-              <label for="cross-country">Cross Country</label>
+              <label for="cross-country">Cross country</label>
             </p>
             <br>
           </div>
@@ -68,23 +68,23 @@
 
         <div class="question-wrapper not-displayed" id="usage-frequency">
           <div class="question-header-wrapper">
-            <h3 class="form-text" id="usage-frequency-header-text">Use Frequency</h3>
+            <h3 class="form-text" id="usage-frequency-header-text">Use frequency</h3>
           </div>
           <div class="usage-freq-question-wrapper">
             <p>
-              <input type="radio" name="q2" class="radio-btn next-question" id="weekly-year-round" value="weekly year round">
+              <input type="radio" name="usage-frequency" class="radio-btn next-question" id="weekly-year-round" value="weekly year round">
               <label for="weekly-year-round">A few hours per week year round</label>
             </p>
             <p>
-              <input type="radio" name="q2" class="radio-btn next-question" id="weekly-seasonally"  value="weekly seasonlly">
+              <input type="radio" name="usage-frequency" class="radio-btn next-question" id="weekly-seasonally"  value="weekly seasonlly">
               <label for="weekly-seasonally">A few hours per week seasonally</label>
             </p>
             <p>
-              <input type="radio" name="q2" class="next-question" id="monthly-year-round" value="monthly year round">
+              <input type="radio" name="usage-frequency" class="next-question" id="monthly-year-round" value="monthly year round">
               <label for="monthly-year-round">A few hours per month year round</label>
             </p>
             <p>
-              <input type="radio" name="q2" class="next-question" id="monthly-seasonally" value="monthly seasonally">
+              <input type="radio" name="usage-frequency" class="next-question" id="monthly-seasonally" value="monthly seasonally">
               <label for="monthly-seasonally">A few hours per month seasonally</label>
             </p>
           </div>
@@ -96,23 +96,23 @@
           </div>
           <div class="budget-question-wrapper">
             <p>
-              <input type="radio" class="next-question" id="under-500" value="under 500">
+              <input type="radio" name="budget" class="next-question" id="under-500" value="under 500">
               <label for="under-500">< $500</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="500-1000" value="500-1000">
+              <input type="radio" name="budget" class="next-question" id="500-1000" value="500-1000">
               <label for="500-1000">$500 - $1000</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="1000-2000" value="1000-2000">
+              <input type="radio" name="budget" class="next-question" id="1000-2000" value="1000-2000">
               <label for="1000-2000">$1000 - $2000</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="1000-3000" value="1000-3000">
+              <input type="radio" name="budget" class="next-question" id="1000-3000" value="1000-3000">
               <label for="1000-3000">$1000 - $3000</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="greater-3000" value="greater-3000">
+              <input type="radio" name="budget" class="next-question" id="greater-3000" value="greater-3000">
               <label for="greater-3000">> $3000</label>
             </p>
           </div>
@@ -121,40 +121,124 @@
         <!-- NOTE: if this ever is not the last question make sure to update the new one to have class fo last-question -->
         <div class="question-wrapper not-displayed" id="height">
           <div class="question-header-wrapper">
-            <h3 class="form-text">Select Your Height</h3>
+            <h3 class="form-text">Select your height</h3>
           </div>
           <div class="height-question-wrapper">
             <p>
-              <input type="radio" class="next-question" id="4ft10-5ft3" value="4ft10-5ft3">
+              <input type="radio" name="height" class="next-question" id="4ft10-5ft3" value="4ft10-5ft3">
               <label for="4ft10-5ft3">4'10" - 5'3"</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="5ft4-5ft8" value="5ft4-5ft8">
+              <input type="radio" name="height" class="next-question" id="5ft4-5ft8" value="5ft4-5ft8">
               <label for="5ft4-5ft8">5'4" - 5'8"</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="5ft9-6ft1" value="5ft9-6ft1">
+              <input type="radio" name="height" class="next-question" id="5ft9-6ft1" value="5ft9-6ft1">
               <label for="5ft9-6ft1">5'9" - 6'1"</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="6ft2-6ft5" value="6ft2-6ft5">
+              <input type="radio" name="height" class="next-question" id="6ft2-6ft5" value="6ft2-6ft5">
               <label for="6ft2-6ft5">6'2" - 6'5"</label>
             </p>
           </div>
         </div>
 
-        <div class="question-wrapper not-displayed last-question" id='gender'>
+        <div class="question-wrapper not-displayed" id='gender'>
           <div class="question-header-wrapper">
-            <h3 class="form-text">Select Your Gender</h3>
+            <h3 class="form-text">Select your gender</h3>
           </div>
           <div class="gender-question-wrapper">
             <p>
-              <input type="radio" class="next-question" id="female" value="female">
+              <input type="radio" name="gender" class="next-question" id="female" value="female">
               <label for="female">Female</label>
             </p>
             <p>
-              <input type="radio" class="next-question" id="male" value="male">
+              <input type="radio" name="gender" class="next-question" id="male" value="male">
               <label for="male">Male</label>
+            </p>
+          </div>
+        </div>
+
+        <div class="question-wrapper not-displayed" id='snow-sand'>
+          <div class="question-header-wrapper">
+            <h3 class="form-text">Frequent snow or sand use?</h3>
+          </div>
+          <div class="snow-sand-question-wrapper">
+            <p>
+              <input type="radio" name='snow-sand' class="next-question" id="yes-snow" value="yes-snow">
+              <label for="yes-snow">Yes</label>
+            </p>
+            <p>
+              <input type="radio" name='snow-sand' class="next-question" id="no-snow" value="no-snow">
+              <label for="no-snow">No</label>
+            </p>
+          </div>
+        </div>
+
+        <div class="question-wrapper not-displayed" id="past-experience">
+          <div class="question-header-wrapper">
+            <h3 class="form-text">Your past mtb experience</h3>
+          </div>
+          <div class="past-experience-question-wrapper">
+            <p>
+              <input type="radio" name='past-experience' id="no-experience" class="next-question" value="no-experience">
+              <label for="no-experience">None</label>
+            </p>
+            <p>
+              <input type="radio" name='past-experience' id="some-experience" class="next-question" value="some-experience">
+              <label for="some-experience">< 10 times total riding</label>
+            </p>
+            <p>
+              <input type="radio" name='past-experience' id="more-experience" class="next-question" value="more-experience">
+              <label for="more-experience">> 10 times total riding</label>
+            </p>
+          </div>
+        </div>
+
+        <div class="question-wrapper not-displayed" id="smooth-ride-vs-parts">
+          <div class="question-header-wrapper">
+            <h3 class="form-text">What do you prefer?</h3>
+          </div>
+          <div class="smooth-ride-vs-parts-question-wrapper">
+            <p>
+              <input type="radio" name='smooth-ride-vs-parts' id="comfort-over-parts" class="next-question" value="comfort-over-parts">
+              <label for="comfort-over-parts">Maximized ride comfort, would sacrifice some bike quality for comfort.</label>
+            </p>
+            <p>
+              <input type="radio" name='smooth-ride-vs-parts' id="parts-over-comfort" class="next-question" value="parts-over-comfort">
+              <label for="parts-over-comfort">Prefer highest quality bike parts over maximized ride comfort.</label>
+            </p>
+            <p>
+              <input type="radio" name='smooth-ride-vs-parts' id="both-comfort-and-parts" class="next-question" value="both-comfort-and-parts">
+              <label for="both-comfort-and-parts">Maximized ride comfort and highest quality bike parts (higher bike price point).</label>
+            </p>
+          </div>
+        </div>
+
+        <div class="question-wrapper not-displayed last-question" id="jump-riding">
+          <div class="question-header-wrapper">
+            <h3 class="form-text">Expected jump riding?</h3>
+          </div>
+          <div class="jump-riding-question-wrapper">
+            <p>
+              <input type="radio" name='jump-riding' id="no-jumps" class="next-question" value="no-jumps">
+              <label for="no-jumps">None.</label>
+            </p>
+            <p>
+              <input type="radio" name='jump-riding' id="some-small-jumps" class="next-question" value="some-small-jumps">
+              <label for="some-small-jumps">Some 2-3 foot dirt jumps and drops.</label>
+            </p>
+            <p>
+              <input type="radio" name='jump-riding' id="some-large-jumps" class="next-question" value="some-large-jumps">
+              <label for="some-large-jumps">Some larger dirt jumps and drops.</label>
+            </p>
+            <p>
+              <input type="radio" name='jump-riding' id="frequent-small-jumps" class="next-question" value="frequent-small-jumps">
+              <label for="frequent-small-jumps">Frequent 2-3 foot dirt jumps and drops.</label>
+            </p>
+            <p>
+              <input type="radio" name='smooth-ride-vs-parts' id="frequent-large-jumps" class="next-question" value="frequent-large-jumps">
+              <label for="frequent-large-jumps">Frequent larger dirt jumps and drops.</label>
             </p>
           </div>
         </div>
