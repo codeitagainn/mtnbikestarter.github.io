@@ -12,6 +12,12 @@ html {
   font-family: 'Avenir', 'cpavenir', helvetica, sans-serif;
 }
 
+a .card-action {
+  color: #26a69a;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
 .card-image {
   height: 231px;
 }
