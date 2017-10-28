@@ -1,5 +1,16 @@
-.resources-group {
+.resources-group-header {
   margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.resources-group {
+  margin-bottom: 1%;
+  margin-right: 4%;
+}
+
+.resources-group:not(h5) {
+  margin-left: 10%;
+  display: flex;
 }
 
 .resources-group h5 {
@@ -7,7 +18,8 @@
 }
 
 .resources-group p {
-  display: inline-block;
+  font-size: 21px;
+  margin-left: 2%;
 }
 
 .resources-group i {
