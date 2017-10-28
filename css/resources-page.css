@@ -1,0 +1,17 @@
+.resources-group {
+  margin-left: 10%;
+}
+
+.resources-group h5 {
+  margin-bottom: 3%;
+}
+
+.resources-group p {
+  display: inline-block;
+}
+
+.resources-group i {
+  color: #2bbbad;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
