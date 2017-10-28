@@ -132,6 +132,7 @@ p.word-for-definition {
   text-align: center;
   font-size: 30px;
   color: #00897B;
+  font-weight: 500;
 }
 
 .page-title-subheader {
@@ -140,6 +141,7 @@ p.word-for-definition {
   text-align: center;
   font-size: 30px;
   color: #00897B;
+  font-weight: 500;
 }
 
 .terms {
