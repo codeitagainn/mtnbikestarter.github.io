@@ -27,7 +27,7 @@ function determineResults() {
     if ($('.last-question :checked').length > 0) {
       setTimeout(function(){
         $('.previous-arrow').css('display', 'none')
-        if (window.location.href == "file:///Users/jackburum/mountain-bike-starter/questionnaire.html") {
+        if (window.location.href == "file:///Users/jackburum/mountain-bike-starter/index.html") {
           window.location.href = "file:///Users/jackburum/mountain-bike-starter/your-bike.html"
         } else {
           window.location.href = "https://mtnbikestarter.github.io/your-bike"
