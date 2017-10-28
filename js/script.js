@@ -46,7 +46,7 @@ function slideoutLeft() {
 }
 
 function displayBackArrow() {
-  if ($('.displayed').attr('id') == 'usage-type') {
+  if ($('.displayed').attr('id') == 'past-experience') {
     $('.previous-arrow').css('display', 'none')
   } else {
     $('.previous-arrow').fadeIn(2500)
@@ -82,7 +82,7 @@ function displayFirstQuestion(question_index) {
 }
 
 
-const questions = ['usage-type', 'usage-frequency', 'budget', 'height', 'gender', 'snow-sand', 'past-experience', 'smooth-ride-vs-parts', 'jump-riding']
+const questions = ['past-experience', 'usage-type', 'usage-frequency', 'budget', 'height', 'gender', 'snow-sand', 'smooth-ride-vs-parts', 'jump-riding']
 function nextQuestionArrow() {
   $('.next-arrow').click(function(){
     let current_question = $('.displayed').attr('id')

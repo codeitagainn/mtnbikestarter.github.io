@@ -40,9 +40,29 @@
       <h5><a class="hompage-link" href="index.html">Start Mountain Biking</a></h5>
     </div>
     <a><i class="material-icons previous-arrow">arrow_back</i></a>
-    <!-- <i class="large material-icons next-arrow">arrow_forward</i> -->
+    <!-- <i class ="large material-icons next-arrow">arrow_forward</i> -->
       <form>
-        <div class="question-wrapper displayed multiple-select-wrapper" id="usage-type">
+        <div class="question-wrapper displayed" id="past-experience">
+          <div class="question-header-wrapper">
+            <h3 class="form-text">Your past mtb experience</h3>
+          </div>
+          <div class="past-experience-question-wrapper">
+            <p>
+              <input type="radio" name='past-experience' id="no-experience" class="next-question" value="no-experience">
+              <label for="no-experience">None</label>
+            </p>
+            <p>
+              <input type="radio" name='past-experience' id="some-experience" class="next-question" value="some-experience">
+              <label for="some-experience">< 10 times total riding</label>
+            </p>
+            <p>
+              <input type="radio" name='past-experience' id="more-experience" class="next-question" value="more-experience">
+              <label for="more-experience">> 10 times total riding</label>
+            </p>
+          </div>
+        </div>
+
+        <div class="question-wrapper not-displayed multiple-select-wrapper" id="usage-type">
           <div class="question-header-wrapper">
             <h3 class="form-text" id="usage-type-header-text">Use type (select multiple)</h3>
           </div>
@@ -171,26 +191,6 @@
             <p>
               <input type="radio" name='snow-sand' class="next-question" id="no-snow" value="no-snow">
               <label for="no-snow">No</label>
-            </p>
-          </div>
-        </div>
-
-        <div class="question-wrapper not-displayed" id="past-experience">
-          <div class="question-header-wrapper">
-            <h3 class="form-text">Your past mtb experience</h3>
-          </div>
-          <div class="past-experience-question-wrapper">
-            <p>
-              <input type="radio" name='past-experience' id="no-experience" class="next-question" value="no-experience">
-              <label for="no-experience">None</label>
-            </p>
-            <p>
-              <input type="radio" name='past-experience' id="some-experience" class="next-question" value="some-experience">
-              <label for="some-experience">< 10 times total riding</label>
-            </p>
-            <p>
-              <input type="radio" name='past-experience' id="more-experience" class="next-question" value="more-experience">
-              <label for="more-experience">> 10 times total riding</label>
             </p>
           </div>
         </div>
