@@ -1,0 +1,34 @@
+.resources-group-header {
+  margin-left: 10%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.resources-group-header span {
+  border-bottom: 2px solid #2bbbad;
+}
+
+.resources-group {
+  margin-bottom: 1%;
+  margin-right: 4%;
+}
+
+.resources-group:not(h5) {
+  margin-left: 10%;
+  display: flex;
+}
+
+.resources-group h5 {
+  margin-bottom: 3%;
+}
+
+.resources-group p {
+  font-size: 21px;
+  margin-left: 2%;
+}
+
+.resources-group i {
+  color: #2bbbad;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
