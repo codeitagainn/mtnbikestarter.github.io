@@ -1,6 +1,11 @@
 .resources-group-header {
   margin-left: 10%;
   margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.resources-group-header span {
+  border-bottom: 2px solid #2bbbad;
 }
 
 .resources-group {
