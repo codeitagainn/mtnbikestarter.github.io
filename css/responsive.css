@@ -270,6 +270,19 @@
     width: 60%;
   }
 
+  .resources-group i {
+    font-size: 1em;
+  }
+
+  .resources-group p {
+    font-size: 1em;
+  }
+
+  .resources-group-header {
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+
 }
 
 /* iPhone 5: NOTE: if screen is wider than 480pixels go up one media query. if 480 or less use this */
@@ -394,5 +407,10 @@
 
   .resources-group p {
     font-size: 1em;
+  }
+
+  .resources-group-header {
+    margin-bottom: 7%;
+    margin-top: 7%;
   }
 }
