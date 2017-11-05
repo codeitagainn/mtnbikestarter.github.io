@@ -7,7 +7,7 @@ $(document).ready(function(){
   displayBackArrow()
   previousQuestionArrow()
   nextQuestionArrow()
-  determineResults()
+  lastQuestionCheck()
 })
 
 function checkBoxEnable() {
@@ -22,19 +22,32 @@ function checkBoxEnable() {
   })
 }
 
-function determineResults() {
+function lastQuestionCheck() {
   $('.next-question').click(function() {
     if ($('.last-question :checked').length > 0) {
       setTimeout(function(){
         $('.previous-arrow').css('display', 'none')
-        if (window.location.href == "file:///Users/jackburum/mountain-bike-starter/index.html") {
-          window.location.href = "file:///Users/jackburum/mountain-bike-starter/your-bike.html"
-        } else {
-          window.location.href = "https://mtnbikestarter.github.io/your-bike"
-        }
-      }, 1100)
+        determineResults()
+      }, 1300)
     }
   })
+}
+
+function determineResults() {
+  let answers = window.answers
+  // TODO: refactor decision logic
+  if (answers.budget < "500" && answers.usageType.length > 2) {
+    // check for local vs prod
+    if (window.location.href == "file:///Users/jackburum/mountain-bike-starter/index.html") {
+      window.location.href = "file:///Users/jackburum/mountain-bike-starter/bikes/diamondback-29-ht.html"
+    } else {
+      window.location.href = "https://mtnbikestarter.github.io/bikes/diamondback-29-ht.html"
+    }
+  } else if (1 > 2) {
+    console.log('succcks');
+  } else {
+    console.log('not right path');
+  }
 }
 
 function slideoutLeft() {
@@ -58,10 +71,23 @@ function gatherAnswers() {
   $('.next-question').click(function() {
     let first_checkbox = $('.multiple-select-wrapper :checked')[0]
     let second_checkbox = $('.multiple-select-wrapper :checked')[1]
-    window.answers.usageType = [$(first_checkbox).val(), $(second_checkbox).val()]
+    let third_checkbox = $('.multiple-select-wrapper :checked')[2]
+    window.answers.usageType = removeUndefined([$(first_checkbox).val(), $(second_checkbox).val(), $(third_checkbox).val()])
     window.answers.usageFrequency = $('#usage-frequency :checked').val()
     window.answers.budget = $('#budget :checked').val()
   })
+}
+
+function removeUndefined(array) {
+  let i = 0
+  for (let item of array) {
+    if (item == undefined) {
+      array.splice(i, 1)
+    }
+
+    i++
+  }
+  return array
 }
 
 function getNextQuestion(current_question) {
