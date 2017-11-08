@@ -35,18 +35,37 @@ function lastQuestionCheck() {
 
 function determineResults() {
   let answers = window.answers
-  // TODO: refactor decision logic
-  if (answers.budget < "500" && answers.usageType.length > 2) {
-    // check for local vs prod
-    if (window.location.href == "file:///Users/jackburum/mountain-bike-starter/index.html") {
-      window.location.href = "file:///Users/jackburum/mountain-bike-starter/bikes/diamondback-29-ht.html"
-    } else {
-      window.location.href = "https://mtnbikestarter.github.io/bikes/diamondback-29-ht.html"
-    }
-  } else if (1 > 2) {
-    console.log('succcks');
+
+  if (answers.budget == "500-1000" && answers.usageType.length > 2) {
+    envCheckForUrlPush('diamondback/diamondback-29-ht')
+  } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+    envCheckForUrlPush('yeti/yeti-4.5-turq-sram-lg')
+  } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
+    envCheckForUrlPush('yeti/yeti-4.5-turq-sram-xl')
+  } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+    envCheckForUrlPush('yeti/yeti-4.5-turq-sram-md')
+  } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+    envCheckForUrlPush('yeti/yeti-4.5-turq-sram-sm')
+  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
+    envCheckForUrlPush('giant/giant-trance-2-2018-xs')
+  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "5.4-5.7") {
+    envCheckForUrlPush('giant/giant-trance-2-2018-sm')
+  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+    envCheckForUrlPush('giant/giant-trance-2-2018-md')
+  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+    envCheckForUrlPush('giant/giant-trance-2-2018-lg')
+  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
+    envCheckForUrlPush('giant/giant-trance-2-2018-lg')
   } else {
-    console.log('not right path');
+    console.log('no path declared for this section');
+  }
+}
+
+function envCheckForUrlPush(bike_file) {
+  if (window.location.href == "file:///Users/jackburum/mountain-bike-starter/index.html") {
+    window.location.href = `file:///Users/jackburum/mountain-bike-starter/bikes/${bike_file}.html`
+  } else {
+    window.location.href = `https://mtnbikestarter.github.io/bikes/${bike_file}.html`
   }
 }
 
@@ -66,7 +85,7 @@ function displayBackArrow() {
   }
 }
 
-window.answers = { usageType: [], usageFrequency: "", budget: "" }
+window.answers = { usageType: [], usageFrequency: "", budget: "", height: "" }
 function gatherAnswers() {
   $('.next-question').click(function() {
     let first_checkbox = $('.multiple-select-wrapper :checked')[0]
@@ -75,6 +94,7 @@ function gatherAnswers() {
     window.answers.usageType = removeUndefined([$(first_checkbox).val(), $(second_checkbox).val(), $(third_checkbox).val()])
     window.answers.usageFrequency = $('#usage-frequency :checked').val()
     window.answers.budget = $('#budget :checked').val()
+    window.answers.height = $('#height :checked').val()
   })
 }
 
