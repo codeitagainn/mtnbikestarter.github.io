@@ -36,8 +36,16 @@ function lastQuestionCheck() {
 function determineResults() {
   let answers = window.answers
 
-  if (answers.budget == "500-1000" && answers.usageType.length > 2) {
-    envCheckForUrlPush('diamondback/diamondback-29-ht')
+  if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
+    envCheckForUrlPush('diamondback/diamondback-29-ht-sm')
+  } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "5.4-5.7") {
+    envCheckForUrlPush('diamondback/diamondback-29-ht-md')
+  } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+    envCheckForUrlPush('diamondback/diamondback-29-ht-lg')
+  } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+    envCheckForUrlPush('diamondback/diamondback-29-ht-lg')
+  } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
+    envCheckForUrlPush('diamondback/diamondback-29-ht-xl')
   } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
     envCheckForUrlPush('yeti/yeti-4.5-turq-sram-lg')
   } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
@@ -55,7 +63,7 @@ function determineResults() {
   } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
     envCheckForUrlPush('giant/giant-trance-2-2018-lg')
   } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
-    envCheckForUrlPush('giant/giant-trance-2-2018-lg')
+    envCheckForUrlPush('giant/giant-trance-2-2018-xl')
   } else {
     console.log('no path declared for this section');
   }
