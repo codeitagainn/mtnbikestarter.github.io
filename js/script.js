@@ -37,33 +37,47 @@ function determineResults() {
   let answers = window.answers
 
   if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
-    envCheckForUrlPush('diamondback/diamondback-29-ht-sm')
+    envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-sm')
   } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "5.4-5.7") {
-    envCheckForUrlPush('diamondback/diamondback-29-ht-md')
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-md')
   } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
-    envCheckForUrlPush('diamondback/diamondback-29-ht-lg')
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-lg')
   } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
-    envCheckForUrlPush('diamondback/diamondback-29-ht-lg')
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-lg')
   } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
-    envCheckForUrlPush('diamondback/diamondback-29-ht-xl')
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-xl')
+
+  } else if (answers.budget == "499" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('vilano/vilano-blackjack')
+  } else if (answers.budget == "499" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+      envCheckForUrlPush('vilano/vilano-blackjack')
+
+  } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+      envCheckForUrlPush('diamondback/release1/diamondback-release1-sm')
+  } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('diamondback/release1/diamondback-release1-md')
+  } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+      envCheckForUrlPush('diamondback/release1/diamondback-release1-lg')
+
   } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
-    envCheckForUrlPush('yeti/yeti-4.5-turq-sram-lg')
+      envCheckForUrlPush('yeti/yeti-4.5-turq-sram-lg')
   } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
-    envCheckForUrlPush('yeti/yeti-4.5-turq-sram-xl')
+      envCheckForUrlPush('yeti/yeti-4.5-turq-sram-xl')
   } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
-    envCheckForUrlPush('yeti/yeti-4.5-turq-sram-md')
+      envCheckForUrlPush('yeti/yeti-4.5-turq-sram-md')
   } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
-    envCheckForUrlPush('yeti/yeti-4.5-turq-sram-sm')
+      envCheckForUrlPush('yeti/yeti-4.5-turq-sram-sm')
+
   } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
-    envCheckForUrlPush('giant/giant-trance-2-2018-xs')
+      envCheckForUrlPush('giant/giant-trance-2-2018-xs')
   } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "5.4-5.7") {
-    envCheckForUrlPush('giant/giant-trance-2-2018-sm')
+      envCheckForUrlPush('giant/giant-trance-2-2018-sm')
   } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
-    envCheckForUrlPush('giant/giant-trance-2-2018-md')
+      envCheckForUrlPush('giant/giant-trance-2-2018-md')
   } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
-    envCheckForUrlPush('giant/giant-trance-2-2018-lg')
+      envCheckForUrlPush('giant/giant-trance-2-2018-lg')
   } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
-    envCheckForUrlPush('giant/giant-trance-2-2018-xl')
+      envCheckForUrlPush('giant/giant-trance-2-2018-xl')
   } else {
     console.log('no path declared for this section');
   }
