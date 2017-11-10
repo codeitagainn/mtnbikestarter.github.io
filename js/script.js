@@ -1,3 +1,5 @@
+window.answers = { usageType: [], usageFrequency: "", budget: "", height: "" }
+
 $(document).ready(function(){
   $(".button-collapse").sideNav({edge: 'right'});
   checkBoxEnable()
@@ -8,6 +10,7 @@ $(document).ready(function(){
   previousQuestionArrow()
   nextQuestionArrow()
   lastQuestionCheck()
+  disableLowBudgetsForCcAndDh()
 })
 
 function checkBoxEnable() {
@@ -47,9 +50,27 @@ function determineResults() {
   } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
       envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-xl')
 
-  } else if (answers.budget == "499" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "4.10-5.3") {
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-md')
+  }  else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "5.4-5.7") {
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-md')
+  } else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-lg')
+  } else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-lg')
+  } else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-xl')
+
+  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && (answers.height == "5.8-5.11" || answers.height == "6-6.2")) {
       envCheckForUrlPush('vilano/vilano-blackjack')
-  } else if (answers.budget == "499" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+  } else if (answers.budget == "under-500" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('vilano/vilano-blackjack')
+
+  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+      // TODO: PICK A BIKE
+      envCheckForUrlPush('')
+  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+      // TODO: PICK A BIKE
       envCheckForUrlPush('vilano/vilano-blackjack')
 
   } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
@@ -59,24 +80,24 @@ function determineResults() {
   } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
       envCheckForUrlPush('diamondback/release1/diamondback-release1-lg')
 
-  } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+  } else if (answers.budget == ">5000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-lg')
-  } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
+  } else if (answers.budget == ">5000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-xl')
-  } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+  } else if (answers.budget == ">5000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-md')
-  } else if (answers.budget == "> 8000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  } else if (answers.budget == ">5000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-sm')
 
-  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
+  } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
       envCheckForUrlPush('giant/giant-trance-2-2018-xs')
-  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "5.4-5.7") {
+  } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "5.4-5.7") {
       envCheckForUrlPush('giant/giant-trance-2-2018-sm')
-  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
       envCheckForUrlPush('giant/giant-trance-2-2018-md')
-  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+  } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
       envCheckForUrlPush('giant/giant-trance-2-2018-lg')
-  } else if (answers.budget == "2000-4000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
       envCheckForUrlPush('giant/giant-trance-2-2018-xl')
   } else {
     console.log('no path declared for this section');
@@ -107,7 +128,6 @@ function displayBackArrow() {
   }
 }
 
-window.answers = { usageType: [], usageFrequency: "", budget: "", height: "" }
 function gatherAnswers() {
   $('.next-question').click(function() {
     let first_checkbox = $('.multiple-select-wrapper :checked')[0]
@@ -121,13 +141,11 @@ function gatherAnswers() {
 }
 
 function removeUndefined(array) {
-  let i = 0
-  for (let item of array) {
-    if (item == undefined) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] == undefined) {
       array.splice(i, 1)
+      i--
     }
-
-    i++
   }
   return array
 }
@@ -141,6 +159,20 @@ function getNextQuestion(current_question) {
       showNextQuestionFirstRun(current_question, next_question)
     }
   }
+}
+
+function disableLowBudgetsForCcAndDh() {
+  $('.next-question').click(function() {
+    let answers = window.answers
+    // NOTE if the only useageType selection is Cross Country or Downhill disabled 500
+    if ((answers.usageType.length == 1) && (answers.usageType[0] == 'cross-country' || answers.usageType[0] == 'downhill')) {
+      $('#under-500').prop('disabled', true)
+      $('#500-1000').prop('disabled', true)
+    } else {
+      $('#under-500').prop('disabled', false)
+      $('#500-1000').prop('disabled', false)
+    }
+  })
 }
 
 function displayFirstQuestion(question_index) {
