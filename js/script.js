@@ -80,13 +80,13 @@ function determineResults() {
   } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
       envCheckForUrlPush('diamondback/release1/diamondback-release1-lg')
 
-  } else if (answers.budget == ">5000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+  } else if (answers.budget == "geater-4000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-lg')
-  } else if (answers.budget == ">5000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "geater-4000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-xl')
-  } else if (answers.budget == ">5000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "geater-4000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-md')
-  } else if (answers.budget == ">5000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  } else if (answers.budget == "geater-4000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-sm')
 
   } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
@@ -163,14 +163,21 @@ function getNextQuestion(current_question) {
 
 function disableLowBudgetsForCcAndDh() {
   $('.next-question').click(function() {
+    console.log('called');
     let answers = window.answers
     // NOTE if the only useageType selection is Cross Country or Downhill disabled 500
-    if ((answers.usageType.length == 1) && (answers.usageType[0] == 'cross-country' || answers.usageType[0] == 'downhill')) {
+    if ((answers.usageType.length == 1) && (answers.usageType[0] == 'cross-country')) {
       $('#under-500').prop('disabled', true)
       $('#500-1000').prop('disabled', true)
+      $('#1000-2000').prop('disabled', false)
+    } else if ((answers.usageType.length == 1) && (answers.usageType[0] == 'downhill'))  {
+      $('#under-500').prop('disabled', true)
+      $('#500-1000').prop('disabled', true)
+      $('#1000-2000').prop('disabled', true)
     } else {
       $('#under-500').prop('disabled', false)
       $('#500-1000').prop('disabled', false)
+      $('#1000-2000').prop('disabled', false)
     }
   })
 }
