@@ -1,4 +1,4 @@
-window.answers = { usageType: [], usageFrequency: "", budget: "", height: "" }
+window.answers = { usageType: [], usageFrequency: "", budget: "", height: "", sandSnow: "", gender: "" }
 
 $(document).ready(function(){
   $(".button-collapse").sideNav({edge: 'right'});
@@ -137,6 +137,8 @@ function gatherAnswers() {
     window.answers.usageFrequency = $('#usage-frequency :checked').val()
     window.answers.budget = $('#budget :checked').val()
     window.answers.height = $('#height :checked').val()
+    window.answers.sandSnow = $('#snow-sand :checked').val()
+    window.answers.gender = $('#gender :checked').val()
   })
 }
 
@@ -163,7 +165,6 @@ function getNextQuestion(current_question) {
 
 function disableLowBudgetsForCcAndDh() {
   $('.next-question').click(function() {
-    console.log('called');
     let answers = window.answers
     // NOTE if the only useageType selection is Cross Country or Downhill disabled 500
     if ((answers.usageType.length == 1) && (answers.usageType[0] == 'cross-country')) {
@@ -174,10 +175,14 @@ function disableLowBudgetsForCcAndDh() {
       $('#under-500').prop('disabled', true)
       $('#500-1000').prop('disabled', true)
       $('#1000-2000').prop('disabled', true)
+    } else if (answers.sandSnow == 'yes-snow')  {
+      $('#under-500').prop('disabled', true)
+      $('#greater-4000').prop('disabled', true)
     } else {
       $('#under-500').prop('disabled', false)
       $('#500-1000').prop('disabled', false)
       $('#1000-2000').prop('disabled', false)
+      $('#greater-4000').prop('disabled', false)
     }
   })
 }
@@ -189,7 +194,7 @@ function displayFirstQuestion(question_index) {
 }
 
 
-const questions = ['past-experience', 'usage-type', 'usage-frequency', 'budget', 'height', 'gender', 'snow-sand', 'smooth-ride-vs-parts', 'jump-riding']
+const questions = ['past-experience', 'usage-type', 'usage-frequency', 'snow-sand', 'budget', 'height', 'gender', 'smooth-ride-vs-parts', 'jump-riding']
 function nextQuestionArrow() {
   $('.next-arrow').click(function(){
     let current_question = $('.displayed').attr('id')
