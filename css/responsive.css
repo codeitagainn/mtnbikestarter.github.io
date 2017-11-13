@@ -72,6 +72,15 @@
     width: 350px;
     margin-left: 9%;
   }
+
+  .no-path-delcared-text {
+    margin-top: 50%;
+    font-size: 25px;
+  }
+
+  .no-path-delcared-text p {
+    margin-top: 10%;
+  }
 }
 
 /* iPhone 6Plus */
@@ -177,6 +186,15 @@
 
   .bike-display {
     width: 60%;
+  }
+
+  .no-path-delcared-text {
+    margin-top: 50%;
+    font-size: 25px;
+  }
+
+  .no-path-delcared-text p {
+    margin-top: 10%;
   }
 
 }
@@ -285,6 +303,15 @@
     font-size: 1.25em;
     margin-bottom: 7%;
     margin-top: 7%;
+  }
+
+  .no-path-delcared-text {
+    margin-top: 50%;
+    font-size: 25px;
+  }
+
+  .no-path-delcared-text p {
+    margin-top: 10%;
   }
 
 }
@@ -418,5 +445,14 @@
     font-size: 1.25em;
     margin-bottom: 7%;
     margin-top: 7%;
+  }
+
+  .no-path-delcared-text {
+    margin-top: 50%;
+    font-size: 20px;
+  }
+
+  .no-path-delcared-text p {
+    margin-top: 10%;
   }
 }

@@ -39,46 +39,57 @@ function lastQuestionCheck() {
 function determineResults() {
   let answers = window.answers
 
-  if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
-    envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-sm')
+  if (answers.budget == "under-500" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
+      envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-sm')
+  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && answers.height == "5.4-5.7") {
+      envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-sm')
+  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-md')
+  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+      envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-lg')
+  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
+      envCheckForUrlPush('raleigh/tokul/raleigh-tokul-1-xl')
+  }
+
+  else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "4.10-5.4") {
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-sm')
   } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "5.4-5.7") {
-      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-md')
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-sm')
   } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
-      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-lg')
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-md')
   } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
       envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-lg')
   } else if (answers.budget == "500-1000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
       envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-xl')
 
   } else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "4.10-5.3") {
-      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-md')
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-sm')
   }  else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "5.4-5.7") {
-      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-md')
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-sm')
   } else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
-      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-lg')
+      envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-md')
   } else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
       envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-lg')
   } else if (answers.budget == "500-1000" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-xl')
 
-  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && (answers.height == "5.8-5.11" || answers.height == "6-6.2")) {
-      envCheckForUrlPush('vilano/vilano-blackjack')
-  } else if (answers.budget == "under-500" && (answers.usageType.length == 1 && answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
-      envCheckForUrlPush('vilano/vilano-blackjack')
-
-  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
-      // TODO: PICK A BIKE
-      envCheckForUrlPush('')
-  } else if (answers.budget == "under-500" && answers.usageType.length > 2 && answers.height == "6-6.2") {
-      // TODO: PICK A BIKE
-      envCheckForUrlPush('vilano/vilano-blackjack')
-
   } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
-      envCheckForUrlPush('diamondback/release1/diamondback-release1-sm')
+      envCheckForUrlPush('ghost/ghost-kato/ghost-kato-fs-27-sm')
   } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
-      envCheckForUrlPush('diamondback/release1/diamondback-release1-md')
-  } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
-      envCheckForUrlPush('diamondback/release1/diamondback-release1-lg')
+      envCheckForUrlPush('ghost/ghost-kato/ghost-kato-fs-27-md')
+  } else if (answers.budget == "1000-2000" && answers.usageType.length > 2 && (answers.height == "6-6.2" || answers.height == "6.3-6.5")) {
+      envCheckForUrlPush('ghost/ghost-kato/ghost-kato-fs-27-lg')
+
+
+  } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+      envCheckForUrlPush('diamondback/release-3/diamondback-release-3-sm')
+  } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('diamondback/release-3/diamondback-release-3-md')
+  } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
+      envCheckForUrlPush('diamondback/release-3/diamondback-release-3-lg')
+  } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
+      envCheckForUrlPush('diamondback/release-3/diamondback-release-3-xl')
+  }
 
   } else if (answers.budget == "geater-4000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-lg')
@@ -90,17 +101,17 @@ function determineResults() {
       envCheckForUrlPush('yeti/yeti-4.5-turq-sram-sm')
 
   } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "4.10-5.3") {
-      envCheckForUrlPush('giant/giant-trance-2-2018-xs')
+      envCheckForUrlPush('giant/giant-trance-2018/giant-trance-2-2018-xs')
   } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "5.4-5.7") {
-      envCheckForUrlPush('giant/giant-trance-2-2018-sm')
+      envCheckForUrlPush('giant/giant-trance-2018/giant-trance-2-2018-sm')
   } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "5.8-5.11") {
-      envCheckForUrlPush('giant/giant-trance-2-2018-md')
+      envCheckForUrlPush('giant/giant-trance-2018/giant-trance-2-2018-md')
   } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "6-6.2") {
-      envCheckForUrlPush('giant/giant-trance-2-2018-lg')
+      envCheckForUrlPush('giant/giant-trance-2018/giant-trance-2-2018-lg')
   } else if (answers.budget == "2000-3000" && answers.usageType.length > 2 && answers.height == "6.3-6.5") {
-      envCheckForUrlPush('giant/giant-trance-2-2018-xl')
+      envCheckForUrlPush('giant/giant-trance-2018/giant-trance-2-2018-xl')
   } else {
-    console.log('no path declared for this section');
+    envCheckForUrlPush('undeclared-path/undeclared-path')
   }
 }
 
@@ -175,7 +186,10 @@ function disableLowBudgetsForCcAndDh() {
       $('#under-500').prop('disabled', true)
       $('#500-1000').prop('disabled', true)
       $('#1000-2000').prop('disabled', true)
-    } else if (answers.sandSnow == 'yes-snow')  {
+    } else if (answers.usageType.length > 2 && answers.sandSnow == 'yes-snow')  {
+      $('#under-500').prop('disabled', false)
+      $('#greater-4000').prop('disabled', false)
+    } else if (answers.usageType.length <= 2 && answers.sandSnow == 'yes-snow')  {
       $('#under-500').prop('disabled', true)
       $('#greater-4000').prop('disabled', true)
     } else {
