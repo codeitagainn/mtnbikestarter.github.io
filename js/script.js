@@ -64,11 +64,11 @@ function determineResults() {
       envCheckForUrlPush('diamondback/overdrive/diamondback-29-overdrive-xl')
 
   } else if (answers.budget == "1000-2000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
-      envCheckForUrlPush('ghost/ghost-kato/ghost-kato-fs-27-sm')
+      envCheckForUrlPush('ghost/kato-3/ghost-kato-3-27-sm')
   } else if (answers.budget == "1000-2000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
-      envCheckForUrlPush('ghost/ghost-kato/ghost-kato-fs-27-md')
+      envCheckForUrlPush('ghost/kato-3/ghost-kato-3-27-md')
   } else if (answers.budget == "1000-2000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && (answers.height == "6-6.2" || answers.height == "6.3-6.5")) {
-      envCheckForUrlPush('ghost/ghost-kato/ghost-kato-fs-27-lg')
+      envCheckForUrlPush('ghost/kato-3/ghost-kato-3-27-lg')
 
 
   } else if (answers.budget == "2000-3000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
@@ -135,7 +135,51 @@ function determineResults() {
       envCheckForUrlPush('trek/procaliber-9p8/trek-procaliber-9p8-lg')
   } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'cross-country') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('trek/procaliber-9p8/trek-procaliber-9p8-xl')
-  } else {
+
+  // NOTE: Enduro / All Bike bikes
+  } else if (answers.budget == "500-1000" && (answers.usageType[0] == 'enduro') && (answers.height == "4.10-5.4" || answers.height == "5.4-5.7")) {
+      envCheckForUrlPush('ghost/kato-7/ghost-kato-3-27-sm')
+  } else if (answers.budget == "500-1000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('ghost/kato-7/ghost-kato-3-27-md')
+  }
+
+  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+      envCheckForUrlPush('diamondback/release-1/diamondback-release-1-sm')
+  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('diamondback/release-1/diamondback-release-1-md')
+  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+      envCheckForUrlPush('diamondback/release-1/diamondback-release-1-lg')
+  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+      envCheckForUrlPush('diamondback/release-2/diamondback-release-2-xl')
+  }
+
+  // } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  //     envCheckForUrlPush('diamondback/release-3/diamondback-release-3-sm')
+  // } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
+  //     envCheckForUrlPush('diamondback/release-3/diamondback-release-3-md')
+  // } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && answers.height == "6-6.2") {
+  //     envCheckForUrlPush('diamondback/release-3/diamondback-release-3-lg')
+  // } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+  //     envCheckForUrlPush('diamondback/release-3/diamondback-release-3-xl')
+  //
+  // } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  //     envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-sm')
+  // } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
+  //     envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-md')
+  // } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6-6.2") {
+  //     envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-lg')
+  // } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+  //     envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-xl')
+  //
+  // } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-sm')
+  // } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
+  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-md')
+  // } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-lg')
+  // } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-xl')
+  // } else {
     envCheckForUrlPush('undeclared-path/undeclared-path')
   }
 }
@@ -202,15 +246,13 @@ function getNextQuestion(current_question) {
 function disableLowBudgetsForCcAndDh() {
   $('.next-question').click(function() {
     let answers = window.answers
-    // NOTE if the only useageType selection is Cross Country or Downhill disabled 500
+
     if ((answers.usageType.length == 1) && (answers.usageType[0] == 'cross-country')) {
       $('#under-500').prop('disabled', true)
       $('#500-1000').prop('disabled', true)
       $('#1000-2000').prop('disabled', false)
-    } else if ((answers.usageType.length == 1) && (answers.usageType[0] == 'downhill'))  {
-      $('#under-500').prop('disabled', true)
+    } else if ((answers.usageType.length == 1) && (answers.usageType[0] == 'enduro'))  {
       $('#500-1000').prop('disabled', true)
-      $('#1000-2000').prop('disabled', true)
     } else if (answers.usageType.length > 2 && answers.sandSnow == 'yes-snow')  {
       $('#under-500').prop('disabled', false)
       $('#greater-4000').prop('disabled', false)
