@@ -151,33 +151,33 @@ function determineResults() {
   } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('diamondback/release-2/diamondback-release-2-xl')
 
-  // } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
-  //     envCheckForUrlPush('diamondback/release-3/diamondback-release-3-sm')
-  // } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
-  //     envCheckForUrlPush('diamondback/release-3/diamondback-release-3-md')
-  // } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && answers.height == "6-6.2") {
-  //     envCheckForUrlPush('diamondback/release-3/diamondback-release-3-lg')
-  // } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
-  //     envCheckForUrlPush('diamondback/release-3/diamondback-release-3-xl')
-  //
-  // } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
-  //     envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-sm')
-  // } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
-  //     envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-md')
-  // } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6-6.2") {
-  //     envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-lg')
-  // } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
-  //     envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-xl')
-  //
-  // } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
-  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-sm')
-  // } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
-  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-md')
-  // } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
-  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-lg')
-  // } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
-  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-xl')
-  // } else {
+  } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+      envCheckForUrlPush('diamondback/release-3/diamondback-release-3-sm')
+  } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('diamondback/release-3/diamondback-release-3-md')
+  } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && answers.height == "6-6.2") {
+      envCheckForUrlPush('diamondback/release-3/diamondback-release-3-lg')
+  } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+      envCheckForUrlPush('diamondback/release-3/diamondback-release-3-xl')
+
+  } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+      envCheckForUrlPush('diamondback/catch-2/diamondback-catch-sm')
+  } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('diamondback/catch-2/diamondback-catch-md')
+  } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6-6.2") {
+      envCheckForUrlPush('diamondback/catch-2/diamondback-catch-lg')
+  } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+      envCheckForUrlPush('diamondback/catch-2/diamondback-catch-2-xl')
+
+  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+      envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-sm')
+  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
+      envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-md')
+  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+      envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-lg')
+  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+      envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-xl')
+  } else {
     envCheckForUrlPush('undeclared-path/undeclared-path')
   }
 }
