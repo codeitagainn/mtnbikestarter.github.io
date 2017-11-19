@@ -149,7 +149,7 @@ function determineResults() {
   } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('diamondback/release-1/diamondback-release-1-lg')
   } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
-      envCheckForUrlPush('diamondback/release-2/diamondback-release-2-xl')
+      envCheckForUrlPush('undeclared-path/undeclared-path')
 
   } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
       envCheckForUrlPush('diamondback/release-3/diamondback-release-3-sm')
