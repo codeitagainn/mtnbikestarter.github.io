@@ -302,3 +302,14 @@ h1 { margin: 0; }
 .a-few-notes-group {
   margin-bottom: 3%;
 }
+
+.resources-group-header {
+  font-size: 24px;
+  margin-bottom: 7%;
+  margin-top: 7%;
+}
+
+.resources-group p {
+  font-size: 19px;
+  margin-bottom: 2%;
+}
