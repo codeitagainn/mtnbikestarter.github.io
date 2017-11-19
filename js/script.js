@@ -45,7 +45,7 @@ function determineResults() {
   } else if (answers.budget == "under-500" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.4-5.7") {
       envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-sm')
   } else if (answers.budget == "under-500" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
-      envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-md')
+      envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-med')
   } else if (answers.budget == "under-500" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
       envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-lg')
   } else if (answers.budget == "under-500" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
