@@ -40,73 +40,73 @@ function determineResults() {
   let answers = window.answers
 
   // NOTE: All trail and trail riding selections
-  if (answers.budget == "under-500" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "4.10-5.3") {
+  if (answers.budget == "under-500" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "4.10-5.3") {
       envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-sm')
-  } else if (answers.budget == "under-500" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.4-5.7") {
+  } else if (answers.budget == "under-500" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "5.4-5.7") {
       envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-sm')
-  } else if (answers.budget == "under-500" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "under-500" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
       envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-med')
-  } else if (answers.budget == "under-500" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
+  } else if (answers.budget == "under-500" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
       envCheckForUrlPush('diamondback/overdrive-27/diamondback-27-overdrive-lg')
-  } else if (answers.budget == "under-500" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "under-500" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('raleigh/tokul/raleigh-tokul-1-xl')
   }
 
-  else if (answers.budget == "500-1000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "4.10-5.4") {
+  else if (answers.budget == "500-1000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "4.10-5.4") {
       envCheckForUrlPush('diamondback/overdrive-29/diamondback-29-overdrive-sm')
-  } else if (answers.budget == "500-1000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.4-5.7") {
+  } else if (answers.budget == "500-1000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "5.4-5.7") {
       envCheckForUrlPush('diamondback/overdrive-29/diamondback-29-overdrive-sm')
-  } else if (answers.budget == "500-1000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "500-1000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
       envCheckForUrlPush('diamondback/overdrive-29/diamondback-29-overdrive-md')
-  } else if (answers.budget == "500-1000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
+  } else if (answers.budget == "500-1000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
       envCheckForUrlPush('diamondback/overdrive-29/diamondback-29-overdrive-lg')
-  } else if (answers.budget == "500-1000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "500-1000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('diamondback/overdrive-29/diamondback-29-overdrive-xl')
 
-  } else if (answers.budget == "1000-2000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  } else if (answers.budget == "1000-2000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
       envCheckForUrlPush('ghost/kato-3/ghost-kato-3-27-sm')
-  } else if (answers.budget == "1000-2000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "1000-2000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
       envCheckForUrlPush('ghost/kato-3/ghost-kato-3-27-md')
-  } else if (answers.budget == "1000-2000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && (answers.height == "6-6.2" || answers.height == "6.3-6.5")) {
+  } else if (answers.budget == "1000-2000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && (answers.height == "6-6.2" || answers.height == "6.3-6.5")) {
       envCheckForUrlPush('ghost/kato-3/ghost-kato-3-27-lg')
 
 
-  } else if (answers.budget == "2000-3000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  } else if (answers.budget == "2000-3000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
       envCheckForUrlPush('diamondback/release-3/diamondback-release-3-sm')
-  } else if (answers.budget == "2000-3000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "2000-3000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
       envCheckForUrlPush('diamondback/release-3/diamondback-release-3-md')
-  } else if (answers.budget == "2000-3000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
+  } else if (answers.budget == "2000-3000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
       envCheckForUrlPush('diamondback/release-3/diamondback-release-3-lg')
-  } else if (answers.budget == "2000-3000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "2000-3000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('diamondback/release-3/diamondback-release-3-xl')
 
-  } else if (answers.budget == "3000-4000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  } else if (answers.budget == "3000-4000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
       envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-sm')
-  } else if (answers.budget == "3000-4000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "3000-4000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
       envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-md')
-  } else if (answers.budget == "3000-4000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
+  } else if (answers.budget == "3000-4000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "6-6.2") {
       envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-lg')
-  } else if (answers.budget == "3000-4000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "3000-4000" && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('diamondback/mission-pro/diamondback-2017-mission-pro-xl')
 
 
-  } else if (answers.budget == "geater-4000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  } else if ((answers.budget == "greater-4000") && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
       envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-sm')
-  } else if (answers.budget == "geater-4000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "5.8-5.11") {
+  } else if ((answers.budget == "greater-4000") && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && (answers.height == "5.8-5.11")) {
       envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-md')
-  } else if (answers.budget == "geater-4000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
+  } else if ((answers.budget == "greater-4000") && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && (answers.height == "6.3-6.5")) {
       envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-lg')
-  } else if (answers.budget == "geater-4000" && (answers.usageType.length > 2 || answers.usageType[0] == 'trail riding') && answers.height == "6.3-6.5") {
+  } else if ((answers.budget == "greater-4000") && (answers.usageType.length > 1 || answers.usageType[0] == 'trail riding') && (answers.height == "6.3-6.5")) {
       envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-xl')
 
   // NOTE: Cross Country specific bikes
   } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'cross-country') && (answers.height == "4.10-5.3" || answers.height == "5.4-5.7")) {
       envCheckForUrlPush('trek/procaliber-6/trek-procaliber-6-sm')
-  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'cross-country') && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'cross-country') && (answers.height == "5.8-5.11")) {
       envCheckForUrlPush('trek/procaliber-6/trek-procaliber-6-md')
-  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'cross-country') && answers.height == "6-6.2") {
+  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'cross-country') && (answers.height == "6-6.2")) {
       envCheckForUrlPush('trek/procaliber-6/trek-procaliber-6-lg')
-  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'cross-country') && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "1000-2000" && (answers.usageType[0] == 'cross-country') && (answers.height == "6.3-6.5")) {
       envCheckForUrlPush('trek/procaliber-6/trek-procaliber-6-xl')
 
   } else if (answers.budget == "2000-3000" && (answers.usageType[0] == 'cross-country') && (answers.height == "4.10-5.3" || answers.height == "5.4-5.7")) {
@@ -127,13 +127,13 @@ function determineResults() {
   } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'cross-country') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('trek/procaliber-9p7/trek-procaliber-9p7-xl')
 
-  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'cross-country') && (answers.height == "4.10-5.3" || answers.height == "5.4-5.7")) {
+  } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'cross-country') && (answers.height == "4.10-5.3" || answers.height == "5.4-5.7")) {
       envCheckForUrlPush('trek/procaliber-9p8/trek-procaliber-9p8-sm')
-  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'cross-country') && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'cross-country') && answers.height == "5.8-5.11") {
       envCheckForUrlPush('trek/procaliber-9p8/trek-procaliber-9p8-md')
-  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'cross-country') && answers.height == "6-6.2") {
+  } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'cross-country') && answers.height == "6-6.2") {
       envCheckForUrlPush('trek/procaliber-9p8/trek-procaliber-9p8-lg')
-  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'cross-country') && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'cross-country') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('trek/procaliber-9p8/trek-procaliber-9p8-xl')
 
   // NOTE: Enduro / All Bike bikes
@@ -169,13 +169,13 @@ function determineResults() {
   } else if (answers.budget == "3000-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('diamondback/catch-2/diamondback-catch-2-xl')
 
-  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
+  } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'enduro') && (answers.height == "5.4-5.7" || answers.height == "4.10-5.3")) {
       envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-sm')
-  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
+  } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "5.8-5.11") {
       envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-md')
-  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-lg')
-  } else if (answers.budget == "geater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
+  } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
       envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-xl')
   } else {
     envCheckForUrlPush('undeclared-path/undeclared-path')
