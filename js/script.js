@@ -212,7 +212,6 @@ function gatherAnswers() {
     let second_checkbox = $('.multiple-select-wrapper :checked')[1]
     let third_checkbox = $('.multiple-select-wrapper :checked')[2]
     window.answers.usageType = removeUndefined([$(first_checkbox).val(), $(second_checkbox).val(), $(third_checkbox).val()])
-    window.answers.usageFrequency = $('#usage-frequency :checked').val()
     window.answers.budget = $('#budget :checked').val()
     window.answers.height = $('#height :checked').val()
     window.answers.sandSnow = $('#snow-sand :checked').val()
@@ -273,7 +272,7 @@ function displayFirstQuestion(question_index) {
 }
 
 
-const questions = ['past-experience', 'usage-type', 'usage-frequency', 'snow-sand', 'budget', 'height', 'gender', 'smooth-ride-vs-parts', 'jump-riding']
+const questions = ['past-experience', 'usage-type', 'snow-sand', 'budget', 'height', 'gender', 'smooth-ride-vs-parts', 'jump-riding']
 function nextQuestionArrow() {
   $('.next-arrow').click(function(){
     let current_question = $('.displayed').attr('id')
