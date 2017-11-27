@@ -214,7 +214,7 @@ h2 {
 
 .menu-more-links {
   position: absolute;
-  top: 4%;
+  top: 6%;
   left: 85%;
   font-size: 1.64rem;
   color: black;
@@ -322,4 +322,9 @@ h1 { margin: 0; }
 
 .not-displayed {
   display: none;
+}
+
+.mtn-logo {
+  width: 55px;
+  height: 40px;
 }
