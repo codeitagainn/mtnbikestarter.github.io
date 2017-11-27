@@ -98,6 +98,17 @@
     font-size: 19px;
     margin-bottom: 4%;
   }
+
+  .mtn-logo {
+    width: 30px;
+    height: 20px;
+  }
+
+  .menu-more-links {
+    font-size: 1.64rem;
+    left: 80%;
+    padding-top: 1%;
+  }
 }
 
 /* iPhone 6Plus */
@@ -162,11 +173,6 @@
     font-size: 15px;
   }
 
-  .menu-more-links {
-    font-size: 15px;
-    left: 80%;
-  }
-
   .side-nav {
     width: 200px;
   }
@@ -228,6 +234,17 @@
   .bike-page-cards .card {
     margin-left: 24%;
   }
+
+  .mtn-logo {
+    width: 30px;
+    height: 20px;
+  }
+
+  .menu-more-links {
+    font-size: 15px;
+    left: 80%;
+    padding-top: 1%;
+  }
 }
 
 /* iPhone 6 */
@@ -274,11 +291,6 @@
 
   h5 {
     font-size: 15px;
-  }
-
-  .menu-more-links {
-    font-size: 15px;
-    left: 80%;
   }
 
   .side-nav {
@@ -349,6 +361,17 @@
   .bike-page-cards .card {
     margin-left: 23%;
   }
+
+  .mtn-logo {
+    width: 30px;
+    height: 20px;
+  }
+
+  .menu-more-links {
+    font-size: 15px;
+    left: 80%;
+    padding-top: 2%;
+  }
 }
 
 /* iPhone 5: NOTE: if screen is wider than 480pixels go up one media query. if 480 or less use this */
@@ -416,11 +439,6 @@
 
   h5 {
     font-size: 15px;
-  }
-
-  .menu-more-links {
-    font-size: 15px;
-    left: 80%;
   }
 
   .side-nav {
@@ -498,5 +516,16 @@
 
   .bike-page-cards .card {
     margin-left: 18%;
+  }
+
+  .mtn-logo {
+    width: 30px;
+    height: 20px;
+  }
+
+  .menu-more-links {
+    font-size: 15px;
+    left: 80%;
+    padding-top: 2%;
   }
 }

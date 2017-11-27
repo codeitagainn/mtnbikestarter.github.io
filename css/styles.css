@@ -323,3 +323,8 @@ h1 { margin: 0; }
 .not-displayed {
   display: none;
 }
+
+.mtn-logo {
+  width: 55px;
+  height: 40px;
+}
