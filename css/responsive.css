@@ -107,7 +107,7 @@
   .menu-more-links {
     font-size: 1.64rem;
     left: 80%;
-    padding-top: 1%;
+    top: 4%;
   }
 }
 
@@ -243,7 +243,7 @@
   .menu-more-links {
     font-size: 15px;
     left: 80%;
-    padding-top: 1%;
+    top: 4%;
   }
 }
 
@@ -370,7 +370,7 @@
   .menu-more-links {
     font-size: 15px;
     left: 80%;
-    padding-top: 2%;
+    top: 4%;
   }
 }
 
@@ -526,6 +526,6 @@
   .menu-more-links {
     font-size: 15px;
     left: 80%;
-    padding-top: 2%;
+    top: 4%;
   }
 }
