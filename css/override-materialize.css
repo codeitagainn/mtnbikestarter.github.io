@@ -15,21 +15,21 @@ h6 {
 }
 
 /* override materialize card action margin */
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+.card .card-action bike-info-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   margin-right: 0;
 }
 
-.card .card-action {
+.card .card-action bike-info-action {
   border-top: 2px solid #26a69a;
   border: 2px solid #26a69a;
   text-align: center;
 }
 
 /* NOTE: this overrides the color of the more info link need both selectors */
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+.card .card-action bike-info-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
   color: #26a69a;
 }
 /* NOTE: this overrides the color of the more info link need both selectors */
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+.card .card-action bike-info-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #26a69a;
 }
