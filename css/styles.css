@@ -73,16 +73,6 @@ h3 {
   position: relative;
 }
 
-/*#usage-type-header-text:before{
-    content: "";
-    position: absolute;
-    width: 75%;
-    height: 1px;
-    bottom: 0;
-    left: 13%;
-    border-bottom: 2px solid #26a69a;
-}*/
-
 #usage-frequency-header-text {
   font-weight: 300;
   display: inline-block;
@@ -90,15 +80,6 @@ h3 {
   position: relative;
 }
 
-/*#usage-frequency-header-text:before {
-  content: "";
-  position: absolute;
-  width: 75%;
-  height: 1px;
-  bottom: 0;
-  left: 13%;
-  border-bottom: 2px solid #26a69a;
-}*/
 
 #budget-header-text {
   font-weight: 300;
@@ -106,17 +87,6 @@ h3 {
   padding-bottom: 12px;
   position: relative;
 }
-
-/*#budget-header-text:before {
-  content: "";
-  position: absolute;
-  width: 75%;
-  height: 1px;
-  bottom: 0;
-  left: 13%;
-  border-bottom: 2px solid #26a69a;
-}*/
-
 
 p.word-for-definition {
   font-weight: 50;
@@ -213,6 +183,7 @@ h2 {
 }
 
 .menu-more-links {
+  display: none;
   position: absolute;
   top: 6%;
   left: 85%;
@@ -221,16 +192,45 @@ h2 {
   border-bottom: 2px solid #2bbbad;
 }
 
+.header-links {
+  position: absolute;
+  top: 8%;
+  left: 37%;
+  font-size: 1.64rem;
+  color: black;
+  width: 60%;
+  text-align: center;
+}
+
+.header-link {
+  border-bottom: 2px solid #2bbbad;
+  margin-right: 6%;
+  color: black
+}
+
+.header-links .card {
+  width: 18%;
+  display: inline;
+}
+
+.header-links .card-action {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 3%;
+  padding-right: 2%;
+  display: inline;
+}
+
+.menu-header-link {
+  font-size: 1.5rem;
+}
+
 .previous-arrow {
   position: absolute;
   color: #26a69a;
   top: 50%;
   left: 3%;
   font-size: 6rem;
-}
-
-.previous-arrow:hover {
-  color: black;
 }
 
 #comp-name-questions-page {

@@ -19,6 +19,16 @@ h6 {
   margin-right: 0;
 }
 
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: rgb(43, 187, 173);
+  text-transform: none;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+  color: rgb((40,108,44));
+  text-transform: none;
+}
+
 .card .card-action {
   border-top: 2px solid #26a69a;
   border: 2px solid #26a69a;
