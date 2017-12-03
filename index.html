@@ -44,7 +44,7 @@
     </div>
 
     <ul id="slide-out" class="side-nav">
-      <li><a href="index.html">MTB selection guide</a></li>
+      <li><a href="mountain-bike-selection-tool.html">MTB selection guide</a></li>
       <li><div class="divider"></div></li>
       <li><a href="mountain-bike-terms.html">MTB dictionary</a></li>
       <li><div class="divider"></div></li>
@@ -63,199 +63,36 @@
     <a href="#" data-activates="slide-out" class="button-collapse menu-more-links">More<i class="material-icons">arrow_drop_down</i></a>
     <div class="comp-name" id="comp-name-questions-page">
       <h5>
-        <a class="hompage-link" href="index.html">
+        <a class="hompage-link" href="mountain-bike-selection-tool.html">
           <img src="images/mtn-logo-2.png" class="mtn-logo">
           Start Mountain Biking
         </a>
       </h5>
     </div>
-    <a><i class="material-icons previous-arrow">arrow_back</i></a>
-    <!-- <i class ="large material-icons next-arrow">arrow_forward</i> -->
-      <form>
-        <div class="question-wrapper displayed" id="past-experience">
-          <div class="question-header-wrapper">
-            <h3 class="form-text">Your past mtb experience</h3>
-          </div>
-          <div class="past-experience-question-wrapper">
-            <p>
-              <input type="radio" name='past-experience' id="no-experience" class="next-question past-experience-question" value="no-experience">
-              <label for="no-experience">None</label>
-            </p>
-            <p>
-              <input type="radio" name='past-experience' id="some-experience" class="next-question past-experience-question" value="some-experience">
-              <label for="some-experience">More than 10 total rides</label>
-            </p>
-            <p>
-              <input type="radio" name='past-experience' id="more-experience" class="next-question past-experience-question" value="more-experience">
-              <label for="more-experience">Less than 10 times total rides</label>
-            </p>
-          </div>
-        </div>
 
-        <div class="question-wrapper not-displayed multiple-select-wrapper" id="usage-type">
-          <div class="question-header-wrapper">
-            <h3 class="form-text" id="usage-type-header-text">Use type (select multiple)</h3>
+    <div class="get-started-container">
+      <div class="get-started-text-container">
+        <div class="row">
+          <div class="col s6">
+            <p class="get-started-text-item">Before you get here <i class ="medium material-icons next-arrow">arrow_forward</i></p>
+            <p class="get-started-text-item">We need to find you a bike</p>
+            <a href="mountain-bike-selection-tool.html" class="get-started-next-link">Let's get started</a>
           </div>
-          <div class="usage-type-question-wrapper">
-            <p>
-              <input type="checkbox" class="checking-checked" id="trail-riding" value="trail riding">
-              <label for="trail-riding">Trail riding</label>
-            </p>
-            <p>
-              <input type="checkbox" id="cross-country" value="cross-country">
-              <label for="cross-country">Cross country</label>
-            </p>
-            <p>
-              <input type="checkbox" id="enduro" value="enduro">
-              <label for="enduro">All mountain / enduro</label>
-            </p>
-            <br>
-          </div>
-          <div class="multiple-select-btn-styles">
-            <a class="waves-effect waves-light btn next-question multiple-select-btn usgage-type-question" id="usage-type-answered" type="button" disabled>Next question</a>
-          </div>
+          <img class="col s5 get-started-image" src="images/bike-views.jpg">
         </div>
+        <br>
+      </div>
+    </div>
 
-        <div class="question-wrapper" id='snow-sand'>
-          <div class="question-header-wrapper">
-            <h3 class="form-text">Frequent snow or sand use?</h3>
-          </div>
-          <div class="snow-sand-question-wrapper">
-            <p>
-              <input type="radio" name='snow-sand' class="next-question snow-sand-question" id="yes-snow" value="yes-snow">
-              <label for="yes-snow">Yes</label>
-            </p>
-            <p>
-              <input type="radio" name='snow-sand' class="next-question snow-sand-question" id="no-snow" value="no-snow">
-              <label for="no-snow">No</label>
-            </p>
-          </div>
+    <div class="get-started-container-responsive">
+      <div class="get-started-text-container">
+            <p class="get-started-text-item">Before you get here:</p>
+            <img class="col s5 get-started-image" src="images/bike-views.jpg">
+            <p class="get-started-text-item">We need to find you a bike</p>
+            <a href="mountain-bike-selection-tool.html" class="get-started-next-link">Let's get started</a>
         </div>
-
-        <div class="question-wrapper not-displayed" id="budget">
-          <div class="question-header-wrapper">
-            <h3 class="form-text" id="budget-header-text">What is your budget?</h3>
-          </div>
-          <div class="budget-question-wrapper">
-            <p>
-              <input type="radio" name="budget" class="next-question budget-question" id="under-500" value="under-500">
-              <label for="under-500">< $500</label>
-            </p>
-            <p>
-              <input type="radio" name="budget" class="next-question budget-question" id="500-1000" value="500-1000">
-              <label for="500-1000">$500 - 1000</label>
-            </p>
-            <p>
-              <input type="radio" name="budget" class="next-question budget-question" id="1000-2000" value="1000-2000">
-              <label for="1000-2000">$1000 - 2000</label>
-            </p>
-            <p>
-              <input type="radio" name="budget" class="next-question budget-question" id="2000-3000" value="2000-3000">
-              <label for="2000-3000">$2000 - 3000</label>
-            </p>
-            <p>
-              <input type="radio" name="budget" class="next-question budget-question" id="3000-4000" value="3000-4000">
-              <label for="3000-4000">$3000 - 4000</label>
-            </p>
-            <p>
-              <input type="radio" name="budget" class="next-question budget-question" id="greater-4000" value="greater-4000">
-              <label for="greater-4000">> $4000</label>
-            </p>
-          </div>
-        </div>
-
-        <!-- NOTE: if this ever is not the last question make sure to update the new one to have class fo last-question -->
-        <div class="question-wrapper not-displayed" id="height">
-          <div class="question-header-wrapper">
-            <h3 class="form-text">Select your height</h3>
-          </div>
-          <div class="height-question-wrapper">
-            <p>
-              <input type="radio" name="height" class="next-question height-question" id="4.10-5.3" value="4.10-5.3">
-              <label for="4.10-5.3">4'10" - 5'3"</label>
-            </p>
-            <p>
-              <input type="radio" name="height" class="next-question height-question" id="5.4-5.7" value="5.4-5.7">
-              <label for="5.4-5.7">5'4" - 5'7"</label>
-            </p>
-            <p>
-              <input type="radio" name="height" class="next-question height-question" id="5.8-5.11" value="5.8-5.11">
-              <label for="5.8-5.11">5'8" - 5'11"</label>
-            </p>
-            <p>
-              <input type="radio" name="height" class="next-question height-question" id="6-6.2" value="6-6.2">
-              <label for="6-6.2">6' - 6'2"</label>
-            </p>
-            <p>
-              <input type="radio" name="height" class="next-question height-question" id="6.3-6.5" value="6.3-6.5">
-              <label for="6.3-6.5">6'3" - 6'5"</label>
-            </p>
-          </div>
-        </div>
-
-        <div class="question-wrapper not-displayed" id='gender'>
-          <div class="question-header-wrapper">
-            <h3 class="form-text">Select your gender</h3>
-          </div>
-          <div class="gender-question-wrapper">
-            <p>
-              <input type="radio" name="gender" class="next-question gender-question" id="female" value="female">
-              <label for="female">Female</label>
-            </p>
-            <p>
-              <input type="radio" name="gender" class="next-question gender-question" id="male" value="male">
-              <label for="male">Male</label>
-            </p>
-          </div>
-        </div>
-
-        <div class="question-wrapper not-displayed" id="smooth-ride-vs-parts">
-          <div class="question-header-wrapper">
-            <h3 class="form-text">What do you prefer?</h3>
-          </div>
-          <div class="smooth-ride-vs-parts-question-wrapper">
-            <p>
-              <input type="radio" name='smooth-ride-vs-parts' id="comfort-over-parts" class="next-question smooth-ride-vs-parts-question" value="comfort-over-parts">
-              <label for="comfort-over-parts">Maximized ride comfort, would sacrifice some bike quality for comfort.</label>
-            </p>
-            <p>
-              <input type="radio" name='smooth-ride-vs-parts' id="parts-over-comfort" class="next-question smooth-ride-vs-parts-question" value="parts-over-comfort">
-              <label for="parts-over-comfort">Highest quality bike parts over maximized ride comfort.</label>
-            </p>
-            <p>
-              <input type="radio" name='smooth-ride-vs-parts' id="both-comfort-and-parts" class="next-question smooth-ride-vs-parts-question" value="both-comfort-and-parts">
-              <label for="both-comfort-and-parts">Maximized ride comfort and highest quality bike parts (higher bike price point).</label>
-            </p>
-          </div>
-        </div>
-
-        <div class="question-wrapper not-displayed last-question" id="jump-riding">
-          <div class="question-header-wrapper">
-            <h3 class="form-text">Expected jump riding?</h3>
-          </div>
-          <div class="jump-riding-question-wrapper">
-            <p>
-              <input type="radio" name='jump-riding' id="no-jumps" class="next-question jump-riding-question" value="no-jumps">
-              <label for="no-jumps">None.</label>
-            </p>
-            <p>
-              <input type="radio" name='jump-riding' id="some-small-jumps" class="next-question jump-riding-question" value="some-small-jumps">
-              <label for="some-small-jumps">Some 2-3 foot dirt jumps and drops.</label>
-            </p>
-            <p>
-              <input type="radio" name='jump-riding' id="some-large-jumps" class="next-question jump-riding-question" value="some-large-jumps">
-              <label for="some-large-jumps">Some larger dirt jumps and drops.</label>
-            </p>
-            <p>
-              <input type="radio" name='jump-riding' id="frequent-small-jumps" class="next-question jump-riding-question" value="frequent-small-jumps">
-              <label for="frequent-small-jumps">Frequent 2-3 foot dirt jumps and drops.</label>
-            </p>
-            <p>
-              <input type="radio" name='smooth-ride-vs-parts' id="frequent-large-jumps" class="next-question jump-riding-question" value="frequent-large-jumps">
-              <label for="frequent-large-jumps">Frequent larger dirt jumps and drops.</label>
-            </p>
-          </div>
-        </div>
-      </form>
+        <br>
+      </div>
+    </div>
   </body>
 </html>

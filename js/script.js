@@ -188,7 +188,7 @@ function determineResults() {
 }
 
 function envCheckForUrlPush(bike_file) {
-  if (window.location.href == "file:///Users/jackburum/mountain-bike-starter/index.html") {
+  if (window.location.href == "file:///Users/jackburum/mountain-bike-starter/mountain-bike-selection-tool.html") {
     window.location.href = `file:///Users/jackburum/mountain-bike-starter/bikes/${bike_file}.html`
   } else {
     window.location.href = `https://mtnbikestarter.github.io/bikes/${bike_file}.html`
