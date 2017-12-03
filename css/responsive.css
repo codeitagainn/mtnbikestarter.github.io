@@ -129,6 +129,33 @@
   [type="checkbox"]+label {
     font-size: 1.3rem;
   }
+
+  /* BEGIN response design for get started styles*/
+  .get-started-image {
+    width: 82%;
+    height: 370px;
+    margin-bottom: 5%;
+  }
+
+  .get-started-text-container {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+
+  .get-started-text-item {
+    padding-bottom: 7%;
+  }
+
+  .get-started-container-responsive {
+    top: 19%;
+    height: 75%;
+    display: initial;
+  }
+
+  .get-started-container {
+    display: none;
+  }
+  /* END responsive design for get started styles*/
 }
 
 /* iPhone 6Plus */
@@ -271,6 +298,33 @@
   .header-links {
     display: none;
   }
+
+  /* BEGIN response design for get started styles*/
+  .get-started-image {
+    width: 82%;
+    height: 300px;
+    margin-bottom: 8%;
+  }
+
+  .get-started-text-container {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .get-started-text-item {
+    padding-bottom: 10%;
+  }
+
+  .get-started-container-responsive {
+    top: 19%;
+    height: 75%;
+    display: initial;
+  }
+
+  .get-started-container {
+    display: none;
+  }
+  /* END responsive design for get started styles*/
 }
 
 /* iPhone 6 */
@@ -404,6 +458,33 @@
   .header-links {
     display: none;
   }
+
+  /* BEGIN response design for get started styles*/
+  .get-started-image {
+    width: 82%;
+    height: 260px;
+    margin-bottom: 8%;
+  }
+
+  .get-started-text-container {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .get-started-text-item {
+    padding-bottom: 9%;
+  }
+
+  .get-started-container-responsive {
+    top: 19%;
+    height: 75%;
+    display: initial;
+  }
+
+  .get-started-container {
+    display: none;
+  }
+  /* END responsive design for get started styles*/
 }
 
 /* iPhone 5: NOTE: if screen is wider than 480pixels go up one media query. if 480 or less use this */
@@ -566,4 +647,38 @@
   .header-links {
     display: none;
   }
+
+  [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+      font-size: 1rem;
+  }
+
+  [type="checkbox"]+label {
+      font-size: 1rem;
+  }
+
+  /* BEGIN response design for get started styles*/
+  .get-started-image {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 4%;
+  }
+
+  .get-started-text-container {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .get-started-text-item {
+    padding-bottom: 4%;
+  }
+
+  .get-started-container-responsive {
+    top: 19%;
+    display: initial;
+  }
+
+  .get-started-container {
+    display: none;
+  }
+  /* END responsive design for get started styles*/
 }
