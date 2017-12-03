@@ -328,3 +328,67 @@ h1 { margin: 0; }
   width: 55px;
   height: 40px;
 }
+
+/* BEGIN getting started container styling */
+.get-started-container {
+  position: absolute;
+  border-radius: 25px;
+  width: 80%;
+  height: 70%;
+  box-shadow: -4px 9px 12px 0px #417B5A, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*background-color: #61E294;*/
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  /*border: 2px solid #64F58D;*/
+  top: 24%;
+  left: 10%;
+}
+
+.get-started-text-container {
+  padding-top: 4%;
+  padding-bottom: 5%;
+  font-size: 2.5rem;
+  padding-left: 2%;
+}
+
+.get-started-text-item {
+  padding-bottom: 15%;
+  font-weight: 500;
+  color: #06D6A0;
+}
+
+.get-started-next-link {
+  padding-bottom: 15%;
+  font-weight: 500;
+  color: #7A28CB;
+  text-decoration: underline;
+  text-decoration-color: #3C91E6;
+}
+/* END getting started container styling */
+
+
+/* BEGIN get-started-image styling */
+.get-started-image {
+  border-radius: 25px;
+  box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.2), 8px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row .col.s5 {
+  width: 45%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.row .col {
+  padding: 0;
+}
+/* END get-started-image styling */
+
+
+i.medium {
+    position: relative;
+    top: 5%;
+    font-size: 4rem;
+    /*NOTE: this is the greatest thing ever*/
+    vertical-align: middle;
+}

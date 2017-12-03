@@ -566,4 +566,12 @@
   .header-links {
     display: none;
   }
+
+  [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+      font-size: 1rem;
+  }
+
+  [type="checkbox"]+label {
+      font-size: 1rem;
+  }
 }
