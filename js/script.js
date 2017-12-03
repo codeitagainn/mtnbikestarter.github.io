@@ -11,7 +11,12 @@ $(document).ready(function(){
   nextQuestionArrow()
   lastQuestionCheck()
   disableLowBudgetsForCcAndDh()
+  underlineBlueQuestionHeaders()
 })
+
+function underlineBlueQuestionHeaders() {
+  $('.question-header-wrapper:odd').children().css('border-bottom', '2px solid #004FFF')
+}
 
 function checkBoxEnable() {
   $('.multiple-select-wrapper :input').click(function() {

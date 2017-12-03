@@ -10,7 +10,7 @@ h6 {
 }
 
 .side-nav {
-  background-color: #2bbbad;
+  background-color: #06D6A0;
   color: white;
 }
 
@@ -30,16 +30,16 @@ h6 {
 }
 
 .card .card-action {
-  border-top: 2px solid #26a69a;
-  border: 2px solid #26a69a;
+  border-top: 2px solid #06D6A0;
+  border: 2px solid #06D6A0;
   text-align: center;
 }
 
 /* NOTE: this overrides the color of the more info link need both selectors */
 .card .card-action bike-info-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-  color: #26a69a;
+  color: #06D6A0;
 }
 /* NOTE: this overrides the color of the more info link need both selectors */
 .card .card-action bike-info-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-  color: #26a69a;
+  color: #06D6A0;
 }

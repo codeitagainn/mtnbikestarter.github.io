@@ -5,7 +5,7 @@
 }
 
 .resources-group-header span {
-  border-bottom: 2px solid #2bbbad;
+  border-bottom: 2px solid #06D6A0;
 }
 
 .resources-group {
@@ -28,7 +28,7 @@
 }
 
 .resources-group i {
-  color: #2bbbad;
+  color: #06D6A0;
   margin-left: 5%;
   margin-bottom: 3%;
 }
