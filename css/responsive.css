@@ -140,6 +140,7 @@
   .get-started-text-container {
     text-align: center;
     font-size: 3.5rem;
+    padding-top: 6%;
   }
 
   .get-started-text-item {
@@ -148,7 +149,7 @@
 
   .get-started-container-responsive {
     top: 19%;
-    height: 90%;
+    height: 800px;
     display: initial;
   }
 
@@ -309,6 +310,7 @@
   .get-started-text-container {
     text-align: center;
     font-size: 1.7rem;
+    padding-top: 7%;
   }
 
   .get-started-text-item {
@@ -317,7 +319,7 @@
 
   .get-started-container-responsive {
     top: 19%;
-    height: 90%;
+    height: 550px;
     display: initial;
   }
 
@@ -469,6 +471,7 @@
   .get-started-text-container {
     text-align: center;
     font-size: 1.7rem;
+    padding-top: 6%;
   }
 
   .get-started-text-item {
@@ -477,7 +480,7 @@
 
   .get-started-container-responsive {
     top: 19%;
-    height: 90%;
+    height: 490px;
     display: initial;
   }
 
@@ -673,8 +676,8 @@
   }
 
   .get-started-container-responsive {
-    top: 19%;
-    height: 400px;
+    top: 21%;
+    height: 420px;
     display: initial;
   }
 
