@@ -272,7 +272,7 @@
   }
 
   .page-title {
-    padding-top: 35%;
+    padding-top: 20%;
     padding-bottom: 10%;
   }
 
@@ -311,14 +311,19 @@
   }
 
   .resources-group-header {
-    font-size: 24px;
+    font-size: 29px;
     margin-bottom: 7%;
     margin-top: 7%;
   }
 
   .resources-group p {
-    font-size: 19px;
+    font-size: 25px;
     margin-bottom: 4%;
+    margin-left: 4%;
+  }
+
+  .resources-group i {
+    font-size: 2.4rem;
   }
 
   .bike-page-cards .card {
@@ -362,6 +367,8 @@
   .get-started-container-responsive {
     top: 18%;
     height: 550px;
+    width: 76%;
+    left: 12%;
     display: initial;
   }
 
@@ -459,7 +466,7 @@
   }
 
   .resources-group i {
-    font-size: 1.25em;
+    font-size: 2em;
   }
 
   .no-path-delcared-text {
@@ -523,6 +530,8 @@
   .get-started-container-responsive {
     top: 19%;
     height: 490px;
+    width: 73%;
+    left: 13%;
     display: initial;
   }
 
@@ -596,7 +605,7 @@
   }
 
   h5 {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .side-nav {
@@ -645,21 +654,17 @@
   }
 
   .resources-group i {
-    font-size: 1.25em;
-  }
-
-  .resources-group p {
-    font-size: 1.25em;
+    font-size: 2em;
   }
 
   .resources-group-header {
-    font-size: 19px;
+    font-size: 22px;
     margin-bottom: 7%;
     margin-top: 7%;
   }
 
   .resources-group p {
-    font-size: 16px;
+    font-size: 19px;
     margin-bottom: 4%;
   }
 
@@ -684,7 +689,7 @@
   .menu-more-links {
     font-size: 15px;
     left: 80%;
-    top: 26px;
+    top: 27px;
     line-height: 160%;
     display: initial;
   }
@@ -720,6 +725,8 @@
   .get-started-container-responsive {
     top: 18%;
     height: 420px;
+    left: 12%;
+    width: 75%;
     display: initial;
   }
 
