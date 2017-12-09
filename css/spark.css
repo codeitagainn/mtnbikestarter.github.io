@@ -190,7 +190,7 @@
   background-color: #06D6A0;
 }
 
-.made-in-section p {
+.made-in-section .made-w-love {
   padding-top: 15px;
   font-weight: 500;
   color: white;
@@ -207,6 +207,7 @@
 
 .copyright .material-icons {
   font-size: 20px;
+  vertical-align: top;
 }
 /* END made in section */
 
