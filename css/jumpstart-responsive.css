@@ -1,0 +1,87 @@
+@media only screen and (max-width: 958px) {
+}
+
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* IPAD */
+@media only screen and (max-width: 768px) {
+  .nav-container {
+    height: 7%;
+  }
+
+  .menu-more-links {
+    display: initial;
+    margin: 2% 8%;
+  }
+
+  .header-links-large {
+    display:  none;
+  }
+
+  .elevator-pitch {
+    height: 20%;
+  }
+
+  .current-projects {
+    height: 28%;
+  }
+
+  .current-projects h4 {
+    padding: 5% 0 2% 0;
+  }
+
+  .reviews-section {
+    height: 45%;
+  }
+
+  .reviews-section h4 {
+    padding-top: 4%;
+  }
+
+  .partners-container {
+    padding-top: 3%;
+  }
+
+  .partners-section h4 {
+    padding-top: 4%;
+    margin: 0;
+  }
+
+  .partners-section {
+    height: 25%;
+  }
+
+  .toggle-display {
+    display: none;
+  }
+
+  .made-in-section {
+    height: 5%;
+  }
+
+  .copyright {
+    margin-right: 5%;
+  }
+
+  .made-in-section .made-w-love {
+    float: left;
+    margin-left: 3%;
+  }
+}
+
+/* iPhone 6Plus */
+@media only screen and (max-width: 414px) {
+
+}
+
+/* iPhone 6 */
+@media only screen and (max-width: 375px) {
+
+}
+
+/* iPhone 5 */
+@media only screen and (max-width: 320px) {
+
+}
