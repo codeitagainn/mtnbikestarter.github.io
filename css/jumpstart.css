@@ -43,14 +43,14 @@
   color: black;
 }
 
-.spark-logo {
+.jumpstart-logo {
   width: 40px;
   height: 40px;
   vertical-align: bottom;
 }
 
 
-.spark-comp-name {
+.jumpstart-comp-name {
   position: absolute;
   top: 1%;
   left: 5%;
@@ -64,11 +64,11 @@
   vertical-align: middle;
 }
 
-.spark-comp-name h5 {
+.jumpstart-comp-name h5 {
   font-size: 2rem;
 }
 
-.spark-header-links {
+.jumpstart-header-links {
   position: absolute;
   top: 27px;
   left: 37%;
