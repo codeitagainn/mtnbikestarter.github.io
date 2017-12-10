@@ -1,11 +1,11 @@
 @media only screen and (max-width: 958px) {
   /* BEGIN navbar formatting*/
   .menu-more-links {
-    font-size: 26px;
+    /*font-size: 26px;
     left: 80%;
     top: 48px;
     line-height: 160%;
-    display: initial;
+    display: initial;*/
   }
 
   .header-links {
@@ -147,11 +147,11 @@
   }
 
   .menu-more-links {
-    font-size: 30px;
+    /*font-size: 30px;
     left: 80%;
     top: 4%;
     line-height: 160%;
-    display: initial;
+    display: initial;*/
   }
 
   h5 {
@@ -199,7 +199,15 @@
     display: none;
   }
   /* END responsive design for get started styles*/
+
+  /* BEGIN new design */
+  .header-links-large {
+    display: none;
+  }
+  /* END new design */
 }
+
+
 
 /* iPhone 6Plus */
 @media only screen and (max-width: 414px) {
@@ -336,11 +344,11 @@
   }
 
   .menu-more-links {
-    font-size: 20px;
+    /*font-size: 20px;
     left: 80%;
     top: 4%;
     padding-bottom: 1%;
-    display: initial;
+    display: initial;*/
   }
 
   .header-links {
@@ -499,11 +507,11 @@
   }
 
   .menu-more-links {
-    font-size: 18px;
+    /*font-size: 18px;
     left: 79%;
     top: 28px;
     line-height: 160%;
-    display: initial;
+    display: initial;*/
   }
 
   .header-links {
@@ -687,11 +695,11 @@
   }
 
   .menu-more-links {
-    font-size: 15px;
+    /*font-size: 15px;
     left: 80%;
     top: 27px;
     line-height: 160%;
-    display: initial;
+    display: initial;*/
   }
 
   .header-links {

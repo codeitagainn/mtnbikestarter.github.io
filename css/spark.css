@@ -1,3 +1,23 @@
+.nav-container {
+  margin-top: 3%;
+}
+
+.nav-container #comp-name-questions-page {
+  margin-left: 5%;
+}
+
+.nav-container a {
+  font-size: 30px;
+}
+
+.nav-container .menu-more-links {
+  margin-right: 5%;
+}
+
+.header-links-large {
+  margin-left: 28%;
+}
+
 .spark-logo {
   width: 40px;
   height: 40px;
@@ -12,6 +32,15 @@
   color: white;
   font-size: 18px;
   border-bottom: 2px solid #06D6A0;
+}
+
+.menu-header-link {
+  border: 2px solid #06D6A0;
+  border-radius: 0 0 2px 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  padding: 1px 20px 1px 22px;
+  color: #06D6A0;
+  text-align: center;
 }
 
 .spark-comp-name h5 {
