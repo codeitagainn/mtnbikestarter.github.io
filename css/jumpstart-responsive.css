@@ -200,5 +200,58 @@
 
 /* iPhone 5 */
 @media only screen and (max-width: 320px) {
+  .spark-logo {
+    width: 30px;
+    height: 30px;
+  }
 
+  .nav-container .jumpstart-logo-link {
+    font-size: 20px;
+  }
+
+  .menu-more-links .material-icons {
+    font-size: 18px;
+  }
+
+  .nav-container {
+    padding-top: 3%;
+  }
+
+  .nav-container a {
+    font-size: 20px;
+    line-height: 1;
+    padding-top: 2%;
+  }
+
+  .elevator-pitch {
+    height: 25%;
+  }
+
+  .elevator-pitch-header {
+    padding-top: 3%;
+  }
+
+  .current-projects {
+    height: 130%;
+  }
+
+  .current-projects h4 {
+    padding: 11% 0 2% 0;
+  }
+
+  .reviews-section {
+    height: 85%;
+  }
+
+  .partners-section {
+    height: 24%;
+  }
+
+  .partners-row {
+    margin-left: 2%;
+  }
+
+  .copyright {
+    margin-right: 3%;
+  }
 }
