@@ -1,0 +1,257 @@
+@media only screen and (max-width: 958px) {
+}
+
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* IPAD */
+@media only screen and (max-width: 768px) {
+  .nav-container {
+    height: 7%;
+  }
+
+  .menu-more-links {
+    display: initial;
+    margin: 2% 8%;
+  }
+
+  .header-links-large {
+    display:  none;
+  }
+
+  .elevator-pitch {
+    height: 20%;
+  }
+
+  .current-projects {
+    height: 28%;
+  }
+
+  .current-projects h4 {
+    padding: 5% 0 2% 0;
+  }
+
+  .reviews-section {
+    height: 45%;
+  }
+
+  .reviews-section h4 {
+    padding-top: 4%;
+  }
+
+  .partners-container {
+    padding-top: 3%;
+  }
+
+  .partners-section h4 {
+    padding-top: 4%;
+    margin: 0;
+  }
+
+  .partners-section {
+    height: 25%;
+  }
+
+  .toggle-display {
+    display: none;
+  }
+
+  .made-in-section {
+    height: 5%;
+  }
+
+  .copyright {
+    margin-right: 5%;
+  }
+
+  .made-in-section .made-w-love {
+    float: left;
+    margin-left: 3%;
+  }
+}
+
+/* iPhone 6Plus */
+@media only screen and (max-width: 414px) {
+  .nav-container {
+    height: 9%;
+    padding-top: 1%;
+  }
+
+  .menu-more-links {
+    display: initial;
+    margin: 2% 8%;
+  }
+
+  .elevator-pitch-header {
+    margin-top: 7%;
+  }
+
+  .current-projects {
+    height: 100%;
+  }
+
+  .current-projects h4 {
+    padding: 7% 0 2% 0;
+  }
+
+  /* BEGIN materialize overrides for iphone6 plus */
+  .row .col.s11 {
+    margin-left: 4%;
+  }
+
+  .row .col.s2 {
+    width: 25%;
+  }
+
+  .row .col.s1 {
+    width: 20%;
+  }
+  /* END materialize overrides for iphone 6 plus */
+
+  .project-item {
+    margin-bottom: 5%;
+  }
+
+  .partners-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .partners-image-rei {
+    width: 60px;
+    height: 50px;
+    margin-left: 0;
+  }
+
+  .partners-image-evo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .project-row {
+    margin-top: 5%;
+  }
+
+  .reviews-section {
+    height: 60%;
+  }
+
+  .reviews-section h4 {
+    padding-top: 6%;
+  }
+
+  .partners-section {
+    height: 23%;
+  }
+
+  .made-in-section .made-w-love {
+    padding-top: 3%;
+  }
+
+  .copyright {
+    padding-top: 3%;
+  }
+
+  .copyright .material-icons {
+    font-size: 14px;
+  }
+
+  .made-in-section {
+    font-size: 10px;
+  }
+
+  .toggle-display-ip6plus {
+    display: none;
+  }
+}
+
+/* iPhone 6 */
+@media only screen and (max-width: 375px) {
+  .nav-container {
+    height: 11%;
+    padding-top: 2%;
+  }
+
+  .nav-container .jumpstart-logo-link {
+    font-size: 25px;
+  }
+
+  .projects-wrapper {
+    padding-top: 3%;
+  }
+
+  .current-projects {
+    height: 110%;
+  }
+
+  .reviews-section {
+    height: 65%;
+  }
+
+  .partners-section {
+    height: 26%;
+  }
+
+  .partners-section h4 {
+    padding-top: 2%;
+  }
+}
+
+/* iPhone 5 */
+@media only screen and (max-width: 320px) {
+  .jumpstart-logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .nav-container .jumpstart-logo-link {
+    font-size: 20px;
+  }
+
+  .menu-more-links .material-icons {
+    font-size: 18px;
+  }
+
+  .nav-container {
+    padding-top: 3%;
+  }
+
+  .nav-container a {
+    font-size: 20px;
+    line-height: 1;
+    padding-top: 2%;
+  }
+
+  .elevator-pitch {
+    height: 25%;
+  }
+
+  .elevator-pitch-header {
+    padding-top: 3%;
+  }
+
+  .current-projects {
+    height: 130%;
+  }
+
+  .current-projects h4 {
+    padding: 11% 0 2% 0;
+  }
+
+  .reviews-section {
+    height: 85%;
+  }
+
+  .partners-section {
+    height: 24%;
+  }
+
+  .partners-row {
+    margin-left: 2%;
+  }
+
+  .copyright {
+    margin-right: 3%;
+  }
+}
