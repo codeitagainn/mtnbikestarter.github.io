@@ -1,21 +1,46 @@
 .nav-container {
-  margin-top: 3%;
+  margin: 1% 0 0 5%;
+  width: 100%;
+  height: 10%;
 }
 
 .nav-container #comp-name-questions-page {
-  margin-left: 5%;
+  display: inline;
+  margin-right: 13%;
+}
+
+#comp-name-questions-page h5 {
+  display: inline
 }
 
 .nav-container a {
+  font-size: 25px;
+  vertical-align: bottom;
+  border-bottom: 2px solid #06D6A0;
+  color: black;
+}
+
+.nav-container .jumpstart-logo-link {
   font-size: 30px;
 }
 
-.nav-container .menu-more-links {
-  margin-right: 5%;
+.header-links-large {
+  display: inline;
+  line-height: 1;
 }
 
-.header-links-large {
-  margin-left: 28%;
+.header-links-large .menu-header-link {
+  color: #06D6A0;
+  border: 2px solid #06D6A0;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  padding: 1px 20px 1px 22px;
+  text-align: center;
+}
+
+.jumpstart-header-link {
+  border-bottom: 2px solid #06D6A0;
+  margin-right: 4%;
+  color: black;
 }
 
 .spark-logo {
@@ -34,13 +59,9 @@
   border-bottom: 2px solid #06D6A0;
 }
 
-.menu-header-link {
-  border: 2px solid #06D6A0;
-  border-radius: 0 0 2px 2px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-  padding: 1px 20px 1px 22px;
-  color: #06D6A0;
-  text-align: center;
+.menu-header-link i {
+  font-size: 25px;
+  vertical-align: middle;
 }
 
 .spark-comp-name h5 {
@@ -60,9 +81,8 @@
 /* BEGIN elevator pitch formatting */
 .elevator-pitch {
   width: 100%;
-  height: 250px;
+  height: 38%;
   background-color: #06D6A0;
-  margin-top: 90px;
   text-align: center;
   color: white;
 }
@@ -88,7 +108,7 @@
 /* BEGIN Projects section */
 .current-projects {
   width: 100%;
-  height: 290px;
+  height: 43%;
   background-color: white;
   text-align: center;
   color: black;
@@ -123,7 +143,7 @@
 /* BEGIN what people are saying */
 .reviews-section {
   width: 100%;
-  height: 350px;
+  height: 56%;
   background-color: #06D6A0;
   margin-top: 90px;
   text-align: center;
@@ -165,7 +185,7 @@
 /* BEGIN Partners Section */
 .partners-section {
   width: 100%;
-  height: 250px;
+  height: 40%;
   background-color: white;
   text-align: center;
   color: black;
@@ -214,7 +234,7 @@
 /* BEGIN made in section */
 .made-in-section {
   width: 100%;
-  height: 50px;
+  height: 8%;
   text-align: center;
   background-color: #06D6A0;
 }
@@ -240,8 +260,9 @@
 }
 /* END made in section */
 
-body {
+html, body {
   padding-bottom: 0;
+  height: 100%;
 }
 
 input:not([type]) {
