@@ -1,8 +1,18 @@
+@media only screen and (max-width: 1523px) {
+  .more-links-small {
+    display: none;
+  }
+
+  .nav-container #comp-name-questions-page {
+    display: inline;
+    margin-right: 15%;
+  }
+}
+
 @media only screen and (max-width: 958px) {
 }
 
 @media only screen and (max-width: 1023px) {
-
 }
 
 /* IPAD */
@@ -11,9 +21,8 @@
     height: 7%;
   }
 
-  .menu-more-links {
+  .more-links-small {
     display: initial;
-    margin: 2% 8%;
   }
 
   .header-links-large {
@@ -71,6 +80,11 @@
   .made-in-section .made-w-love {
     float: left;
     margin-left: 3%;
+  }
+
+  .nav-container #comp-name-questions-page {
+    display: inline;
+    margin-right: 23%;
   }
 }
 

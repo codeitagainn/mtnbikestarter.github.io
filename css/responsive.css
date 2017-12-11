@@ -1,11 +1,11 @@
 @media only screen and (max-width: 958px) {
   /* BEGIN navbar formatting*/
   .menu-more-links {
-    /*font-size: 26px;
+    font-size: 26px;
     left: 80%;
     top: 48px;
     line-height: 160%;
-    display: initial;*/
+    display: none;
   }
 
   .header-links {
@@ -67,6 +67,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+
+  .menu-more-links {
+    display: none;
   }
 }
 

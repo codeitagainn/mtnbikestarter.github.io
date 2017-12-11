@@ -15,7 +15,7 @@ $(document).ready(function(){
 })
 
 function underlineBlueQuestionHeaders() {
-  $('.question-header-wrapper:odd').children().css('border-bottom', '2px solid #004FFF')
+  $('.question-header-wrapper:odd').children().css('border-bottom', '2px solid #417B5A')
 }
 
 function checkBoxEnable() {
