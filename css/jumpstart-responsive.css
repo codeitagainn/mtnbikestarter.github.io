@@ -77,8 +77,8 @@
 /* iPhone 6Plus */
 @media only screen and (max-width: 414px) {
   .nav-container {
-    height: 9%;
-    padding-top: 1%;
+    height: 90px;
+    padding-top: 4%;
   }
 
   .menu-more-links {
@@ -86,8 +86,12 @@
     margin: 2% 8%;
   }
 
+  .elevator-pitch {
+    height: 330px;
+  }
+
   .elevator-pitch-header {
-    margin-top: 7%;
+    margin-top: 15%;
   }
 
   .current-projects {
@@ -227,7 +231,7 @@
   }
 
   .elevator-pitch {
-    height: 250px;
+    height: 310px;
   }
 
   .elevator-pitch-header {
@@ -267,6 +271,6 @@
   }
 
   .made-in-section {
-    height: 50px;
+    height: 30px;
   }
 }
