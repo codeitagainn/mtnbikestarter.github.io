@@ -1,14 +1,3 @@
-@media only screen and (max-width: 1523px) {
-  .more-links-small {
-    display: none;
-  }
-
-  .nav-container #comp-name-questions-page {
-    display: inline;
-    margin-right: 15%;
-  }
-}
-
 @media only screen and (max-width: 958px) {
 }
 
