@@ -21,11 +21,11 @@
   }
 
   .elevator-pitch {
-    height: 20%;
+    height: 200px;
   }
 
   .current-projects {
-    height: 28%;
+    height: 300px;
   }
 
   .current-projects h4 {
@@ -33,7 +33,7 @@
   }
 
   .reviews-section {
-    height: 45%;
+    height: 450px;
   }
 
   .reviews-section h4 {
@@ -50,7 +50,7 @@
   }
 
   .partners-section {
-    height: 25%;
+    height: 250px;
   }
 
   .toggle-display {
@@ -58,7 +58,7 @@
   }
 
   .made-in-section {
-    height: 5%;
+    height: 50px;
   }
 
   .copyright {
