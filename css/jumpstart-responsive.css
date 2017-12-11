@@ -21,36 +21,39 @@
   }
 
   .elevator-pitch {
-    height: 20%;
+    height: 230px;
+  }
+
+  .elevator-pitch-header {
+    margin-top: 7%;
   }
 
   .current-projects {
-    height: 28%;
+    height: 300px;
   }
 
   .current-projects h4 {
-    padding: 5% 0 2% 0;
+      padding: 6% 0 2% 0;
   }
 
   .reviews-section {
-    height: 45%;
+    height: 470px;
   }
 
   .reviews-section h4 {
-    padding-top: 4%;
+    padding-top: 5%;
+  }
+
+  .partners-section {
+    height: 250px;
+  }
+
+  .partners-section h4 {
+    padding-top: 5%;
   }
 
   .partners-container {
     padding-top: 3%;
-  }
-
-  .partners-section h4 {
-    padding-top: 4%;
-    margin: 0;
-  }
-
-  .partners-section {
-    height: 25%;
   }
 
   .toggle-display {
@@ -58,7 +61,7 @@
   }
 
   .made-in-section {
-    height: 5%;
+    height: 50px;
   }
 
   .copyright {
@@ -224,7 +227,7 @@
   }
 
   .elevator-pitch {
-    height: 25%;
+    height: 250px;
   }
 
   .elevator-pitch-header {
@@ -232,7 +235,7 @@
   }
 
   .current-projects {
-    height: 130%;
+    height: 750px;
   }
 
   .current-projects h4 {
@@ -240,11 +243,19 @@
   }
 
   .reviews-section {
-    height: 85%;
+    height: 500px;
+  }
+
+  .reviews-section h4 {
+    padding-top: 8%;
   }
 
   .partners-section {
-    height: 24%;
+    height: 160px;
+  }
+
+  .partners-section h4 {
+    padding-top: 8%;
   }
 
   .partners-row {
@@ -253,5 +264,9 @@
 
   .copyright {
     margin-right: 3%;
+  }
+
+  .made-in-section {
+    height: 50px;
   }
 }
