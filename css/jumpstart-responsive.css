@@ -181,7 +181,7 @@
 /* iPhone 6 */
 @media only screen and (max-width: 375px) {
   .nav-container {
-    height: 11%;
+    height: 70px;
     padding-top: 2%;
   }
 
@@ -235,6 +235,7 @@
 
   .nav-container {
     padding-top: 3%;
+    height: 60px;
   }
 
   .nav-container a {
@@ -244,7 +245,7 @@
   }
 
   .elevator-pitch {
-    height: 250px;
+    height: 300px;
   }
 
   .elevator-pitch-header {
@@ -284,6 +285,6 @@
   }
 
   .made-in-section {
-    height: 50px;
+    height: 30px;
   }
 }
