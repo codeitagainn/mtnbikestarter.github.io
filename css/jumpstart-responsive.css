@@ -224,7 +224,7 @@
   }
 
   .elevator-pitch {
-    height: 25%;
+    height: 250px;
   }
 
   .elevator-pitch-header {
@@ -232,7 +232,7 @@
   }
 
   .current-projects {
-    height: 130%;
+    height: 750px;
   }
 
   .current-projects h4 {
@@ -240,11 +240,19 @@
   }
 
   .reviews-section {
-    height: 85%;
+    height: 500px;
+  }
+
+  .reviews-section h4 {
+    padding-top: 8%;
   }
 
   .partners-section {
-    height: 24%;
+    height: 160px;
+  }
+
+  .partners-section h4 {
+    padding-top: 8%;
   }
 
   .partners-row {
@@ -253,5 +261,9 @@
 
   .copyright {
     margin-right: 3%;
+  }
+
+  .made-in-section {
+    height: 50px;
   }
 }
