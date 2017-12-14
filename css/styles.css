@@ -1,5 +1,4 @@
 html, body {
-  position: absolute;
   min-width: 100%;
   min-height: 100%;
   width: 100%;
@@ -24,6 +23,10 @@ a .card-action {
   color: #06D6A0;
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.collapsible-header {
+  font-weight: 600;
 }
 
 .card-image {
@@ -402,3 +405,7 @@ i.medium {
   padding: 0;
 }
 /* END get-started-image styling */
+
+.footer-links {
+  padding-left: 10%;
+}

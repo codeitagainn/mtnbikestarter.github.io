@@ -747,4 +747,10 @@
     display: none;
   }
   /* END responsive design for get started styles*/
+
+  /*BEGIN footer responsive styles */
+  .footer-links {
+    padding-left: 5%;
+  }
+  /* END footer responsive styles */
 }

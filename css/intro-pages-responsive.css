@@ -1,0 +1,25 @@
+
+
+/* IPAD */
+@media only screen and (max-width: 768px) {}
+
+/* iPhone 6Plus */
+@media only screen and (max-width: 414px) {
+  .nav-container-intros a {
+    padding-left: 5%;
+  }
+
+  .nav-container-intros {
+    margin-top: 5%;
+  }
+
+  .intro-page-header {
+    margin-top: 65%;
+  }
+}
+
+/* iPhone 6 */
+@media only screen and (max-width: 375px) {}
+
+/* iPhone 5 */
+@media only screen and (max-width: 320px) {}

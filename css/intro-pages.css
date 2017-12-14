@@ -1,0 +1,78 @@
+.nav-container-intros {
+  width: 100%;
+  height: 70px;
+  margin-top: 3%;
+  padding-left: 6%;
+  z-index: 2;
+  position: absolute;
+}
+
+.intro-page-header {
+  margin-top: 15%;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+
+.intro-page-header h2 {
+  padding-bottom: 5%;
+}
+
+.intro-page-header a {
+  color: #06D6A0;
+  font-size: 30px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #06D6A0;
+}
+
+.nav-container-intros #comp-name-questions-page {
+    display: inline;
+    margin-right: 35%;
+}
+
+.nav-container-intros .header-links-large {
+  padding-left: 6%;
+}
+
+.nav-container-intros .jumpstart-logos-link {
+  position: absolute;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.nav-container-intros a {
+  font-size: 25px;
+  vertical-align: bottom;
+  color: white;
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 13px solid #06D6A0;
+  background-color: rgba(0,0,0,.7);
+  z-index: 1;
+}
+
+.outer-container {
+  width: 100%;
+  height: 100%;
+}
+
+#player {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+}

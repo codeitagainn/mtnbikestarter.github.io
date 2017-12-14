@@ -3,6 +3,7 @@
   height: 70px;
   margin-top: 1%;
   padding-left: 4%;
+  z-index: 2;
 }
 
 .nav-container #comp-name-questions-page {
@@ -21,12 +22,19 @@
 .nav-container a {
   font-size: 25px;
   vertical-align: bottom;
-  border-bottom: 2px solid #06D6A0;
   color: black;
+}
+
+.more-links-small i {
+  border-bottom: none;
+  color:  #06D6A0;
+  font-weight: 500;
+  vertical-align: middle;
 }
 
 .nav-container .jumpstart-logo-link {
   font-size: 30px;
+  vertical-align: middle;
 }
 
 .header-links-large {
@@ -50,8 +58,9 @@
 
 .jumpstart-logo {
   width: 40px;
-  height: 40px;
+  height: 60px;
   vertical-align: bottom;
+  padding-top: 2%;
 }
 
 

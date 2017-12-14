@@ -11,10 +11,27 @@ $(document).ready(function(){
   nextQuestionArrow()
   lastQuestionCheck()
   disableLowBudgetsForCcAndDh()
-  underlineBlueQuestionHeaders()
+  underlineDarkGreenQuestionHeaders()
+  // minusPlusToggle()
 })
 
-function underlineBlueQuestionHeaders() {
+// function minusPlusToggle() {
+//   $('.terms').children().click(function() {
+//     // for the thing clicked add the remove add_circle
+//     // for everything else keep add circle
+//     $($(this).find($('.terms-icon'))).text('remove_circle')
+//     // $('.active').find($('.terms-icon')).text('remove_circle')
+//     if ($('.terms').children().hasClass('active')) {
+//       $($(this).find($('.terms-icon'))).text('remove_circle')
+//     } else {
+//       $('.terms').children().each(function() {
+//         $($(this).find($('.terms-icon'))).text('add_circle')
+//       })
+//     }
+//   })
+// }
+
+function underlineDarkGreenQuestionHeaders() {
   $('.question-header-wrapper:odd').children().css('border-bottom', '2px solid #417B5A')
 }
 

@@ -6,6 +6,13 @@
 
 /* IPAD */
 @media only screen and (max-width: 768px) {
+  .jumpstart-logo {
+    width: 40px;
+    height: 50px;
+    vertical-align: bottom;
+    padding-top: 2%;
+  }
+  
   .nav-container {
     height: 7%;
   }
@@ -73,7 +80,12 @@
 
   .nav-container #comp-name-questions-page {
     display: inline;
-    margin-right: 23%;
+    margin-right: 30%;
+    margin-left: 3%;
+  }
+
+  .material-icons {
+    font-size: 35px;
   }
 }
 
