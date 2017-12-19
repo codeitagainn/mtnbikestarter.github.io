@@ -1,10 +1,18 @@
 
 
 /* IPAD */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+  .intro-page-header h2 {
+    padding-top: 45%;
+  }
+}
 
 /* iPhone 6Plus */
 @media only screen and (max-width: 414px) {
+  .intro-page-header h2 {
+    padding-top: 0;
+  }
+
   .nav-container-intros a {
     padding-left: 5%;
   }
