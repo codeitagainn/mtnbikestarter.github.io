@@ -11,10 +11,40 @@ $(document).ready(function(){
   nextQuestionArrow()
   lastQuestionCheck()
   disableLowBudgetsForCcAndDh()
-  underlineBlueQuestionHeaders()
+  underlineDarkGreenQuestionHeaders()
+  minusPlusToggle()
 })
 
-function underlineBlueQuestionHeaders() {
+function minusPlusToggle() {
+  $('.terms').children().click(function() {
+    if ($('.terms').children().hasClass('active')) {
+      // if the element clicked has a class of active, make that add_circle
+      // otherwise make that remove circle
+      let activeElement = $('.active')[1]
+      let actualHtml = $(activeElement).children()[0]
+      $(actualHtml).text('add_circle')
+
+      // What about if the thing clicked doesnt have it?
+      if ($(this).hasClass('active')) {
+        let termsIcons = $($(this).find($('.terms-icon')))
+        let termIcon = $(termsIcons)[0]
+        $(termIcon).text('add_circle')
+      } else {
+        let termsIcons = $($(this).find($('.terms-icon')))
+        let termIcon = $(termsIcons)[0]
+        $(termIcon).text('remove_circle')
+      }
+
+
+      // $($(this).find($('.terms-icon'))).text('remove_circle')
+    } else {
+      // if there is no class of active then set the clicked item to remove circle
+      $($(this).find($('.terms-icon'))).text('remove_circle')
+    }
+  })
+}
+
+function underlineDarkGreenQuestionHeaders() {
   $('.question-header-wrapper:odd').children().css('border-bottom', '2px solid #417B5A')
 }
 
@@ -350,19 +380,19 @@ function showNextQuestionFirstRun(current_question, next_question) {
 function checkWindowAndDisplay(next) {
   switch ($(window).width()) {
     case 320:
-      next.animate({'margin-top': '200px'}, 1700)
+      next.animate({'margin-top': '170px'}, 1700)
       break
     case 375:
-      next.animate({'margin-top': '250px'}, 1700)
+      next.animate({'margin-top': '200px'}, 1700)
       break
     case 414:
-      next.animate({'margin-top': '290px'}, 1700)
+      next.animate({'margin-top': '190px'}, 1700)
       break
     case 768:
-      next.animate({'margin-top': '400px'}, 1700)
+      next.animate({'margin-top': '350px'}, 1700)
       break
     default:
-      next.animate({'margin-top': '250px'}, 1700)
+      next.animate({'margin-top': '150px'}, 1700)
       break
   }
 }

@@ -53,7 +53,7 @@
   }
 
   .page-title {
-    padding-top: 13%;
+    padding-top: 6%;
   }
 
   header {
@@ -282,7 +282,7 @@
   }
 
   .page-title {
-    padding-top: 20%;
+    padding-top: 18%;
     padding-bottom: 10%;
   }
 
@@ -444,7 +444,7 @@
   }
 
   .page-title {
-    padding-top: 25%;
+    padding-top: 20%;
     padding-bottom: 10%;
   }
 
@@ -629,7 +629,7 @@
   }
 
   .page-title {
-    padding-top: 25%;
+    padding-top: 15%;
     padding-bottom: 10%;
   }
 
@@ -747,4 +747,10 @@
     display: none;
   }
   /* END responsive design for get started styles*/
+
+  /*BEGIN footer responsive styles */
+  .footer-links {
+    padding-left: 5%;
+  }
+  /* END footer responsive styles */
 }

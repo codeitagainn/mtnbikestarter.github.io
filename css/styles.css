@@ -1,21 +1,36 @@
+/* BEGIN fonts */
+@font-face {
+  font-family: 'Octin College';
+  src: url('../fonts/octin-college-rg.otf');
+}
+/* END fonts*/
+
+
+html, body {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  padding-bottom: 5%;
-}
-
 html {
-  font-family: 'Avenir', 'cpavenir', helvetica, sans-serif;
+  font-family: 'Octin College'
 }
 
 a .card-action {
   color: #06D6A0;
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.collapsible-header {
+  font-weight: 600;
 }
 
 .card-image {
@@ -89,7 +104,7 @@ p.word-for-definition {
 
 .page-title {
   margin-bottom: 3%;
-  margin-top: 15%;
+  margin-top: 8%;
   text-align: center;
   font-size: 30px;
   color: #06D6A0;
@@ -394,3 +409,7 @@ i.medium {
   padding: 0;
 }
 /* END get-started-image styling */
+
+.footer-links {
+  padding-left: 10%;
+}

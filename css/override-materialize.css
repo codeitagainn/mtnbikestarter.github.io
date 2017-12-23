@@ -50,3 +50,16 @@ h6 {
 .card .card-action bike-info-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #06D6A0;
 }
+
+
+/* page footer padding unnecessary */
+.page-footer {
+  padding-top: 0;
+  margin-top: 30px;
+  background-color: #06D6A0;
+}
+
+/*.row .col.s12 {
+  border-top: 3px solid #999799;
+  border-bottom: 3px solid #999799;
+}*/
