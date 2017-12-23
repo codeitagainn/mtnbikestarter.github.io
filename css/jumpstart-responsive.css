@@ -292,7 +292,6 @@
   }
 
   .nav-container {
-    padding-top: 0;
     height: 40px;
   }
 
@@ -344,5 +343,25 @@
 
   .made-in-section {
     height: 30px;
+  }
+
+  .homepage-btn-mtb {
+    left: 20%;
+  }
+
+  .homepage-btn-snowboard {
+    left: 6%;
+  }
+
+  .side-nav {
+    width: 200px;
+  }
+
+  .more-links-small i {
+    font-size: 35px;
+  }
+
+  .nav-container #comp-name-questions-page {
+    margin-right: 45%;
   }
 }
