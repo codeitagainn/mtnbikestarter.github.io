@@ -41,10 +41,14 @@
     padding-top: 2%;
   }
 
+  .nav-container .jumpstart-logo-link {
+    font-size: 35px;
+  }
+
   .nav-container {
-    height: 3%;
+    height: 5%;
     margin-bottom: 3%;
-    margin-top: 1%;
+    margin-top: 3%;
   }
 
   .more-links-small {
@@ -116,11 +120,27 @@
   }
 
   .material-icons {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   a .previous-arrow {
     font-size: 70px;
+  }
+
+  .homepage-btn-mtb {
+    font-size: 40px;
+    padding: 35px 110px;
+    top: 42%;
+    left: 32%;
+    border: 5px solid #06D6A0;
+  }
+
+   .homepage-btn-snowboard {
+     font-size: 40px;
+     padding: 35px 110px;
+     top: 42%;
+     left: 22%;
+     border: 5px solid #06D6A0;
   }
 }
 
