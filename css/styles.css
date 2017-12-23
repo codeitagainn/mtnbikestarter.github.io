@@ -29,6 +29,18 @@ a .card-action {
   font-size: 14px;
 }
 
+p {
+  font-family: Open Sans;
+}
+
+.page-title p {
+  font-family: 'Octin College'
+}
+
+.collapsible-body span {
+  font-family: Open Sans;
+}
+
 .collapsible-header {
   font-weight: 600;
 }
@@ -164,12 +176,21 @@ p.word-for-definition {
   font-size: 20px;
 }
 
+.card-content p {
+  font-family: Open Sans;
+}
+
 .longform-text-left {
   width: 900px;
   margin: 0 auto;
   padding-top: 2%;
   padding-bottom: 3%;
   font-size: 20px;
+  font-family: Open Sans;
+}
+
+.answer-selections-grouping label {
+  font-family: Open Sans;
 }
 
 .defintion {
