@@ -1,3 +1,11 @@
+/* BEGIN fonts */
+@font-face {
+  font-family: 'Octin College';
+  src: url('../fonts/octin-college-rg.otf');
+}
+/* END fonts*/
+
+
 html, body {
   min-width: 100%;
   min-height: 100%;
@@ -11,12 +19,8 @@ html, body {
   box-sizing: border-box;
 }
 
-body {
-  padding-bottom: 5%;
-}
-
 html {
-  font-family: 'Avenir', 'cpavenir', helvetica, sans-serif;
+  font-family: 'Octin College'
 }
 
 a .card-action {

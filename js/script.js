@@ -15,10 +15,6 @@ $(document).ready(function(){
   minusPlusToggle()
 })
 
-// if clicked element has class of active what happens?
-  // 1) that element gets a plus sign
-  // b)
-
 function minusPlusToggle() {
   $('.terms').children().click(function() {
     if ($('.terms').children().hasClass('active')) {
