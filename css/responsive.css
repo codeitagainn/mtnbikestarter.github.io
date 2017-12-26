@@ -386,6 +386,17 @@
   .get-started-container {
     display: none;
   }
+
+  .bike-display {
+    text-align: center;
+  }
+
+  .bike-divider {
+    margin-left: 40px;
+    width: 80%;
+    padding-bottom: 5%;
+    margin-bottom: 7%;
+  }
   /* END responsive design for get started styles*/
 }
 
