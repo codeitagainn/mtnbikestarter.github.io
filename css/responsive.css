@@ -770,5 +770,10 @@
   .footer-links {
     padding-left: 5%;
   }
+
+  .bike-divider {
+    margin-left: 20px;
+    width: 90%;
+  }
   /* END footer responsive styles */
 }
