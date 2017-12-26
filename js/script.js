@@ -32,7 +32,7 @@ function initializeDropDown() {
 }
 
 function underlineActiveProject() {
-  $('.active').mouseout(function() {
+  $('.active-sport').mouseout(function() {
     $(this).css('border-bottom', '2px solid #06D6A0')
   })
 }
