@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../../../css/override-materialize.css">
     <link rel="stylesheet" href="../../../css/questions.css">
     <link rel="stylesheet" href="../../../css/responsive.css">
+    <link rel="stylesheet" href="../../../css/jumpstart.css">
+    <link rel="stylesheet" href="../../../css/jumpstart-responsive.css">
     <script src="../../../js/script.js"></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -31,9 +33,9 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div class="header-links">
+    <!-- <div class="header-links">
       <a href="../../../about.html" class="header-link">about</a>
-      <a href="../../../mountain-bike-terms.html" class="header-link">dictionary</a>
+      <a href="../../../mountain-bike-dictionary.html" class="header-link">dictionary</a>
       <a href="../../../mountain-bike-gear.html" class="header-link">gear</a>
       <a href="../../../mountain-bike-resources.html" class="header-link">resources</a>
       <div class="card">
@@ -42,11 +44,11 @@
         </div>
       </div>
     </div>
-    
+
     <ul id="slide-out" class="side-nav">
       <li><a href="../../../mountain-bike-selection-tool.html">MTB selection guide</a></li>
       <li><div class="divider"></div></li>
-      <li><a href="../../../mountain-bike-terms.html">MTB dictionary</a></li>
+      <li><a href="../../../mountain-bike-dictionary.html">MTB dictionary</a></li>
       <li><div class="divider"></div></li>
       <li><a href="../../../mountain-bike-gear.html">MTB gear</a></li>
       <li><div class="divider"></div></li>
@@ -58,30 +60,158 @@
       <li><div class="divider"></div></li>
       <li><a href="mailto:jack@startmtb.com?Subject=Feedback">Contact / feedback</a></li>
       <li><div class="divider"></div></li>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse menu-more-links">More<i class="material-icons">arrow_drop_down</i></a>
-    <div class="comp-name" id="comp-name-questions-page">
-      <h5>
-        <a class="hompage-link" href="../../../index.html">
-          <img src="../../../images/mtn-logo-2.png" class="mtn-logo">
-          Start Mountain Biking
-        </a>
-      </h5>
+    </ul> -->
+
+    <div class="nav-container">
+      <div id="comp-name-questions-page">
+        <h5>
+          <a class="jumpstart-logo-link" href="../../../index.html">
+            Jump Start
+          </a>
+        </h5>
+      </div>
+      <div class="header-links-large">
+        <a href="../../../mtb.html" class="active-sport dropdown-button jumpstart-header-link" data-activates='dropdown1'>mtn bike</a>
+        <a href="#" class="dropdown-button jumpstart-header-link" data-activates='dropdown2'>snowboard</a>
+        <a href="#" class="jumpstart-header-link">how it works</a>
+        <a href="../../../about.html" class="jumpstart-header-link">about</a>
+      </div>
+
+      <a href="#" data-activates="slide-out" class="button-collapse more-links-small"><i class="material-icons">menu</i></a>
     </div>
 
-    <div class="page-title">
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="../../../mountain-bike-selection-tool.html">MTB Selector</a></li>
+      <li class="divider"></li>
+      <li><a href="../../../mountain-bike-dictionary.html">MTB Dictionary</a></li>
+      <li class="divider"></li>
+      <li><a href="../../../mountain-bike-gear.html">MTB Gear</a></li>
+      <li class="divider"></li>
+      <li><a href="../../../mountain-bike-resources.html">MTB Resources</a></li>
+      <li class="divider"></li>
+    </ul>
+
+    <ul id='dropdown2' class='dropdown-content'>
+      <li><a href="#!">Snowboard Selector</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">Snowboard Dictionary</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">Snowboard Gear</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">Snowboard Resources</a></li>
+      <li class="divider"></li>
+    </ul>
+
+    <ul id="slide-out" class="side-nav">
+      <li><a href="mountain-bike-selection-tool.html">MTB selection guide</a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="mountain-bike-dictionary.html">MTB dictionary</a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="mountain-bike-gear.html">MTB gear</a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="mountain-bike-resources.html">MTB resources</a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="important-notes.html">Important notes</a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="about.html">About</a></li>
+      <li><div class="divider"></div></li>
+      <li><a href="mailto:jack@startmtb.com?Subject=Feedback">Contact / feedback</a></li>
+      <li><div class="divider"></div></li>
+    </ul>
+
+    <div class="page-title">Your Bikes</div>
+
+    <div class="container">
+      <div class="row bike-row-display">
+        <div class="col s12 l8">
+          <a target="_blank" href="https://www.diamondback.com/catch-2">
+            <img class="bike-display" src="../../../images/bikes/diamondback-catch-2.png">
+          </a>
+        </div>
+        <div class="col s12 l4 more-bike-info">
+          <h4>Diamondback</h4>
+          <h5>Catch 2 - Large</h5>
+          <!-- <div class=""><p>Kitsch raclette sriracha unicorn vaporware forage green juice. Hammock chicharrones single-origin coffee raclette, chia selfies mumblecore chartreuse vape paleo gastropub fam tattooed. Pabst biodiesel tofu cornhole neutra slow-carb cred farm-to-table everyday carry literally swag migas ethical blue bottle mlkshk. La croix kombucha ramps hashtag </p></div> -->
+          <button class="btn">More Info</button>
+        </div>
+      </div>
+      <div class="bike-divider"></div>
+    </div>
+
+    <div class="container">
+      <div class="row bike-row-display">
+        <div class="col s12 l8">
+          <a target="_blank" href="https://www.diamondback.com/catch-2">
+            <img class="bike-display" src="../../../images/bikes/diamondback-2017-mission-pro.png">
+          </a>
+        </div>
+        <div class="col s12 l4 more-bike-info">
+          <h4>Diamondback</h4>
+          <h5>Catch 2 - Large</h5>
+          <!-- <div class=""><p>Kitsch raclette sriracha unicorn vaporware forage green juice. Hammock chicharrones single-origin coffee raclette, chia selfies mumblecore chartreuse vape paleo gastropub fam tattooed. Pabst biodiesel tofu cornhole neutra slow-carb cred farm-to-table everyday carry literally swag migas ethical blue bottle mlkshk. La croix kombucha ramps hashtag </p></div> -->
+          <button class="btn">More Info</button>
+        </div>
+      </div>
+      <div class="bike-divider"></div>
+    </div>
+
+    <div class="container">
+      <div class="row bike-row-display">
+        <div class="col s12 l8">
+          <a target="_blank" href="https://www.diamondback.com/catch-2">
+            <img class="bike-display" src="../../../images/bikes/diamondback-catch-2.png">
+          </a>
+        </div>
+        <div class="col s12 l4 more-bike-info">
+          <h4>Diamondback</h4>
+          <h5>Catch 2 - Large</h5>
+          <!-- <div class=""><p>Kitsch raclette sriracha unicorn vaporware forage green juice. Hammock chicharrones single-origin coffee raclette, chia selfies mumblecore chartreuse vape paleo gastropub fam tattooed. Pabst biodiesel tofu cornhole neutra slow-carb cred farm-to-table everyday carry literally swag migas ethical blue bottle mlkshk. La croix kombucha ramps hashtag </p></div> -->
+          <button class="btn">More Info</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col s4">
+          <a target="_blank" href="https://www.diamondback.com/catch-2">
+            <img class="bike-display" src="../../../images/bikes/diamondback-catch-2.png">
+            <p>Kitsch raclette sriracha unicorn vaporware forage green juice. Hammock chicharrones single-origin coffee raclette, chia selfies mumblecore chartreuse vape paleo gastropub fam tattooed. Pabst biodiesel tofu cornhole neutra slow-carb cred farm-to-table everyday carry literally swag migas ethical blue bottle mlkshk. La croix kombucha ramps hashtag</p>
+          </a>
+        </div>
+
+
+        <div class="col s4">
+          <a target="_blank" href="https://www.diamondback.com/catch-2">
+            <img class="bike-display" src="../../../images/bikes/diamondback-catch-2.png">
+            <div><p>Tote bag lo-fi twee pop-up etsy VHS. Actually gochujang umami neutra unicorn raw denim hell of four loko sustainable gastropub poutine. DIY craft beer ugh live-edge semiotics kinfolk. Lumbersexual venmo swag master cleanse typewriter umami chambray farm-to-table tumblr snackwave pop-up celiac stumptown hexagon. Selvage kitsch 3 wolf moon brooklyn heirloom meditation shabby chic helvetica, selfies taiyaki DIY single-origin coffee. Ugh bushwick</p></div>
+          </a>
+        </div>
+
+        <div class="col s4">
+          <a target="_blank" href="https://www.diamondback.com/catch-2">
+            <img class="bike-display" src="../../../images/bikes/diamondback-catch-2.png">
+            <div><p>Authentic aesthetic trust fund, viral hella blog dreamcatcher 8-bit leggings actually hell of brunch. Crucifix knausgaard typewriter truffaut paleo sustainable. Keffiyeh vinyl health goth trust fund jean shorts, vape pok pok art party heirloom XOXO shaman edison bulb fashion axe narwhal letterpress. Godard offal wayfarers listicle, kinfolk messenger bag live-edge kombucha ramps thundercats copper mug.</p></div>
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="page-title">
       <p>A good mountain bike for you is the:</p>
       <br>
       Diamondback Catch 2 - Large
-    </div>
+    </div> -->
 
-    <div class="bike-display-container">
+    <!-- <div class="bike-display-container row">
       <a target="_blank" href="https://www.diamondback.com/catch-2">
         <img class="bike-display" src="../../../images/bikes/diamondback-catch-2.png">
       </a>
-    </div>
+    </div> -->
 
-    <div class="longform-text">
+
+    <!-- <div class="longform-text">
       You’re looking for the best enduro / all-trail bike for $3000 - 4000. You can get just that in the Diamondback Catch 2. The link below will take you to the bike’s homepage in your size and provide you with specs and additional details.
     </div>
 
@@ -97,6 +227,6 @@
           </div>
         </a>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>

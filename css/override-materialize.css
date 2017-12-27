@@ -4,6 +4,10 @@ h6 {
   margin-bottom: 6%;
 }
 
+.container {
+  width: 80%;
+}
+
 .side-nav li>a {
   color: white;
   padding-top: 2%;

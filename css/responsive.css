@@ -206,6 +206,13 @@
   .header-links-large {
     display: none;
   }
+
+  .bike-divider {
+    margin-left: 80px;
+    width: 80%;
+    margin-bottom: 7%;
+    padding-bottom: 7%;
+  }
   /* END new design */
 }
 
@@ -385,6 +392,17 @@
 
   .get-started-container {
     display: none;
+  }
+
+  .bike-display {
+    text-align: center;
+  }
+
+  .bike-divider {
+    margin-left: 40px;
+    width: 80%;
+    padding-bottom: 5%;
+    margin-bottom: 7%;
   }
   /* END responsive design for get started styles*/
 }
@@ -751,6 +769,11 @@
   /*BEGIN footer responsive styles */
   .footer-links {
     padding-left: 5%;
+  }
+
+  .bike-divider {
+    margin-left: 20px;
+    width: 90%;
   }
   /* END footer responsive styles */
 }

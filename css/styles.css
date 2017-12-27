@@ -162,9 +162,22 @@ p.word-for-definition {
 }
 
 .bike-display {
-  width: 50%;
+  width: 65%;
   display: block;
   margin: 0 auto;
+  height: 400px;
+}
+
+.bike-divider {
+  padding-bottom: 2%;
+  margin-bottom: 3%;
+  margin-left: 200px;
+  border-bottom: 2px solid grey;
+  width: 60%;
+}
+
+.more-bike-info {
+  margin-top: 10%;
 }
 
 .longform-text {
@@ -433,4 +446,20 @@ i.medium {
 
 .footer-links {
   padding-left: 10%;
+}
+
+ #dropdown1 {
+   z-index: 5;
+ }
+
+.active-sport {
+  border-bottom: 2px solid #06D6A0;
+}
+
+.bike-row-display {
+  text-align: center;
+}
+
+.container .bike-row-display {
+  margin-left: 2%;
 }
