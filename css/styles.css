@@ -78,7 +78,7 @@ label {
 
 h3 {
   font-weight: 300;
-  display: inline-block;
+  /*display: inline-block;*/
   padding-bottom: 12px;
   position: relative;
   border-bottom: 2px solid #06D6A0;
@@ -434,7 +434,7 @@ i.medium {
 
 .row .col.s5 {
   width: 45%;
-  margin-left: auto;
+  /*margin-left: auto;*/
   left: auto;
   right: auto;
 }

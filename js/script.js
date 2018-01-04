@@ -402,19 +402,19 @@ function showNextQuestionFirstRun(current_question, next_question) {
 function checkWindowAndDisplay(next) {
   switch ($(window).width()) {
     case 320:
-      next.animate({'margin-top': '170px'}, 1700)
+      next.animate({'margin-top': '220px'}, 1700)
       break
     case 375:
-      next.animate({'margin-top': '200px'}, 1700)
+      next.animate({'margin-top': '250px'}, 1700)
       break
     case 414:
-      next.animate({'margin-top': '190px'}, 1700)
+      next.animate({'margin-top': '240px'}, 1700)
       break
     case 768:
-      next.animate({'margin-top': '350px'}, 1700)
+      next.animate({'margin-top': '400px'}, 1700)
       break
     default:
-      next.animate({'margin-top': '150px'}, 1700)
+      next.animate({'margin-top': '200px'}, 1700)
       break
   }
 }

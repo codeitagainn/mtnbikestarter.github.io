@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/jumpstart.css">
     <link rel="stylesheet" href="css/jumpstart-responsive.css">
+    <link rel="stylesheet" href="css/quiz-page.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="js/script.js"></script>
     <!-- Google Tag Manager -->
@@ -33,8 +34,9 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFHL4LD"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
     <div class="quiz-container">
-      <div class="nav-container">
+      <div class="new-nav-container">
         <div id="comp-name-questions-page">
           <h5>
             <a class="jumpstart-logo-link" href="index.html">
@@ -42,9 +44,10 @@
             </a>
           </h5>
         </div>
+
         <div class="header-links-large">
-          <a href="mtb.html" class="active-sport dropdown-button jumpstart-header-link" data-activates='dropdown1'>mtn bike</a>
-          <a href="#" class="dropdown-button jumpstart-header-link" data-activates='dropdown2'>snowboard</a>
+          <a href="mtb.html" class="jumpstart-header-link">mtn bike</a>
+          <a href="#" class="jumpstart-header-link">snowboard</a>
           <a href="#" class="jumpstart-header-link">how it works</a>
           <a href="about.html" class="jumpstart-header-link">about</a>
         </div>
@@ -94,11 +97,18 @@
 
       <a><i class="material-icons previous-arrow">arrow_back</i></a>
         <form>
-          <div class="question-wrapper displayed" id="past-experience">
-            <div class="question-header-wrapper">
-              <h3 class="form-text">Your past mtb experience</h3>
+          <div class="question-wrapper displayed row" id="past-experience">
+            <div class="question-header-wrapper question-wrapper-item col s4 offset-quiz">
+              <h3>Your past mtb experience</h3>
+              <h6>sup suckas<h6>
             </div>
-            <div class="past-experience-question-wrapper answer-selections-grouping">
+            <div class="question-divider-wrapper col s1">
+              <div class="question-divider">s</div>
+            </div>
+            <div class="question-divider-wrapper col s1">
+              <div class="question-divider-2">s</div>
+            </div>
+            <div class="past-experience-question-wrapper question-wrapper-item answer-selections-grouping col s3">
               <p>
                 <input type="radio" name='past-experience' id="no-experience" class="next-question past-experience-question" value="no-experience">
                 <label for="no-experience">None</label>
@@ -109,7 +119,7 @@
               </p>
               <p>
                 <input type="radio" name='past-experience' id="more-experience" class="next-question past-experience-question" value="more-experience">
-                <label for="more-experience">Less than 10 times total rides</label>
+                <label for="more-experience">Less than 10 total rides</label>
               </p>
             </div>
           </div>
