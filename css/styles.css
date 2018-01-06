@@ -84,13 +84,6 @@ h3 {
   border-bottom: 2px solid #06D6A0;
 }
 
-#usage-type-header-text {
-  font-weight: 300;
-  display: inline-block;
-  padding-bottom: 12px;
-  position: relative;
-}
-
 #usage-frequency-header-text {
   font-weight: 300;
   display: inline-block;
@@ -288,10 +281,6 @@ body {
 .question-header-wrapper {
   text-align: center;
   position: relative;
-}
-
-.multiple-select-btn-styles {
-  text-align: center;
 }
 
 .question-wrapper-radio {

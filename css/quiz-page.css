@@ -33,10 +33,74 @@ h6 {
   color:#00251C;
 }
 
-.row .col.s4 {
-  margin-left: 10%;
-}
+/*.row .col.s4 {
+  margin-left: none;
+}*/
 
 .question-wrapper-item {
   margin-top: 7%;
+}
+
+form .row .col.offset-quiz-1 {
+  margin-left: 10%;
+}
+
+form .row .col.offset-quiz-1p5 {
+  margin-left: 15%;
+}
+
+.quiz-progress-container input.progress-nav-item-1 {
+  opacity: 1;
+  position: absolute;
+  left: 10%;
+  top: 120px;
+  pointer-events: auto;
+}
+
+.quiz-progress-container input.progress-nav-item-2 {
+  opacity: 1;
+  position: absolute;
+  left: 12%;
+  top: 120px;
+  pointer-events: auto;
+}
+
+.quiz-progress-container input.progress-nav-item-3 {
+  opacity: 1;
+  position: absolute;
+  left: 14%;
+  top: 120px;
+  pointer-events: auto;
+}
+
+.quiz-progress-container input.progress-nav-item-4 {
+  opacity: 1;
+  position: absolute;
+  left: 16%;
+  top: 120px;
+  pointer-events: auto;
+}
+
+.quiz-progress-container input.progress-nav-item-5 {
+  opacity: 1;
+  position: absolute;
+  left: 18%;
+  top: 120px;
+  pointer-events: auto;
+}
+
+.quiz-progress-container input.progress-nav-item-6 {
+  opacity: 1;
+  position: absolute;
+  left: 20%;
+  top: 120px;
+  pointer-events: auto;
+}
+
+.quiz-progress-container input.progress-nav-item-7 {
+  opacity: 1;
+  position: absolute;
+  left: 22%;
+  top: 120px;
+  pointer-events: auto;
 }

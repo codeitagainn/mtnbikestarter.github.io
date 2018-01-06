@@ -7,14 +7,14 @@ $(document).ready(function(){
   displayFirstQuestion(0)
   slideoutLeft()
   displayBackArrow()
-  previousQuestionArrow()
-  nextQuestionArrow()
+  // previousQuestionArrow()
   lastQuestionCheck()
   disableLowBudgetsForCcAndDh()
-  underlineDarkGreenQuestionHeaders()
   minusPlusToggle()
   initializeDropDown()
   underlineActiveProject()
+  updateProgressBar()
+  progressItemDisplay()
 })
 
 function initializeDropDown() {
@@ -64,10 +64,6 @@ function minusPlusToggle() {
       $($(this).find($('.terms-icon'))).text('remove_circle')
     }
   })
-}
-
-function underlineDarkGreenQuestionHeaders() {
-  $('.question-header-wrapper:odd').children().css('border-bottom', '2px solid #417B5A')
 }
 
 function checkBoxEnable() {
@@ -251,6 +247,7 @@ function slideoutLeft() {
   $('.next-question').click(function() {
     let current_question = $('.displayed')
     current_question.hide("slide", {direction: "right"}, 1300);
+    // console.log(current_question);
     getNextQuestion(current_question)
   })
 }
@@ -287,14 +284,21 @@ function removeUndefined(array) {
 }
 
 function getNextQuestion(current_question) {
+  current_question.removeClass('displayed')
+  current_question.addClass('not-displayed')
+  current_question.css('display', 'none')
   current_question = current_question.attr('id')
-  for (let question of questions) {
-    if (question == current_question) {
-      let current_index = questions.indexOf(current_question)
-      let next_question = current_index + 1
-      showNextQuestionFirstRun(current_question, next_question)
-    }
-  }
+
+
+  let nextQuestionId = questions.indexOf(current_question) + 1
+  let nextQuestion = $('#' + questions[nextQuestionId]);
+  nextQuestion.css('display', 'block')
+  nextQuestion.addClass('displayed')
+  checkWindowAndDisplay(nextQuestion)
+}
+
+function showNextQuestion() {
+
 }
 
 function disableLowBudgetsForCcAndDh() {
@@ -328,76 +332,33 @@ function displayFirstQuestion(question_index) {
   checkWindowAndDisplay(question)
 }
 
-
-const questions = ['past-experience', 'usage-type', 'snow-sand', 'budget', 'height', 'gender', 'smooth-ride-vs-parts', 'jump-riding']
-function nextQuestionArrow() {
-  $('.next-arrow').click(function(){
-    let current_question = $('.displayed').attr('id')
-
-    for (let question of questions) {
-      if (question == current_question) {
-        let current_index = questions.indexOf(current_question)
-        let next_question = current_index + 1
-        showNextQuestion(current_question, next_question)
-      }
-    }
-  })
-}
-
-function previousQuestionArrow() {
-  $('.previous-arrow').click(function() {
-    let current_question = $('.displayed').attr('id')
-
-    for (let question of questions) {
-      if (question == current_question) {
-        let current_index = questions.indexOf(current_question)
-        let previous_question_index = current_index - 1
-        displayPreviousQuestion(current_question, previous_question_index)
-      }
-    }
-  })
-}
-
-function displayPreviousQuestion(current_question, previous_question_index) {
-  let current = $('#' + current_question)
-  current.removeClass('displayed')
-  current.addClass('not-displayed')
-  current.css('display', 'none')
-
-  let previous_question = questions[previous_question_index]
-  let previous = $('#' + previous_question)
-  previous.removeClass('not-displayed')
-  previous.addClass('displayed')
-  previous.css('display', 'block')
-  displayBackArrow()
-}
-
-
-function showNextQuestion(current_question, next_question) {
-  let current = $('#' + current_question)
-  current.removeClass('displayed')
-  current.addClass('not-displayed')
-  current.css('display', 'none')
-
-  let next = $('#' + questions[next_question])
-  next.removeClass('not-displayed')
-  next.addClass('displayed')
-
-  displayBackArrow()
-}
-
-function showNextQuestionFirstRun(current_question, next_question) {
-  let current = $('#' + current_question)
-  current.removeClass('displayed')
-  current.addClass('not-displayed')
-
-  let next = $('#' + questions[next_question])
-  next.removeClass('not-displayed')
-  next.addClass('displayed')
-  next.css('display', 'block')
-  checkWindowAndDisplay(next)
-  displayBackArrow()
-}
+// function previousQuestionArrow() {
+//   $('.previous-arrow').click(function() {
+//     let current_question = $('.displayed').attr('id')
+//
+//     for (let question of questions) {
+//       if (question == current_question) {
+//         let current_index = questions.indexOf(current_question)
+//         let previous_question_index = current_index - 1
+//         displayPreviousQuestion(current_question, previous_question_index)
+//       }
+//     }
+//   })
+// }
+//
+// function displayPreviousQuestion(current_question, previous_question_index) {
+//   let current = $('#' + current_question)
+//   current.removeClass('displayed')
+//   current.addClass('not-displayed')
+//   current.css('display', 'none')
+//
+//   let previous_question = questions[previous_question_index]
+//   let previous = $('#' + previous_question)
+//   previous.removeClass('not-displayed')
+//   previous.addClass('displayed')
+//   previous.css('display', 'block')
+//   displayBackArrow()
+// }
 
 function checkWindowAndDisplay(next) {
   switch ($(window).width()) {
@@ -417,4 +378,114 @@ function checkWindowAndDisplay(next) {
       next.animate({'margin-top': '200px'}, 1700)
       break
   }
+}
+
+const questions = ['past-experience', 'usage-type', 'snow-sand', 'budget', 'height', 'gender', 'smooth-ride-vs-parts']
+function updateProgressBar() {
+  $('.next-question').click(function() {
+    let questionParent = $(this).closest('.question-wrapper-item');
+    let questionWrapper = $(questionParent).closest('.question-wrapper');
+    $(questionWrapper).addClass('was-active')
+
+    mapProgressBarToQuestion()
+  })
+}
+
+function mapProgressBarToQuestion() {
+  let displayedItem = $('.displayed')
+  let currentQuestion = $(displayedItem).attr('id')
+
+  switch (currentQuestion) {
+    case 'past-experience':
+      removeCheckedItems('past-experience-progress')
+      break
+    case 'usage-type':
+      removeCheckedItems('usage-type-progress')
+      break;
+    case 'snow-sand':
+      removeCheckedItems('snow-sand-progress')
+      break;
+    case 'budget':
+      removeCheckedItems('budget-progress')
+      break;
+    case 'height':
+      removeCheckedItems('height-progress')
+      break;
+    case 'gender':
+      removeCheckedItems('gender-progress')
+      break;
+    case 'smooth-ride-vs-parts':
+      removeCheckedItems('smooth-ride-vs-parts-progress')
+      break;
+  }
+}
+
+const progressItems = ["past-experience-progress", "usage-type-progress", "snow-sand-progress", "budget-progress", "height-progress", "gender-progress", "smooth-ride-vs-parts-progress"]
+function removeCheckedItems(progressItem) {
+  $.each(progressItems, function(i, val) {
+    if (val == progressItem) {
+      $('#' + val).removeAttr('disabled')
+      $('#' + val).prop('checked', true)
+    } else {
+      $('#' + val).removeAttr('checked')
+    }
+  })
+}
+
+function progressItemDisplay() {
+  $('.progress-item').click(function() {
+    $('.displayed').addClass('not-displayed')
+    $('.displayed').removeClass('.displayed')
+
+    let progressItem = $(this).attr('id')
+
+    switch (progressItem) {
+      case 'past-experience-progress':
+        removeDisplayedItem()
+        $('#past-experience').css('display', 'block')
+        $('#past-experience').removeClass('not-displayed')
+        $('#past-experience').addClass('displayed')
+        break
+      case 'usage-type-progress':
+        removeDisplayedItem()
+        $('#usage-type').css('display', 'block')
+        $('#usage-type').removeClass('not-displayed')
+        $('#usage-type').addClass('displayed')
+        break
+      case 'snow-sand-progress':
+        removeDisplayedItem()
+        $('#snow-sand').css('display', 'block')
+        $('#snow-sand').removeClass('not-displayed')
+        $('#snow-sand').addClass('displayed')
+        break
+      case 'budget-progress':
+        removeDisplayedItem()
+        $('#budget').css('display', 'block')
+        $('#budget').removeClass('not-displayed')
+        $('#budget').addClass('displayed')
+        break
+      case 'height-progress':
+        removeDisplayedItem()
+        $('#height').css('display', 'block')
+        $('#height').removeClass('not-displayed')
+        $('#height').addClass('displayed')
+        break
+      case 'gender-progress':
+        removeDisplayedItem()
+        $('#gender').css('display', 'block')
+        $('#gender').removeClass('not-displayed')
+        $('#gender').addClass('displayed')
+        break
+      case 'smooth-ride-vs-parts-progress':
+        removeDisplayedItem()
+        $('#smooth-ride-vs-parts').css('display', 'block')
+        $('#smooth-ride-vs-parts').removeClass('not-displayed')
+        $('#smooth-ride-vs-parts').addClass('displayed')
+        break
+    }
+  })
+}
+
+function removeDisplayedItem() {
+  $('.displayed').css('display', 'none')
 }
