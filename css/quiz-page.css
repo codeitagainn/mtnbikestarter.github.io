@@ -104,3 +104,57 @@ form .row .col.offset-quiz-1p5 {
   top: 120px;
   pointer-events: auto;
 }
+
+a .start-over-btn {
+  /*position: absolute;*/
+  vertical-align: middle;
+}
+
+.start-over-wrapper {
+  color: white;
+  float: right;
+  margin-top: 120px;
+  margin-right: 200px;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #06D6A0;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:disabled:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #2E3532;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}

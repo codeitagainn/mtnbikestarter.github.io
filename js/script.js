@@ -5,9 +5,8 @@ $(document).ready(function(){
   checkBoxEnable()
   gatherAnswers()
   displayFirstQuestion(0)
-  slideoutLeft()
+  slideOutRight()
   displayBackArrow()
-  // previousQuestionArrow()
   lastQuestionCheck()
   disableLowBudgetsForCcAndDh()
   minusPlusToggle()
@@ -243,11 +242,10 @@ function envCheckForUrlPush(bike_file) {
   }
 }
 
-function slideoutLeft() {
+function slideOutRight() {
   $('.next-question').click(function() {
     let current_question = $('.displayed')
     current_question.hide("slide", {direction: "right"}, 1300);
-    // console.log(current_question);
     getNextQuestion(current_question)
   })
 }
@@ -286,7 +284,6 @@ function removeUndefined(array) {
 function getNextQuestion(current_question) {
   current_question.removeClass('displayed')
   current_question.addClass('not-displayed')
-  current_question.css('display', 'none')
   current_question = current_question.attr('id')
 
 
@@ -296,69 +293,6 @@ function getNextQuestion(current_question) {
   nextQuestion.addClass('displayed')
   checkWindowAndDisplay(nextQuestion)
 }
-
-function showNextQuestion() {
-
-}
-
-function disableLowBudgetsForCcAndDh() {
-  $('.next-question').click(function() {
-    let answers = window.answers
-
-    if ((answers.usageType.length == 1) && (answers.usageType[0] == 'cross-country')) {
-      $('#under-500').prop('disabled', true)
-      $('#500-1000').prop('disabled', true)
-      $('#1000-2000').prop('disabled', false)
-    } else if ((answers.usageType.length == 1) && (answers.usageType[0] == 'enduro'))  {
-      $('#500-1000').prop('disabled', true)
-    } else if (answers.usageType.length > 2 && answers.sandSnow == 'yes-snow')  {
-      $('#under-500').prop('disabled', false)
-      $('#greater-4000').prop('disabled', false)
-    } else if (answers.usageType.length <= 2 && answers.sandSnow == 'yes-snow')  {
-      $('#under-500').prop('disabled', true)
-      $('#greater-4000').prop('disabled', true)
-    } else {
-      $('#under-500').prop('disabled', false)
-      $('#500-1000').prop('disabled', false)
-      $('#1000-2000').prop('disabled', false)
-      $('#greater-4000').prop('disabled', false)
-    }
-  })
-}
-
-function displayFirstQuestion(question_index) {
-  let question = $('.displayed')
-  question.css('display', 'block')
-  checkWindowAndDisplay(question)
-}
-
-// function previousQuestionArrow() {
-//   $('.previous-arrow').click(function() {
-//     let current_question = $('.displayed').attr('id')
-//
-//     for (let question of questions) {
-//       if (question == current_question) {
-//         let current_index = questions.indexOf(current_question)
-//         let previous_question_index = current_index - 1
-//         displayPreviousQuestion(current_question, previous_question_index)
-//       }
-//     }
-//   })
-// }
-//
-// function displayPreviousQuestion(current_question, previous_question_index) {
-//   let current = $('#' + current_question)
-//   current.removeClass('displayed')
-//   current.addClass('not-displayed')
-//   current.css('display', 'none')
-//
-//   let previous_question = questions[previous_question_index]
-//   let previous = $('#' + previous_question)
-//   previous.removeClass('not-displayed')
-//   previous.addClass('displayed')
-//   previous.css('display', 'block')
-//   displayBackArrow()
-// }
 
 function checkWindowAndDisplay(next) {
   switch ($(window).width()) {
@@ -435,7 +369,11 @@ function removeCheckedItems(progressItem) {
 function progressItemDisplay() {
   $('.progress-item').click(function() {
     $('.displayed').addClass('not-displayed')
-    $('.displayed').removeClass('.displayed')
+    let displayedQuestion = $('.displayed').attr('id')
+    let displayedQuestionSelector = $('#' + displayedQuestion)
+    displayedQuestionSelector.removeClass('displayed')
+    displayedQuestionSelector.css('display', 'none')
+
 
     let progressItem = $(this).attr('id')
 
@@ -488,4 +426,35 @@ function progressItemDisplay() {
 
 function removeDisplayedItem() {
   $('.displayed').css('display', 'none')
+}
+
+function displayFirstQuestion(question_index) {
+  let question = $('.displayed')
+  question.css('display', 'block')
+  checkWindowAndDisplay(question)
+}
+
+function disableLowBudgetsForCcAndDh() {
+  $('.next-question').click(function() {
+    let answers = window.answers
+
+    if ((answers.usageType.length == 1) && (answers.usageType[0] == 'cross-country')) {
+      $('#under-500').prop('disabled', true)
+      $('#500-1000').prop('disabled', true)
+      $('#1000-2000').prop('disabled', false)
+    } else if ((answers.usageType.length == 1) && (answers.usageType[0] == 'enduro'))  {
+      $('#500-1000').prop('disabled', true)
+    } else if (answers.usageType.length > 2 && answers.sandSnow == 'yes-snow')  {
+      $('#under-500').prop('disabled', false)
+      $('#greater-4000').prop('disabled', false)
+    } else if (answers.usageType.length <= 2 && answers.sandSnow == 'yes-snow')  {
+      $('#under-500').prop('disabled', true)
+      $('#greater-4000').prop('disabled', true)
+    } else {
+      $('#under-500').prop('disabled', false)
+      $('#500-1000').prop('disabled', false)
+      $('#1000-2000').prop('disabled', false)
+      $('#greater-4000').prop('disabled', false)
+    }
+  })
 }
