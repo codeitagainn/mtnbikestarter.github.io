@@ -41,12 +41,16 @@ h6 {
   margin-top: 7%;
 }
 
-form .row .col.offset-quiz-1 {
-  margin-left: 10%;
+form .row .col.offset-quiz-20 {
+  margin-left: 20%;
 }
 
-form .row .col.offset-quiz-1p5 {
+form .row .col.offset-quiz-15 {
   margin-left: 15%;
+}
+
+form .row .col.offset-quiz-13 {
+  margin-left: 13%;
 }
 
 .quiz-progress-container input.progress-nav-item-1 {

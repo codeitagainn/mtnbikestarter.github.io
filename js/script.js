@@ -372,7 +372,7 @@ function progressItemDisplay() {
     let displayedQuestion = $('.displayed').attr('id')
     let displayedQuestionSelector = $('#' + displayedQuestion)
     displayedQuestionSelector.removeClass('displayed')
-    displayedQuestionSelector.css('display', 'none')
+    displayedQuestionSelector.hide("slide", {direction: "left"}, 900);
 
 
     let progressItem = $(this).attr('id')
@@ -380,43 +380,43 @@ function progressItemDisplay() {
     switch (progressItem) {
       case 'past-experience-progress':
         removeDisplayedItem()
-        $('#past-experience').css('display', 'block')
+        $('#past-experience').show("fold", 1400)
         $('#past-experience').removeClass('not-displayed')
         $('#past-experience').addClass('displayed')
         break
       case 'usage-type-progress':
         removeDisplayedItem()
-        $('#usage-type').css('display', 'block')
+        $('#usage-type').show("fold", 1400)
         $('#usage-type').removeClass('not-displayed')
         $('#usage-type').addClass('displayed')
         break
       case 'snow-sand-progress':
         removeDisplayedItem()
-        $('#snow-sand').css('display', 'block')
+        $('#snow-sand').show("fold", 1400)
         $('#snow-sand').removeClass('not-displayed')
         $('#snow-sand').addClass('displayed')
         break
       case 'budget-progress':
         removeDisplayedItem()
-        $('#budget').css('display', 'block')
+        $('#budget').show("fold", 1400)
         $('#budget').removeClass('not-displayed')
         $('#budget').addClass('displayed')
         break
       case 'height-progress':
         removeDisplayedItem()
-        $('#height').css('display', 'block')
+        $('#height').show("fold", 1400)
         $('#height').removeClass('not-displayed')
         $('#height').addClass('displayed')
         break
       case 'gender-progress':
         removeDisplayedItem()
-        $('#gender').css('display', 'block')
+        $('#gender').show("fold", 1400)
         $('#gender').removeClass('not-displayed')
         $('#gender').addClass('displayed')
         break
       case 'smooth-ride-vs-parts-progress':
         removeDisplayedItem()
-        $('#smooth-ride-vs-parts').css('display', 'block')
+        $('#smooth-ride-vs-parts').show("fold", 1600)
         $('#smooth-ride-vs-parts').removeClass('not-displayed')
         $('#smooth-ride-vs-parts').addClass('displayed')
         break
