@@ -78,17 +78,10 @@ label {
 
 h3 {
   font-weight: 300;
-  display: inline-block;
+  /*display: inline-block;*/
   padding-bottom: 12px;
   position: relative;
   border-bottom: 2px solid #06D6A0;
-}
-
-#usage-type-header-text {
-  font-weight: 300;
-  display: inline-block;
-  padding-bottom: 12px;
-  position: relative;
 }
 
 #usage-frequency-header-text {
@@ -290,10 +283,6 @@ body {
   position: relative;
 }
 
-.multiple-select-btn-styles {
-  text-align: center;
-}
-
 .question-wrapper-radio {
   margin-top: 2000px;
   text-align: left;
@@ -434,7 +423,7 @@ i.medium {
 
 .row .col.s5 {
   width: 45%;
-  margin-left: auto;
+  /*margin-left: auto;*/
   left: auto;
   right: auto;
 }
