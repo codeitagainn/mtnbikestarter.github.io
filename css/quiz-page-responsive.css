@@ -1,8 +1,12 @@
 @media only screen and (max-width: 768px) {
+  .new-nav-container {
+    width: 718px;
+  }
+
   h3 {
     font-size: 25px;
   }
-  
+
   .start-over-wrapper {
     margin-right: 100px;
   }
@@ -36,4 +40,15 @@
   }
 }
 
-@media only screen and (max-width: 414px) {}
+@media only screen and (max-width: 414px) {
+  .new-nav-container {
+    width: 200px;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+}
+
+@media only screen and (max-width: 320px) {
+}
