@@ -1,5 +1,8 @@
 body {
-  background: #00251C;
+  /*background: #00251C;*/
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background-image.jpg');
+  /*background-image: url('../images/background-image.jpg');*/
+  background-size: 100% 100%;
 }
 
 .new-nav-container a {
