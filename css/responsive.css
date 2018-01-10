@@ -166,12 +166,12 @@
 
   /* NOTE: this overrides the font size for questionaire options text */
   [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
-    font-size: 1.3rem;
+    font-size: 1.0rem;
   }
 
   /* NOTE: this overrides the font size for questionaire options text */
   [type="checkbox"]+label {
-    font-size: 1.3rem;
+    font-size: 1.0rem;
   }
 
   /* BEGIN response design for get started styles*/

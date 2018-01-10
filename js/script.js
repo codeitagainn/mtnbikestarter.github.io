@@ -306,7 +306,7 @@ function checkWindowAndDisplay(next) {
       next.animate({'margin-top': '240px'}, 1700)
       break
     case 768:
-      next.animate({'margin-top': '400px'}, 1700)
+      next.animate({'margin-top': '250px'}, 1700)
       break
     default:
       next.animate({'margin-top': '200px'}, 1700)

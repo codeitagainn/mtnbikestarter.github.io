@@ -421,13 +421,6 @@ i.medium {
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 2px 3px 10px 0 #06D6A0;
 }
 
-.row .col.s5 {
-  width: 45%;
-  /*margin-left: auto;*/
-  left: auto;
-  right: auto;
-}
-
 .row .get-started-image {
   padding: 0;
 }
