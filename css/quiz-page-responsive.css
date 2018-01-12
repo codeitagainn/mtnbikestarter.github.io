@@ -97,6 +97,10 @@
 
 
 @media only screen and (max-width: 375px) {
+  .new-nav-container {
+    width: 400px;
+  }
+
   .material-icons {
     font-size: 30px;
   }
@@ -130,4 +134,7 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .new-nav-container {
+    width: 300px;
+  }
 }
