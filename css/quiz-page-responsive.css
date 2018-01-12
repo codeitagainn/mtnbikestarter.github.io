@@ -69,19 +69,15 @@
   .quiz-progress-container input.progress-nav-item-2 {
     left: 15%;
   }
-
   .quiz-progress-container input.progress-nav-item-3 {
     left: 20%;
   }
-
   .quiz-progress-container input.progress-nav-item-4 {
     left: 25%;
   }
-
   .quiz-progress-container input.progress-nav-item-5 {
     left: 30%;
   }
-
   .quiz-progress-container input.progress-nav-item-6 {
     left: 35%;
   }
@@ -100,6 +96,36 @@
 
 
 @media only screen and (max-width: 375px) {
+  .material-icons {
+    font-size: 30px;
+  }
+
+  .quiz-progress-container input.progress-nav-item-1 {
+    left: 5%;
+  }
+
+  .quiz-progress-container input.progress-nav-item-2 {
+    left: 11%;
+  }
+  .quiz-progress-container input.progress-nav-item-3 {
+    left: 17%;
+  }
+  .quiz-progress-container input.progress-nav-item-4 {
+    left: 23%;
+  }
+  .quiz-progress-container input.progress-nav-item-5 {
+    left: 29%;
+  }
+  .quiz-progress-container input.progress-nav-item-6 {
+    left: 35%;
+  }
+  .quiz-progress-container input.progress-nav-item-7 {
+    left: 41%;
+  }
+
+  .start-over-wrapper {
+    margin-right: 25px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
