@@ -54,17 +54,16 @@
     margin-left: 0;
   }
 
-  .question-header-wrapper {
+  /*.question-header-wrapper {
     border-bottom: 2px solid #06D6A0;
-  }
+  }*/
 
   .question-wrapper-item {
-    margin-top: 0;
+    margin-top: 7%;
   }
 
   .past-experience-question-wrapper {
     margin-left: 0;
-    margin-top: 7%;
   }
 
   .quiz-progress-container input.progress-nav-item-2 {
@@ -99,6 +98,11 @@
 @media only screen and (max-width: 375px) {
   .new-nav-container {
     width: 400px;
+    left: 20px
+  }
+
+  .new-nav-container #comp-name-questions-page {
+    margin-right: 52%;
   }
 
   .material-icons {
@@ -136,5 +140,6 @@
 @media only screen and (max-width: 320px) {
   .new-nav-container {
     width: 300px;
+    left: 15px;
   }
 }
