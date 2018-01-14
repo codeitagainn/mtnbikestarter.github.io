@@ -67,3 +67,18 @@ h6 {
   border-top: 3px solid #999799;
   border-bottom: 3px solid #999799;
 }*/
+
+
+[type="radio"]:not(:checked)+label:before, [type="radio"]:not(:checked)+label:after {
+  border: 2px solid white;
+}
+
+[type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+  border: 2px solid white;
+}
+
+[type="radio"]:disabled:not(:checked)+label:before {
+  background-color: #626868;
+  border: 2px solid black;
+;
+}
