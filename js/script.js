@@ -244,9 +244,11 @@ function envCheckForUrlPush(bike_file) {
 
 function slideOutRight() {
   $('.next-question').click(function() {
-    let current_question = $('.displayed')
-    current_question.hide("slide", {direction: "right"}, 600);
-    getNextQuestion(current_question)
+    let currentQuestion = $('.displayed')
+    console.log(currentQuestion);
+    // currentQuestion.hide("slide", {direction: "right"}, 600);
+    TweenLite.to(currentQuestion, 2, { ease: Sine.easeOut, x: 2000, display: 'none' });
+    getNextQuestion(currentQuestion)
   })
 }
 
@@ -284,8 +286,8 @@ function removeUndefined(array) {
 function getNextQuestion(current_question) {
   current_question.removeClass('displayed')
   current_question.addClass('not-displayed')
+  // current_question.css('display', 'none')
   current_question = current_question.attr('id')
-
 
   let nextQuestionId = questions.indexOf(current_question) + 1
   let nextQuestion = $('#' + questions[nextQuestionId]);
@@ -297,19 +299,25 @@ function getNextQuestion(current_question) {
 function checkWindowAndDisplay(next) {
   switch ($(window).width()) {
     case 320:
-      next.animate({'margin-top': '220px'}, 1700)
+      TweenLite.to(next, 2, { ease: Circ.easeOut, y: -500 });
+      // next.animate({'margin-top': '220px'}, 1700)
       break
     case 375:
-      next.animate({'margin-top': '250px'}, 1700)
+      TweenLite.to(next, 2, { ease: Circ.easeOut, y: -500 });
+      // next.animate({'margin-top': '250px'}, 1700)
       break
     case 414:
-      next.animate({'margin-top': '240px'}, 1700)
+      TweenLite.to(next, 2, { ease: Circ.easeOut, y: -500 });
+      // next.animate({'margin-top': '240px'}, 1700)
       break
     case 768:
-      next.animate({'margin-top': '250px'}, 1700)
+      TweenLite.to(next, 2, { ease: Circ.easeOut, y: -500 });
+      // next.animate({'margin-top': '250px'}, 1700)
       break
     default:
-      next.animate({'margin-top': '200px'}, 1700)
+      // console.log(next);
+      TweenLite.to(next, 1.5, { ease: Circ.easeOut, y: -500 });
+      // next.animate({'margin-top': '200px'}, 1700)
       break
   }
 }
