@@ -245,7 +245,7 @@ function envCheckForUrlPush(bike_file) {
 function slideOutRight() {
   $('.next-question').click(function() {
     let current_question = $('.displayed')
-    current_question.hide("slide", {direction: "right"}, 600);
+    current_question.hide("slide", {direction: "right"}, 300);
     getNextQuestion(current_question)
   })
 }
@@ -309,7 +309,7 @@ function checkWindowAndDisplay(next) {
       next.animate({'margin-top': '250px'}, 1700)
       break
     default:
-      next.animate({'margin-top': '200px'}, 1700)
+      next.animate({'margin-top': '200px'}, 1200)
       break
   }
 }
