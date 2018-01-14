@@ -1,10 +1,20 @@
 @media only screen and (max-width: 768px) {
   .new-nav-container {
-    width: 718px;
+    width: 618px;
+    left: 75px;
   }
 
-  h3 {
+  .new-nav-container #comp-name-questions-page {
+    margin-right: 76%;
+  }
+
+  #past-experience-selections {
+    margin-left: 4%;
+  }
+
+  .question-header-wrapper h3 {
     font-size: 25px;
+    border: none;
   }
 
   .start-over-wrapper {
@@ -36,14 +46,31 @@
   }
 
   .quiz-progress-container input.progress-nav-item-7 {
-    left: 22%;
+    left: 28%;
   }
 }
 
 @media only screen and (max-width: 414px) {
+
+  .question-header-wrapper h3 {
+    border-bottom: 2px solid #06D6A0;
+  }
+  
+  h6 {
+    margin-top: 5%;
+  }
+
+  form .row .col.offset-quiz-15 {
+    margin-left: 0;
+  }
+
   .new-nav-container {
-    width: 500px;
-    left: 30px;
+    width: 380px;
+    left: 40px;
+  }
+
+  .new-nav-container #comp-name-questions-page {
+    margin-right: 55%;
   }
 
   .question-divider-wrapper {
@@ -54,9 +81,9 @@
     margin-left: 0;
   }
 
-  /*.question-header-wrapper {
-    border-bottom: 2px solid #06D6A0;
-  }*/
+  .question-header-wrapper h3 {
+    display: table;
+  }
 
   .question-wrapper-item {
     margin-top: 7%;
@@ -91,6 +118,50 @@
 
   .start-over-wrapper {
     margin-right: 50px;
+  }
+
+  .snow-sand-question-wrapper {
+    margin-left: 35%;
+  }
+
+  .budget-question-wrapper {
+    margin-left: 20%;
+  }
+
+  .row .col.height-question-wrapper {
+    margin-left: 30%;
+  }
+
+  .row .col.gender-question-wrapper {
+    margin-left: 35%;
+  }
+
+  .row .col.smooth-ride-vs-parts-question-wrapper {
+    margin-left: 10%;
+  }
+
+  #smooth-ride-vs-parts-header {
+    margin-left: 18%;
+  }
+
+  #past-experience {
+    margin-left: 10%;
+  }
+
+  #past-experience-selections {
+    margin-left: 0;
+  }
+
+  #usage-type {
+    margin-left: 25%;
+  }
+
+  #snow-sand {
+    margin-left: 7%;
+  }
+
+  #budget {
+    margin-left: 75px;
   }
 }
 

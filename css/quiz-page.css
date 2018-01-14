@@ -9,7 +9,6 @@ body {
 }
 
 h3 {
-  border-bottom: none;
   color: white;
   margin: 0;
   text-align: left;
@@ -23,6 +22,7 @@ label {
 h6 {
   color: white;
   text-align: left;
+  font-family: Open Sans;
 }
 
 .question-divider {

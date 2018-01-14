@@ -110,7 +110,7 @@
 
         <form>
           <div class="question-wrapper displayed row" id="past-experience">
-            <div class="question-header-wrapper question-wrapper-item col l4 m4 s12 offset-quiz-13">
+            <div class="question-header-wrapper question-wrapper-item col l4 m4 offset-quiz-13">
               <h3>Your past mtb experience</h3>
               <h6>sup suckas<h6>
             </div>
@@ -120,7 +120,7 @@
             <div class="question-divider-wrapper col l1">
               <div class="question-divider-2">s</div>
             </div>
-            <div class="past-experience-question-wrapper question-wrapper-item answer-selections-grouping col l3">
+            <div id="past-experience-selections" class="past-experience-question-wrapper question-wrapper-item answer-selections-grouping col l3 m4">
               <p>
                 <input type="radio" name='past-experience' id="no-experience" class="next-question past-experience-question" value="no-experience">
                 <label for="no-experience">None</label>
@@ -137,8 +137,10 @@
           </div>
 
           <div class="question-wrapper not-displayed multiple-select-wrapper row" id="usage-type">
-            <div class="question-header-wrapper question-wrapper-item col s12 l4 offset-quiz-13">
-              <h3 id="usage-type-header-text">Use type (select multiple)</h3>
+            <div class="question-header-wrapper question-wrapper-item col m4 l4 offset-quiz-13">
+              <h3 id="usage-type-header-text">Use type</h3>
+              <div><h6>select all that apply</h6></div>
+
             </div>
             <div class="question-divider-wrapper col s1">
               <div class="question-divider">s</div>
@@ -146,7 +148,7 @@
             <div class="question-divider-wrapper col s1">
               <div class="question-divider-2">s</div>
             </div>
-            <div class="usage-type-question-wrapper answer-selections-grouping question-wrapper-item col l3 s12">
+            <div class="usage-type-question-wrapper answer-selections-grouping question-wrapper-item col l3 m4 s12">
               <p>
                 <input type="checkbox" class="checking-checked" id="trail-riding" value="trail riding">
                 <label for="trail-riding">Trail riding</label>
@@ -167,7 +169,7 @@
           </div>
 
           <div class="question-wrapper row" id='snow-sand'>
-            <div class="question-header-wrapper question-wrapper-item col s4 offset-quiz-15">
+            <div class="question-header-wrapper question-wrapper-item col l4 offset-quiz-15">
               <h3 class="form-text">Frequent snow or sand use?</h3>
             </div>
             <div class="question-divider-wrapper col s1">
@@ -176,7 +178,7 @@
             <div class="question-divider-wrapper col s1">
               <div class="question-divider-2">s</div>
             </div>
-            <div class="snow-sand-question-wrapper answer-selections-grouping question-wrapper-item col s3">
+            <div class="snow-sand-question-wrapper answer-selections-grouping question-wrapper-item col l3 m3">
               <p>
                 <input type="radio" name='snow-sand' class="next-question snow-sand-question" id="yes-snow" value="yes-snow">
                 <label for="yes-snow">Yes</label>
@@ -189,7 +191,7 @@
           </div>
 
           <div class="question-wrapper not-displayed row" id="budget">
-            <div class="question-header-wrapper question-wrapper-item col s4 offset-quiz-13">
+            <div class="question-header-wrapper question-wrapper-item col l4 offset-quiz-13">
               <h3 class="form-text" id="budget-header-text">What is your budget?</h3>
             </div>
             <div class="question-divider-wrapper col s1">
@@ -198,7 +200,7 @@
             <div class="question-divider-wrapper col s1">
               <div class="question-divider-2">s</div>
             </div>
-            <div class="budget-question-wrapper answer-selections-grouping question-wrapper-item col s3">
+            <div class="budget-question-wrapper answer-selections-grouping question-wrapper-item col l3 m3">
               <p>
                 <input type="radio" name="budget" class="next-question budget-question" id="under-500" value="under-500">
                 <label for="under-500">< $500</label>
@@ -228,7 +230,7 @@
 
           <!-- NOTE: if this ever is not the last question make sure to update the new one to have class fo last-question -->
           <div class="question-wrapper not-displayed row" id="height">
-            <div class="question-header-wrapper question-wrapper-item col s3 offset-quiz-20">
+            <div class="question-header-wrapper question-wrapper-item col l3 offset-quiz-20">
               <h3>Select your height</h3>
             </div>
             <div class="question-divider-wrapper col s1">
@@ -237,7 +239,7 @@
             <div class="question-divider-wrapper col s1">
               <div class="question-divider-2">s</div>
             </div>
-            <div class="height-question-wrapper answer-selections-grouping question-wrapper-item col s3">
+            <div class="height-question-wrapper answer-selections-grouping question-wrapper-item col l3 m3 s5">
               <p>
                 <input type="radio" name="height" class="next-question height-question" id="4.10-5.3" value="4.10-5.3">
                 <label for="4.10-5.3">4'10" - 5'3"</label>
@@ -262,7 +264,7 @@
           </div>
 
           <div class="question-wrapper not-displayed row" id='gender'>
-            <div class="question-header-wrapper question-wrapper-item col s3 offset-quiz-20">
+            <div class="question-header-wrapper question-wrapper-item col l3 m3 offset-quiz-20">
               <h3>Select your gender</h3>
             </div>
             <div class="question-divider-wrapper col s1">
@@ -284,7 +286,7 @@
           </div>
 
           <div class="question-wrapper not-displayed row last-question" id="smooth-ride-vs-parts">
-            <div class="question-header-wrapper question-wrapper-item col s3 offset-quiz-15">
+            <div id="smooth-ride-vs-parts-header" class="question-header-wrapper question-wrapper-item col l3 m3 offset-quiz-15">
               <h3>What do you prefer?</h3>
             </div>
             <div class="question-divider-wrapper col s1">
@@ -293,7 +295,7 @@
             <div class="question-divider-wrapper col s1">
               <div class="question-divider-2">s</div>
             </div>
-            <div class="smooth-ride-vs-parts-question-wrapper answer-selections-grouping question-wrapper-item col s4">
+            <div class="smooth-ride-vs-parts-question-wrapper answer-selections-grouping question-wrapper-item col l4 m4 s10">
               <p>
                 <input type="radio" name='smooth-ride-vs-parts' id="comfort-over-parts" class="next-question smooth-ride-vs-parts-question" value="comfort-over-parts">
                 <label for="comfort-over-parts">Maximized ride comfort, would sacrifice some bike quality for comfort.</label>
