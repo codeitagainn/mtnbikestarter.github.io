@@ -6,16 +6,9 @@
   .more-links-small {
     display: none;
   }
-
-  .nav-container #comp-name-questions-page {
-    margin-right: 25%;
-  }
 }
 
 @media only screen and (max-width: 1100px) {
-  .nav-container #comp-name-questions-page {
-    margin-right: 20%;
-  }
 }
 
 @media only screen and (max-width: 975px) {
@@ -25,10 +18,6 @@
 
   .more-links-small {
     display: initial;
-  }
-
-  .nav-container #comp-name-questions-page {
-    margin-right: 70%;
   }
 }
 
@@ -41,16 +30,6 @@
     padding-top: 2%;
   }
 
-  .nav-container .outside-guides-logo-link {
-    font-size: 35px;
-  }
-
-  .nav-container {
-    height: 5%;
-    margin-bottom: 3%;
-    margin-top: 3%;
-  }
-
   .more-links-small {
     display: initial;
   }
@@ -58,23 +37,6 @@
   .header-links-large {
     display:  none;
   }
-
-  .elevator-pitch {
-    height: 230px;
-  }
-
-  .elevator-pitch-header {
-    margin-top: 7%;
-  }
-
-  /* NOTE old css */
-  /*.current-projects {
-    height: 300px;
-  }
-
-  .current-projects h4 {
-      padding: 6% 0 2% 0;
-  }*/
 
   .reviews-section {
     height: 470px;
@@ -113,12 +75,6 @@
     margin-left: 3%;
   }
 
-  .nav-container #comp-name-questions-page {
-    display: inline;
-    margin-right: 60%;
-    margin-left: 3%;
-  }
-
   .material-icons {
     font-size: 30px;
   }
@@ -146,31 +102,10 @@
 
 /* iPhone 6Plus */
 @media only screen and (max-width: 414px) {
-  .nav-container {
-    height: 50px;
-    margin-bottom: 5%;
-  }
-
   .menu-more-links {
     display: initial;
     margin: 2% 8%;
   }
-
-  .elevator-pitch {
-    height: 330px;
-  }
-
-  .elevator-pitch-header {
-    margin-top: 13%;
-  }
-
-  /*.current-projects {
-    height: 780px;
-  }
-
-  .current-projects h4 {
-    padding: 12% 0 2% 0;
-  }*/
 
   /* BEGIN materialize overrides for iphone6 plus */
   .row .col.s11 {
@@ -247,10 +182,6 @@
     display: none;
   }
 
-  .nav-container #comp-name-questions-page {
-    margin-right: 30%;
-  }
-
   .homepage-btn-mtb {
     top: 35%;
     left: 14%;
@@ -266,35 +197,13 @@
 
 /* iPhone 6 */
 @media only screen and (max-width: 375px) {
-  .nav-container {
-    height: 40px;
-    margin-top: 3%;
-    margin-bottom: 3%;
-  }
-
   .material-icons {
     font-size: 45px;
-  }
-
-  .nav-container #comp-name-questions-page {
-    margin-right: 35%;
-  }
-
-  .nav-container .outside-guides-logo-link {
-    font-size: 30px;
   }
 
   .projects-wrapper {
     padding-top: 3%;
   }
-
-  .elevator-pitch-header {
-    margin-top: 15%;
-  }
-
-  /*.current-projects {
-    height: 780px;
-  }*/
 
   .reviews-section {
     height: 470px;
@@ -331,40 +240,9 @@
     height: 50px;
   }
 
-  .nav-container .outside-guides-logo-link {
-    font-size: 25px;
-  }
-
   .menu-more-links .material-icons {
     font-size: 18px;
   }
-
-  .nav-container {
-    height: 40px;
-    margin-bottom: 0%;
-  }
-
-  .nav-container a {
-    font-size: 20px;
-    line-height: 1;
-    padding-top: 2%;
-  }
-
-  .elevator-pitch {
-    height: 300px;
-  }
-
-  .elevator-pitch-header {
-    padding-top: 3%;
-  }
-
-  /*.current-projects {
-    height: 750px;
-  }
-
-  .current-projects h4 {
-    padding: 11% 0 2% 0;
-  }*/
 
   .reviews-section {
     height: 500px;
@@ -407,13 +285,5 @@
 
   .side-nav {
     width: 200px;
-  }
-
-  .more-links-small i {
-    font-size: 35px;
-  }
-
-  .nav-container #comp-name-questions-page {
-    margin-right: 40%;
   }
 }

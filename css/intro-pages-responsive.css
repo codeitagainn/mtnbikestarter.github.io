@@ -3,65 +3,25 @@
 /* IPAD */
 @media only screen and (max-width: 768px) {
   .intro-page-header h2 {
-    padding-top: 45%;
-  }
-
-  .nav-container-intros a {
-    font-size: 45px;
-  }
-
-  .nav-container-intros #comp-name-questions-page {
-    margin-right: 53%;
+    padding-top: 30%;
   }
 }
 
 /* iPhone 6Plus */
 @media only screen and (max-width: 414px) {
-
-  .nav-container-intros a {
-    font-size: 30px;
-    padding-left: 0;
-  }
-
   .intro-page-header h2 {
     padding-top: 0;
-  }
-
-  .nav-container-intros a {
-    padding-left: 3%;
-  }
-
-  .nav-container-intros {
-    margin-top: 6%;
   }
 
   .intro-page-header {
     margin-top: 65%;
   }
-
-  .material-icons {
-    font-size: 50px;
-  }
-
-  .nav-container-intros #comp-name-questions-page {
-    margin-right: 33%;
-  }
 }
 
 /* iPhone 6 */
 @media only screen and (max-width: 375px) {
-  .nav-container-intros #comp-name-questions-page {
-    margin-right: 28%;
-  }
 }
 
 /* iPhone 5 */
 @media only screen and (max-width: 320px) {
-  .nav-container-intros a {
-    font-size: 25px;
-  }
-
-  .nav-container-intros #comp-name-questions-page {
-    margin-right: 30%;
-  }
 }
