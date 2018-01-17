@@ -38,49 +38,8 @@
     display:  none;
   }
 
-  .reviews-section {
-    height: 470px;
-  }
-
-  .reviews-section h4 {
-    padding-top: 5%;
-  }
-
-  .partners-section {
-    height: 250px;
-  }
-
-  .partners-section h4 {
-    padding-top: 5%;
-  }
-
-  .partners-container {
-    padding-top: 3%;
-  }
-
-  .toggle-display {
-    display: none;
-  }
-
-  .made-in-section {
-    height: 50px;
-  }
-
-  .copyright {
-    margin-right: 5%;
-  }
-
-  .made-in-section .made-w-love {
-    float: left;
-    margin-left: 3%;
-  }
-
   .material-icons {
     font-size: 30px;
-  }
-
-  a .previous-arrow {
-    font-size: 70px;
   }
 
   .homepage-btn-mtb {
@@ -125,61 +84,8 @@
     margin-bottom: 5%;
   }
 
-  .partners-image {
-    width: 50px;
-    height: 50px;
-  }
-
-  .partners-image-rei {
-    width: 60px;
-    height: 50px;
-    margin-left: 0;
-  }
-
-  .partners-image-evo {
-    width: 50px;
-    height: 50px;
-  }
-
   .project-row {
     margin-top: 5%;
-  }
-
-  .partners-section {
-    height: 170px;
-  }
-
-  .partners-section h4 {
-    padding-top: 7%;
-  }
-
-  .reviews-section {
-    height: 480px;
-  }
-
-  .reviews-section h4 {
-    padding-top: 10%;
-  }
-
-  .made-in-section .made-w-love {
-    padding-top: 3%;
-  }
-
-  .copyright {
-    padding-top: 3%;
-  }
-
-  .copyright .material-icons {
-    font-size: 14px;
-  }
-
-  .made-in-section {
-    font-size: 10px;
-    height: 40px;
-  }
-
-  .toggle-display-ip6plus {
-    display: none;
   }
 
   .homepage-btn-mtb {
@@ -205,22 +111,6 @@
     padding-top: 3%;
   }
 
-  .reviews-section {
-    height: 470px;
-  }
-
-  .partners-section {
-    height: 170px;
-  }
-
-  .partners-section h4 {
-    padding-top: 8%;
-  }
-
-  .made-in-section {
-    height: 30px;
-  }
-
   .homepage-btn-snowboard {
     padding: 35px 70px;
     top: 40%;
@@ -244,32 +134,8 @@
     font-size: 18px;
   }
 
-  .reviews-section {
-    height: 500px;
-  }
-
-  .reviews-section h4 {
-    padding-top: 8%;
-  }
-
-  .partners-section {
-    height: 160px;
-  }
-
-  .partners-section h4 {
-    padding-top: 8%;
-  }
-
   .partners-row {
     margin-left: 2%;
-  }
-
-  .copyright {
-    margin-right: 3%;
-  }
-
-  .made-in-section {
-    height: 30px;
   }
 
   .homepage-btn-mtb {
