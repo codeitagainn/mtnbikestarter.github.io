@@ -55,7 +55,7 @@
   .question-header-wrapper h3 {
     border-bottom: 2px solid #06D6A0;
   }
-  
+
   h6 {
     margin-top: 5%;
   }
@@ -168,12 +168,12 @@
 
 @media only screen and (max-width: 375px) {
   .new-nav-container {
-    width: 400px;
+    width: 350px;
     left: 20px
   }
 
   .new-nav-container #comp-name-questions-page {
-    margin-right: 52%;
+    margin-right: 60%;
   }
 
   .material-icons {
