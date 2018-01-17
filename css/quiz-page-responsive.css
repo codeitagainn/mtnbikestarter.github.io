@@ -1,7 +1,11 @@
 @media only screen and (max-width: 768px) {
   .new-nav-container {
-    width: 618px;
-    left: 75px;
+    width: 700px;
+    left: 40px;
+  }
+
+  .new-nav-container a {
+    font-size: 22px;
   }
 
   .new-nav-container #comp-name-questions-page {

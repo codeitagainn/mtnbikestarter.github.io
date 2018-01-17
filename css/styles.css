@@ -489,6 +489,7 @@ i.medium {
    width: 1200px;
    top: 10px;
    left: 50px;
+   z-index: 100;
  }
 
  .new-nav-container #comp-name-questions-page {
@@ -498,5 +499,5 @@ i.medium {
 
   .new-nav-container a {
     font-size: 18px;
-    color: black;
+    color: white;
   }
