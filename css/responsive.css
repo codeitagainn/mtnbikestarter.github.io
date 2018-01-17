@@ -13,36 +13,6 @@
     display: none;
   }
   /* END navbar formatting */
-
-  /* BEGIN response design for get started styles*/
-  .get-started-image {
-    width: 84%;
-    height: 450px;
-    margin-bottom: 5%;
-  }
-
-  .get-started-text-container {
-    text-align: center;
-    font-size: 3.5rem;
-    padding-top: 6%;
-  }
-
-  .get-started-text-item {
-    padding-bottom: 7%;
-  }
-
-  .get-started-container-responsive {
-    top: 25%;
-    height: 870px;
-    width: 60%;
-    left: 20%;
-    display: initial;
-  }
-
-  .get-started-container {
-    display: none;
-  }
-  /* END responsive design for get started styles*/
 }
 
 @media only screen and (max-width: 1023px) {
@@ -78,10 +48,6 @@
     margin-left: 36%;
   }
 
-  .header-text-item {
-    width: 260px;
-  }
-
   .previous-arrow {
     top: 25%;
     font-size: 4rem;
@@ -90,14 +56,6 @@
 
   .past-experience-question-wrapper {
     margin-left: 40%;
-  }
-
-  .jump-riding-question-wrapper {
-    margin-left: 32%;
-  }
-
-  .usage-freq-question-wrapper {
-    margin-left: 34%;
   }
 
   .side-nav {
@@ -170,34 +128,6 @@
     font-size: 1.0rem;
   }
 
-  /* BEGIN response design for get started styles*/
-  .get-started-image {
-    width: 84%;
-    height: 450px;
-    margin-bottom: 5%;
-  }
-
-  .get-started-text-container {
-    text-align: center;
-    font-size: 3.5rem;
-    padding-top: 6%;
-  }
-
-  .get-started-text-item {
-    padding-bottom: 7%;
-  }
-
-  .get-started-container-responsive {
-    top: 15%;
-    height: 870px;
-    display: initial;
-  }
-
-  .get-started-container {
-    display: none;
-  }
-  /* END responsive design for get started styles*/
-
   /* BEGIN new design */
   .header-links-large {
     display: none;
@@ -230,16 +160,8 @@
     font-size: 25px;
   }
 
-  .usage-freq-question-wrapper {
-    margin-left: 20%;
-  }
-
   .usage-type-question-wrapper {
     margin-left: 36%;
-  }
-
-  .jump-riding-question-wrapper {
-    margin-left: 15%;
   }
 
   .previous-arrow {
@@ -254,10 +176,6 @@
 
   .side-nav {
     width: 200px;
-  }
-
-  .defintion {
-    padding-top: 4%;
   }
 
   .page-title {
@@ -338,34 +256,6 @@
   }
 
   /* BEGIN response design for get started styles*/
-  .get-started-image {
-    width: 86%;
-    height: 330px;
-    margin-bottom: 8%;
-  }
-
-  .get-started-text-container {
-    text-align: center;
-    font-size: 1.7rem;
-    padding-top: 4%;
-  }
-
-  .get-started-text-item {
-    padding-bottom: 7%;
-  }
-
-  .get-started-container-responsive {
-    top: 18%;
-    height: 550px;
-    width: 76%;
-    left: 12%;
-    display: initial;
-  }
-
-  .get-started-container {
-    display: none;
-  }
-
   .bike-display {
     text-align: center;
   }
@@ -381,10 +271,6 @@
 
 /* iPhone 6 */
 @media only screen and (max-width: 375px) {
-  .header-text-item {
-    width: 260px;
-  }
-
   .header-text {
     padding-top: 230px;
     top: auto;
@@ -397,10 +283,6 @@
 
   h3 {
     font-size: 25px;
-  }
-
-  .usage-freq-question-wrapper {
-    margin-left: 17%;
   }
 
   .usage-type-question-wrapper {
@@ -419,10 +301,6 @@
 
   .side-nav {
     width: 200px;
-  }
-
-  .defintion {
-    padding-top: 4%;
   }
 
   .page-title {
@@ -503,44 +381,10 @@
   .header-links {
     display: none;
   }
-
-  /* BEGIN response design for get started styles*/
-  .get-started-image {
-    width: 86%;
-    height: 290px;
-    margin-bottom: 5%;
-  }
-
-  .get-started-text-container {
-    text-align: center;
-    font-size: 1.7rem;
-    padding-top: 6%;
-  }
-
-  .get-started-text-item {
-    padding-bottom: 7%;
-  }
-
-  .get-started-container-responsive {
-    top: 19%;
-    height: 490px;
-    width: 73%;
-    left: 13%;
-    display: initial;
-  }
-
-  .get-started-container {
-    display: none;
-  }
-  /* END responsive design for get started styles*/
 }
 
 /* iPhone 5: NOTE: if screen is wider than 480pixels go up one media query. if 480 or less use this */
 @media only screen and (max-width: 320px) {
-  .header-text-item {
-    width: 260px;
-  }
-
   .header-text {
     width: 260px;
     padding-top: 230px;
@@ -556,10 +400,6 @@
     font-size: 25px;
   }
 
-  .usage-freq-question-wrapper {
-    margin-left: 12%;
-  }
-
   .usage-type-question-wrapper {
     margin-left: 36%;
   }
@@ -572,26 +412,12 @@
     margin-left: 25%;
   }
 
-  .jump-riding-question-wrapper {
-    margin-left: 10%;
-  }
-
-  .previous-arrow {
-    top: 25%;
-    font-size: 4rem;
-    left: 4%;
-  }
-
   h5 {
     font-size: 16px;
   }
 
   .side-nav {
     width: 160px;
-  }
-
-  .defintion {
-    padding-top: 4%;
   }
 
   .page-title {
@@ -685,43 +511,8 @@
       font-size: 1rem;
   }
 
-  /* BEGIN response design for get started styles*/
-  .get-started-image {
-    width: 85%;
-    height: 240px;
-    margin-bottom: 4%;
-  }
-
-  .get-started-text-container {
-    text-align: center;
-    font-size: 1.7rem;
-  }
-
-  .get-started-text-item {
-    padding-bottom: 4%;
-  }
-
-  .get-started-container-responsive {
-    top: 18%;
-    height: 420px;
-    left: 12%;
-    width: 75%;
-    display: initial;
-  }
-
-  .get-started-container {
-    display: none;
-  }
-  /* END responsive design for get started styles*/
-
-  /*BEGIN footer responsive styles */
-  .footer-links {
-    padding-left: 5%;
-  }
-
   .bike-divider {
     margin-left: 20px;
     width: 90%;
   }
-  /* END footer responsive styles */
 }
