@@ -245,7 +245,7 @@ function envCheckForUrlPush(bike_file) {
 function slideOutRight() {
   $('.next-question').click(function() {
     let current_question = $('.displayed')
-    current_question.hide("slide", {direction: "right"}, 300);
+    current_question.hide("slide", {direction: "right"}, 1800);
     getNextQuestion(current_question)
   })
 }
