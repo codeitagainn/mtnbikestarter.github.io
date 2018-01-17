@@ -1,12 +1,3 @@
-.nav-container-intros {
-  width: 100%;
-  height: 70px;
-  margin-top: 3%;
-  padding-left: 6%;
-  z-index: 2;
-  position: absolute;
-}
-
 .intro-page-header {
   margin-top: 20%;
   color: white;
@@ -27,33 +18,12 @@
   border-bottom: 2px solid #06D6A0;
 }
 
-.nav-container-intros #comp-name-questions-page {
-    display: inline;
-    margin-right: 25%;
-}
-
-.nav-container-intros .header-links-large {
-  padding-left: 6%;
-}
-
-.nav-container-intros .jumpstart-logos-link {
-  position: absolute;
-  font-size: 30px;
-  vertical-align: middle;
-}
-
-.nav-container-intros a {
-  font-size: 25px;
-  color: white;
-}
-
 .video-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /*border: 13px solid #06D6A0;*/
   background-color: rgba(0,0,0,.7);
   z-index: 1;
 }

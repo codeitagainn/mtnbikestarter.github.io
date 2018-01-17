@@ -497,7 +497,12 @@ i.medium {
     margin-right: 43%;
   }
 
-  .new-nav-container a {
+  .new-nav-container .font-black {
+    font-size: 18px;
+    color: black;
+  }
+
+  .new-nav-container .font-white {
     font-size: 18px;
     color: white;
   }
