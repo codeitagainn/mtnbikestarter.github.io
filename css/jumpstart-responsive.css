@@ -38,23 +38,6 @@
     display:  none;
   }
 
-  .elevator-pitch {
-    height: 230px;
-  }
-
-  .elevator-pitch-header {
-    margin-top: 7%;
-  }
-
-  /* NOTE old css */
-  /*.current-projects {
-    height: 300px;
-  }
-
-  .current-projects h4 {
-      padding: 6% 0 2% 0;
-  }*/
-
   .reviews-section {
     height: 470px;
   }
@@ -123,22 +106,6 @@
     display: initial;
     margin: 2% 8%;
   }
-
-  .elevator-pitch {
-    height: 330px;
-  }
-
-  .elevator-pitch-header {
-    margin-top: 13%;
-  }
-
-  /*.current-projects {
-    height: 780px;
-  }
-
-  .current-projects h4 {
-    padding: 12% 0 2% 0;
-  }*/
 
   /* BEGIN materialize overrides for iphone6 plus */
   .row .col.s11 {
@@ -238,10 +205,6 @@
     padding-top: 3%;
   }
 
-  .elevator-pitch-header {
-    margin-top: 15%;
-  }
-
   .reviews-section {
     height: 470px;
   }
@@ -279,14 +242,6 @@
 
   .menu-more-links .material-icons {
     font-size: 18px;
-  }
-
-  .elevator-pitch {
-    height: 300px;
-  }
-
-  .elevator-pitch-header {
-    padding-top: 3%;
   }
 
   .reviews-section {
