@@ -80,5 +80,8 @@ h6 {
 [type="radio"]:disabled:not(:checked)+label:before {
   background-color: #626868;
   border: 2px solid black;
-;
+}
+
+[type="radio"]:disabled+label {
+    color: #626868;
 }
