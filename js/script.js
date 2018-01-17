@@ -297,7 +297,7 @@ function getNextQuestion(current_question) {
 function checkWindowAndDisplay(next) {
   switch ($(window).width()) {
     case 320:
-      next.animate({'margin-top': '200px'}, 1700)
+      next.animate({'margin-top': '180px'}, 1700)
       break
     case 375:
       next.animate({'margin-top': '230px'}, 1700)
