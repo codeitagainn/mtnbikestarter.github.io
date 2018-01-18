@@ -1,0 +1,24 @@
+body.about-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/sport-bike-bicycle-fitness.jpg');
+  background-size: 100% 100%;
+}
+
+.light-green-container {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(6, 214, 160);
+  position: absolute;
+  left: 450px;
+  top: 100px;
+  z-index: 1;
+}
+
+.dark-green-container {
+  width: 750px;
+  height: 400px;
+  background-color: #077B3E;
+  position: absolute;
+  left: 250px;
+  top: 160px;
+  z-index: 1;
+}
