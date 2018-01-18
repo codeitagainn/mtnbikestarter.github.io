@@ -14,11 +14,22 @@ body.about-background {
 }
 
 .dark-green-container {
-  width: 750px;
+  width: 800px;
   height: 400px;
   background-color: #077B3E;
   position: absolute;
-  left: 250px;
-  top: 160px;
+  left: 200px;
+  top: 140px;
   z-index: 1;
+  color: white;
+}
+
+.dark-green-container h5 {
+  border-bottom: 2px solid #06D6A0;
+  /*padding-bottom: 3px;*/
+}
+
+.about-text-wrapper {
+  width: 80%;
+  margin-left: 10%;
 }
