@@ -373,13 +373,6 @@ i.medium {
    line-height: 1.7;
  }
 
- .about-background {
-   position: absolute;
-   width: 50%;
-   height: 100%;
-   z-index: -1;
- }
-
  .new-nav-container {
    position: absolute;
    width: 1200px;

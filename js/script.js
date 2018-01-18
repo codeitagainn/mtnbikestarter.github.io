@@ -228,7 +228,7 @@ function determineResults() {
   // } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
   //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-lg')
   // } else if (answers.budget == "greater-4000" && (answers.usageType[0] == 'enduro') && answers.height == "6.3-6.5") {
-  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-xl') 
+  //     envCheckForUrlPush('yeti/yeti-sb-4.5/yeti-sb-4.5-xl')
   } else {
     envCheckForUrlPush('undeclared-path/undeclared-path')
   }
@@ -297,7 +297,7 @@ function getNextQuestion(current_question) {
 function checkWindowAndDisplay(next) {
   switch ($(window).width()) {
     case 320:
-      next.animate({'margin-top': '180px'}, 1700)
+      next.animate({'margin-top': '160px'}, 1700)
       break
     case 375:
       next.animate({'margin-top': '230px'}, 1700)
