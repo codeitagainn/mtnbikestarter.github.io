@@ -4,19 +4,19 @@ body.about-background {
 }
 
 .light-green-container {
-  width: 600px;
-  height: 400px;
+  width: 700px;
+  height: 450px;
   background-color: rgb(6, 214, 160);
   position: absolute;
-  left: 450px;
+  left: 350px;
   top: 100px;
   z-index: 1;
 }
 
 .dark-green-container {
   width: 800px;
-  height: 400px;
-  background-color: #077B3E;
+  height: 450px;
+  background-color: #013025;
   position: absolute;
   left: 200px;
   top: 140px;
@@ -25,11 +25,13 @@ body.about-background {
 }
 
 .dark-green-container h5 {
-  border-bottom: 2px solid #06D6A0;
+  /*border-bottom: 2px solid #06D6A0;*/
   /*padding-bottom: 3px;*/
 }
 
 .about-text-wrapper {
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
+  line-height: 25px;
+  margin-top: 4%;
 }
