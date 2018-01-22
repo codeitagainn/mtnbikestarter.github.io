@@ -5,6 +5,10 @@
   .intro-page-header h2 {
     padding-top: 30%;
   }
+
+  .intro-page-header {
+    margin-top: 10%;
+  }
 }
 
 /* iPhone 6Plus */
@@ -14,12 +18,15 @@
   }
 
   .intro-page-header {
-    margin-top: 65%;
+    margin-top: 50%;
   }
 }
 
 /* iPhone 6 */
 @media only screen and (max-width: 375px) {
+  .intro-page-header {
+    margin-top: 60%;
+  }
 }
 
 /* iPhone 5 */
