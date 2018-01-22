@@ -9,7 +9,7 @@ body.about-background {
   background-color: rgb(6, 214, 160);
   position: absolute;
   left: 350px;
-  top: 100px;
+  top: 80px;
   z-index: 1;
 }
 
@@ -19,7 +19,7 @@ body.about-background {
   background-color: #013025;
   position: absolute;
   left: 200px;
-  top: 140px;
+  top: 120px;
   z-index: 1;
   color: white;
 }
