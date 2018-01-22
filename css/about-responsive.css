@@ -48,10 +48,6 @@
     margin-bottom: 20px;
   }
 
-  .about-text-wrapper {
-    margin-top: 10%;
-  }
-
   .about-text-wrapper p {
     font-size: 12px;
   }
@@ -59,7 +55,23 @@
 
 /*IPHONE 6*/
 @media only screen and (max-width: 375px) {
+  .light-green-container {
+    width: 330px;
+    height: 550px;
+    left: 30px;
+    top: 60px;
+  }
 
+  .dark-green-container {
+    width: 340px;
+    height: 580px;
+    left: 5px;
+    top: 80px;
+  }
+
+  .about-text-wrapper {
+    margin-top: 0;
+  }
 }
 
 /*IPHONE 5*/

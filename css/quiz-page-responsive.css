@@ -177,11 +177,11 @@
 
   .new-nav-container {
     width: 350px;
-    left: 20px
+    left: 10px
   }
 
   .new-nav-container #comp-name-questions-page {
-    margin-right: 59%;
+    margin-right: 57%;
   }
 
   .material-icons {
