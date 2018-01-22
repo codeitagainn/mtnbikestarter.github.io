@@ -69,11 +69,11 @@
 
   .new-nav-container {
     width: 380px;
-    left: 40px;
+    left: 20px;
   }
 
   .new-nav-container #comp-name-questions-page {
-    margin-right: 45%;
+    margin-right: 55%;
   }
 
   .question-divider-wrapper {

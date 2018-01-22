@@ -8,22 +8,15 @@
   .light-green-container {
     width: 500px;
     height: 700px;
-    background-color: rgb(6, 214, 160);
-    position: absolute;
     left: 150px;
     top: 150px;
-    z-index: 1;
   }
 
   .dark-green-container {
     width: 470px;
     height: 710px;
-    background-color: #013025;
-    position: absolute;
     left: 90px;
     top: 200px;
-    z-index: 1;
-    color: white;
   }
 
   .about-text-wrapper {
@@ -33,7 +26,35 @@
 
 /*IPHONE 6+*/
 @media only screen and (max-width: 414px) {
+  h5 {
+    font-size: 18px;
+  }
 
+  .light-green-container {
+    width: 330px;
+    height: 600px;
+    left: 50px;
+    top: 70px;
+  }
+
+  .dark-green-container {
+    width: 320px;
+    height: 600px;
+    left: 30px;
+    top: 100px;
+  }
+
+  .dark-green-container h5 {
+    margin-bottom: 20px;
+  }
+
+  .about-text-wrapper {
+    margin-top: 10%;
+  }
+
+  .about-text-wrapper p {
+    font-size: 12px;
+  }
 }
 
 /*IPHONE 6*/
