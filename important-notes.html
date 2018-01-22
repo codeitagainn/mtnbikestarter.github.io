@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/override-materialize.css">    
+    <link rel="stylesheet" href="css/override-materialize.css">
     <link rel="stylesheet" href="css/resources-page.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/jumpstart.css">
@@ -34,22 +34,47 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div class="nav-container">
+    <div class="new-nav-container">
       <div id="comp-name-questions-page">
         <h5>
-          <a class="outside-guides-logo-link" href="index.html">
-            Jump Start
+          <a class="outside-guides-logo-link font-black" href="index.html">
+            Outside Guides
           </a>
         </h5>
       </div>
-      <div class="header-links-large">
-        <a href="mtb.html" class="jumpstart-header-link">mtn bike</a>
-        <a href="#" class="jumpstart-header-link">snowboard</a>
+
+      <div class="header-links-large font-black">
+        <a href="mtb.html" class="active-sport jumpstart-header-link dropdown-button" data-activates='dropdown1'>mtn bike</a>
+        <a href="#" class="jumpstart-header-link dropdown-button" data-activates='dropdown2'>snowboard</a>
         <a href="#" class="jumpstart-header-link">how it works</a>
         <a href="about.html" class="jumpstart-header-link">about</a>
       </div>
+
       <a href="#" data-activates="slide-out" class="button-collapse more-links-small"><i class="material-icons">menu</i></a>
     </div>
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="mountain-bike-selection-tool.html">MTB Selector</a></li>
+      <li class="divider"></li>
+      <li><a href="mountain-bike-dictionary.html">MTB Dictionary</a></li>
+      <li class="divider"></li>
+      <li><a href="mountain-bike-gear.html">MTB Gear</a></li>
+      <li class="divider"></li>
+      <li><a href="mountain-bike-resources.html">MTB Resources</a></li>
+      <li class="divider"></li>
+    </ul>
+
+    <ul id='dropdown2' class='dropdown-content'>
+      <li><a href="#!">Snowboard Selector</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">Snowboard Dictionary</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">Snowboard Gear</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">Snowboard Resources</a></li>
+      <li class="divider"></li>
+    </ul>
 
     <ul id="slide-out" class="side-nav">
       <li><a href="mountain-bike-selection-tool.html">MTB selection guide</a></li>
