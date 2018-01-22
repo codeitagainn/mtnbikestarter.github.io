@@ -76,5 +76,17 @@
 
 /*IPHONE 5*/
 @media only screen and (max-width: 320px) {
+  .light-green-container {
+    width: 280px;
+    height: 650px;
+    left: 30px;
+    top: 60px;
+  }
 
+  .dark-green-container {
+    width: 290px;
+    height: 650px;
+    left: 5px;
+    top: 80px;
+  }
 }
