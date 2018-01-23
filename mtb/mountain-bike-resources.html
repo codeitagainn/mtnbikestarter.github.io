@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/override-materialize.css">    
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/jumpstart.css">
-    <link rel="stylesheet" href="css/jumpstart-responsive.css">
-    <link rel="stylesheet" href="css/intro-pages.css">
-    <link rel="stylesheet" href="css/intro-pages-responsive.css">
-    <link rel="stylesheet" href="css/quiz-page.css">
-    <link rel="stylesheet" href="css/quiz-page-responsive.css">
-    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/override-materialize.css">
+    <link rel="stylesheet" href="../css/resources-page.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/jumpstart.css">
+    <link rel="stylesheet" href="../css/jumpstart-responsive.css">
+    <link rel="stylesheet" href="../css/quiz-page.css">
+    <link rel="stylesheet" href="../css/quiz-page-responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="../js/script.js"></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -39,17 +39,17 @@
     <div class="new-nav-container">
       <div id="comp-name-questions-page">
         <h5>
-          <a class="outside-guides-logo-link font-white" href="index.html">
+          <a class="outside-guides-logo-link font-black" href="../index.html">
             Outside Guides
           </a>
         </h5>
       </div>
 
-      <div class="header-links-large font-white">
+      <div class="header-links-large font-black">
         <a href="mtb.html" class="active-sport jumpstart-header-link dropdown-button" data-activates='dropdown1'>mtn bike</a>
         <a href="#" class="jumpstart-header-link dropdown-button" data-activates='dropdown2'>snowboard</a>
         <a href="#" class="jumpstart-header-link">how it works</a>
-        <a href="about.html" class="jumpstart-header-link">about</a>
+        <a href="../about.html" class="jumpstart-header-link">about</a>
       </div>
 
       <a href="#" data-activates="slide-out" class="button-collapse more-links-small"><i class="material-icons">menu</i></a>
@@ -89,21 +89,56 @@
       <li><div class="divider"></div></li>
       <li><a href="important-notes.html">Important notes</a></li>
       <li><div class="divider"></div></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="../about.html">About</a></li>
       <li><div class="divider"></div></li>
       <li><a href="mailto:jack@startmtb.com?Subject=Feedback">Contact / feedback</a></li>
       <li><div class="divider"></div></li>
     </ul>
 
-    <div class="intro-page-header">
-      <h2>Finding a bike just got a lot easier</h2>
-      <a href="mountain-bike-selection-tool.html">Let's get started</a>
+    <div class="page-title">
+      <p>MTB Resources</p>
     </div>
 
-    <div class="outer-container">
-      <div class="video-overlay"></div>
-      <video id="player" playsinline loop autoplay muted src="videos/mtn-bike.mp4"></video>
+    <h5 class="resources-group-header"><span>Important notes</span></h5>
+    <div class="resources-group">
+      <i class="material-icons small">directions_bike</i>
+      <p><a target="_blank" href="important-notes.html">Important notes</a> - there are different topics on the mountain biking frequently debated. These are our thoughts on some of them.</p>
     </div>
 
+    <h5 class="resources-group-header"><span>Maintenance</span></h5>
+    <div class="resources-group">
+      <i class="material-icons small">directions_bike</i>
+      <p><a target="_blank" href="http://bit.ly/2zWZhHf">Bike maintenance</a> - a GMBN (Global Mountain Biking Network) YouTube playlist containing 21 videos on mountain bike maintenance.</p>
+    </div>
+
+    <h5 class="resources-group-header"><span>Trails</span></h5>
+    <div class="resources-group">
+      <i class="material-icons small">directions_bike</i>
+      <p><a target="_blank" href="https://www.singletracks.com/mountain-bike/trails.php">Find trails</a> - the SingleTracks.com trails service is a awesome. You can find trails closest to you and get ratings / reviews from the community.</p>
+    </div>
+
+    <h5 class="resources-group-header"><span>Community</span></h5>
+    <div class="resources-group">
+      <i class="material-icons small">directions_bike</i>
+      <p><a target="_blank" href="http://bit.ly/2zPk5zq">Groups</a> - MTB can be fun as a solo sport, but it is more fun and less dangerous in groups, especially when starting out find MTB groups near you on SingleTracks.com.</p>
+    </div>
+
+    <h5 class="resources-group-header"><span>How to's</span></h5>
+    <div class="resources-group">
+      <i class="material-icons small">directions_bike</i>
+      <p><a target="_blank" href="http://bit.ly/2zPk5zq">Skill tutorials</a> - GMBN playlist with over over 60 videos teaching you different mountain biking skills. Skill acquisition comes 99% from riding and 1% from watching, so watch, take notes, and then put in the work.</p>
+    </div>
+
+    <h5 class="resources-group-header"><span>Trying new stuff?</span></h5>
+    <div class="resources-group">
+      <i class="material-icons small">directions_bike</i>
+      <p><a target="_blank" href="http://bit.ly/2yUNJUw">Situational tips</a> - GMBN playlist with quick tips that can save you a lot of time and trouble if you take a few minutes to watch. If you are going to try something new on your bike, like night riding, come here for some advice.</p>
+    </div>
+
+    <h5 class="resources-group-header"><span>Bike travel</span></h5>
+    <div class="resources-group">
+      <i class="material-icons small">directions_bike</i>
+      <p><a target="_blank" href="http://bit.ly/2lphZnr">MTB travel</a> - You probably won't need this right away, but if you do end up wanting to do some travel with your bike, this is a good beforehand read.</p>
+    </div>
   </body>
 </html>
