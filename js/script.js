@@ -15,7 +15,6 @@ $(document).ready(function(){
   underlineActiveProject()
   updateProgressBar()
   progressItemDisplay()
-  scrollToDictionaryWord()
 })
 
 function initializeDropDown() {
