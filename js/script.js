@@ -1,4 +1,5 @@
 window.answers = { usageType: [], usageFrequency: "", budget: "", height: "", sandSnow: "", gender: "" }
+const progressItems = ["past-experience-progress", "usage-type-progress", "snow-sand-progress", "budget-progress", "height-progress", "gender-progress", "smooth-ride-vs-parts-progress"]
 
 $(document).ready(function(){
   $(".button-collapse").sideNav({edge: 'right'});
@@ -14,6 +15,7 @@ $(document).ready(function(){
   underlineActiveProject()
   updateProgressBar()
   progressItemDisplay()
+  scrollToDictionaryWord()
 })
 
 function initializeDropDown() {
@@ -245,7 +247,7 @@ function envCheckForUrlPush(bike_file) {
 function slideOutRight() {
   $('.next-question').click(function() {
     let current_question = $('.displayed')
-    current_question.hide("slide", {direction: "right"}, 1200);
+    current_question.hide("slide", {direction: "right"}, 1500);
     getNextQuestion(current_question)
   })
 }
@@ -354,7 +356,6 @@ function mapProgressBarToQuestion() {
   }
 }
 
-const progressItems = ["past-experience-progress", "usage-type-progress", "snow-sand-progress", "budget-progress", "height-progress", "gender-progress", "smooth-ride-vs-parts-progress"]
 function removeCheckedItems(progressItem) {
   $.each(progressItems, function(i, val) {
     if (val == progressItem) {
