@@ -22,6 +22,11 @@
   .about-text-wrapper {
     margin-top: 10%;
   }
+
+  .about-text-wrapper {
+    margin-top: 10%;
+    font-size: 16px;
+  }
 }
 
 /*IPHONE 6+*/
