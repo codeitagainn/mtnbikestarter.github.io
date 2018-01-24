@@ -5,5 +5,59 @@
 
 .dictionary-header-container img {
   width: 100%;
-  height: 30%;
+  height: 230px;
+}
+
+.dictionary-page-header .dictionary-page-title {
+  font-family: Octin College;
+  position: absolute;
+  left: 50px;
+  top: 110px;
+  font-size: 28px;
+  color: #07BD8E;
+}
+
+.dictionary-page-header .dictionary-page-header-subtext {
+  position: absolute;
+  left: 50px;
+  top: 160px;
+  font-size: 14px;
+  color: white;
+}
+
+.dictionary-header {
+  height: 40px;
+  background: #07BD8E;
+  margin: -6px;
+  color: #013429;
+  font-weight: 1000;
+  border-bottom: 2px solid white;
+}
+
+.dictionary-row {
+  height: 120px;
+  background: #07BD8E;
+  border: 2px solid white;
+}
+
+.dictionary-row p {
+  color: white;
+  text-align: center;
+}
+
+.dictionary-row i {
+  color: white;
+  text-align: center;
+  margin-left: 180px;
+  margin-top: 27px;
+}
+
+.dictionary-row-container .row {
+  margin-bottom: 0;
+}
+
+
+.dictionary-header p {
+  margin-top: 7px;
+  text-align: center;
 }
