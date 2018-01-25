@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/override-materialize.css">
     <link rel="stylesheet" href="../css/responsive.css">
@@ -104,40 +105,76 @@
       </div>
       <div class="dictionary-section">
         <div class="container-fluid dictionary-row-container">
-          <div class="row">
-            <div class="dictionary-header col s12">
-              <p>mountain biking terms</p>
+          <div class="glossary-section-header first-section">
+            <p>mountain biking terms</p>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front first-section-card">
+                <i class="material-icons small">arrow_upward</i>
+                <p>single track</p>
+              </div>
+              <div class="back first-section-card">
+                <p>single track</p>
+                <p>narrow trail designed for one rider at a time.</p>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="dictionary-row col s12"></div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front first-section-card">
+                <i class="material-icons small">compare_arrows</i>
+                <p>double track</p>
+              </div>
+              <div class="back first-section-card">
+                <p>double track</p>
+                <p>trail typically twice as wide as single track designed for two riders at the same time.</p>
+              </div>
+            </div>
           </div>
-          <div class="row">
-            <div class="dictionary-row col s12"></div>
+        </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front first-section-card">
+                <i class="material-icons small">directions_bike</i>
+                <p>bike geometry</p>
+              </div>
+              <div class="back first-section-card">
+                <p>bike geometry</p>
+                <p>This refers to bike fit. It takes frame, handlebars, seat level, tire size and other factors into consideration for how a bike will handle and what it’s main purpose should be. Appropriate bike geometries will vary for different people.</p>
+              </div>
+            </div>
           </div>
-          <div class="row">
-            <div class="dictionary-row col s12"></div>
+
+          <div class="glossary-section-header second-section-header">
+            <p>bicycle component terms</p>
           </div>
-          <div class="row">
-            <div class="dictionary-row col s12"></div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front second-section-card">
+                <i class="material-icons small">add_box</i>
+                <p>bike kits</p>
+              </div>
+              <div class="back second-section-card">
+                <p>bike kits</p>
+                <p>composed of the components you see on the frame. Included in a complete mtb kit is your cassette, chain, shifter, derailleur, racket, fork.</p>
+              </div>
+            </div>
           </div>
-          <div class="row">
-            <div class="dictionary-row col s12"></div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front second-section-card">
+                <i class="material-icons small">filter_list</i>
+                <p>shifter</p>
+              </div>
+              <div class="back second-section-card">
+                <p>shifter</p>
+                <p>Sets your gear. You can downshift and upshift. If you downshift you move the gears lower and the bike is easier to ride. Upshift and you move the gear index up, which makes the bike more difficult to pedal going uphill, but if flat or downhill you will pick up speed.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="dictionary-card-wrapper">
-        <div class="card" id="card-id">
-          <div class="front">
-            <i class="material-icons small">directions_bike</i>
-            <p>single track</p>
-          </div>
-          <div class="back">
-            <p>Single Track</p>
-            <p>Narrow trail designed for one rider at a time.</p>
-          </div>
-        </div>
-      </div>
-      </div>
+    </div>
   </body>
 </html>

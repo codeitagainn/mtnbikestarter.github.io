@@ -27,33 +27,68 @@
 
 .dictionary-card-wrapper .card {
   margin: 0;
-  height: 120px;
+  height: 160px;
   background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.glossary-section-header {
+  width: 100%;
+  height: 40px;
+  background: #07BD8E;
+  text-align: center;
+  border-top: 2px solid white;
+  color: white;
+  padding-top: 7px;
+}
+
+.glossary-section-header.second-section-header {
+  background: #157B65;
+}
+
+.glossary-section-header.first-section {
+  margin-top: -8px;
+  padding-top: 7px;
 }
 
 .back {
   width: 100px;
-  height: 220px;
-  background: #157B65;
-  border: 2px solid white;
+  height: 350px;
+  border-top: 2px solid white;
   color: white;
 }
 
 .back p {
   margin-top: 15px;
-  margin-bottom: 10px;
   margin-left: 20px;
 }
+
 .front {
   width: 100px;
-  height: 220px;
+  height: 350px;
+  border-top: 2px solid white;
+}
+
+.front.first-section-card {
   background: #07BD8E;
-  border: 2px solid white;
+}
+
+.back.first-section-card {
+  background: #157B65;
+}
+
+.front.second-section-card {
+  background: #157B65;
+}
+
+.back.second-section-card {
+  background: #07BD8E;
 }
 
 .front i {
   margin-left: 180px;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 40px;
   color: white;
 }
@@ -70,7 +105,6 @@
   margin: -6px;
   color: #013429;
   font-weight: 1000;
-  border-bottom: 2px solid white;
 }
 
 .dictionary-row {
