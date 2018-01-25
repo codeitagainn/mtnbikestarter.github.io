@@ -25,6 +25,26 @@
   color: white;
 }
 
+.dictionary-card-wrapper .card {
+  margin: 0;
+  height: 120px;
+  background-color: transparent;
+}
+
+.back {
+  width: 100px;
+  height: 220px;
+  background: #157B65;
+  border: 2px solid white;
+}
+
+.front {
+  width: 100px;
+  height: 220px;
+  background: #07BD8E;
+  border: 2px solid white;
+}
+
 .dictionary-header {
   height: 40px;
   background: #07BD8E;

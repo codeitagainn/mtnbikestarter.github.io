@@ -15,6 +15,7 @@ $(document).ready(function(){
   underlineActiveProject()
   updateProgressBar()
   progressItemDisplay()
+  $(".card").flip();
 })
 
 function initializeDropDown() {
