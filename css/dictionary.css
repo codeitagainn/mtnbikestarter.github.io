@@ -36,13 +36,32 @@
   height: 220px;
   background: #157B65;
   border: 2px solid white;
+  color: white;
 }
 
+.back p {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
 .front {
   width: 100px;
   height: 220px;
   background: #07BD8E;
   border: 2px solid white;
+}
+
+.front i {
+  margin-left: 180px;
+  margin-top: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.front p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
 }
 
 .dictionary-header {
