@@ -1,14 +1,14 @@
-.dictionary-header-container {
+.header-container {
   width: 100%;
   height: 100%;
 }
 
-.dictionary-header-container img {
+.header-container img {
   width: 100%;
   height: 230px;
 }
 
-.dictionary-page-header .dictionary-page-title {
+.page-header .page-title-header {
   font-family: Octin College;
   position: absolute;
   left: 50px;
@@ -17,7 +17,7 @@
   color: #07BD8E;
 }
 
-.dictionary-page-header .dictionary-page-header-subtext {
+.page-header .page-header-subtext {
   position: absolute;
   left: 50px;
   top: 160px;

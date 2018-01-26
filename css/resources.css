@@ -1,0 +1,8 @@
+.dictionary-card-wrapper .resources-card {
+  margin: 0;
+  height: 160px;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  width: 100%;
+}
