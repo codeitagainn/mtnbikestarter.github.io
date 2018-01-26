@@ -52,6 +52,13 @@
   .quiz-progress-container input.progress-nav-item-7 {
     left: 28%;
   }
+
+  #triangle-left {
+    top: 740px;
+    border-top: 200px solid transparent;
+    border-right: 400px solid #068E71;
+    border-bottom: 300px solid transparent;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -163,6 +170,13 @@
   #budget {
     margin-left: 75px;
   }
+
+  #triangle-left {
+      top: 540px;
+      border-top: 200px solid transparent;
+      border-right: 300px solid #068E71;
+      border-bottom: 200px solid transparent;
+  }
 }
 
 
@@ -248,5 +262,9 @@
 
   #budget {
     margin-left: 11%;
+  }
+
+  #triangle-left {
+    top: 440px;
   }
 }
