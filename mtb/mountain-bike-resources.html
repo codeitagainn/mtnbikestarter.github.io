@@ -11,14 +11,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/override-materialize.css">
-    <link rel="stylesheet" href="../css/resources-page.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/jumpstart.css">
     <link rel="stylesheet" href="../css/jumpstart-responsive.css">
     <link rel="stylesheet" href="../css/quiz-page.css">
     <link rel="stylesheet" href="../css/quiz-page-responsive.css">
+    <link rel="stylesheet" href="../css/dictionary.css">
+    <link rel="stylesheet" href="../css/resources.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="../js/mtb-script.js"></script>
     <!-- Google Tag Manager -->
@@ -39,13 +42,13 @@
     <div class="new-nav-container">
       <div id="comp-name-questions-page">
         <h5>
-          <a class="outside-guides-logo-link font-black" href="../index.html">
+          <a class="outside-guides-logo-link font-white" href="../index.html">
             Outside Guide
           </a>
         </h5>
       </div>
 
-      <div class="header-links-large font-black">
+      <div class="header-links-large font-white">
         <a href="mtb.html" class="active-sport jumpstart-header-link dropdown-button" data-activates='dropdown1'>mtn bike</a>
         <a href="#" class="jumpstart-header-link dropdown-button" data-activates='dropdown2'>snowboard</a>
         <a href="#" class="jumpstart-header-link">how it works</a>
@@ -95,50 +98,81 @@
       <li><div class="divider"></div></li>
     </ul>
 
-    <div class="page-title">
-      <p>MTB Resources</p>
+    <div class="header-container">
+      <img src="../images/background-glossary.png">
+      <div class="page-header">
+        <p class="page-title-header">resources</p>
+        <p class="page-header-subtext">for the dedicated</p>
+      </div>
     </div>
 
-    <h5 class="resources-group-header"><span>Important notes</span></h5>
-    <div class="resources-group">
-      <i class="material-icons small">directions_bike</i>
-      <p><a target="_blank" href="important-notes.html">Important notes</a> - there are different topics on the mountain biking frequently debated. These are our thoughts on some of them.</p>
-    </div>
-
-    <h5 class="resources-group-header"><span>Maintenance</span></h5>
-    <div class="resources-group">
-      <i class="material-icons small">directions_bike</i>
-      <p><a target="_blank" href="http://bit.ly/2zWZhHf">Bike maintenance</a> - a GMBN (Global Mountain Biking Network) YouTube playlist containing 21 videos on mountain bike maintenance.</p>
-    </div>
-
-    <h5 class="resources-group-header"><span>Trails</span></h5>
-    <div class="resources-group">
-      <i class="material-icons small">directions_bike</i>
-      <p><a target="_blank" href="https://www.singletracks.com/mountain-bike/trails.php">Find trails</a> - the SingleTracks.com trails service is a awesome. You can find trails closest to you and get ratings / reviews from the community.</p>
-    </div>
-
-    <h5 class="resources-group-header"><span>Community</span></h5>
-    <div class="resources-group">
-      <i class="material-icons small">directions_bike</i>
-      <p><a target="_blank" href="http://bit.ly/2zPk5zq">Groups</a> - MTB can be fun as a solo sport, but it is more fun and less dangerous in groups, especially when starting out find MTB groups near you on SingleTracks.com.</p>
-    </div>
-
-    <h5 class="resources-group-header"><span>How to's</span></h5>
-    <div class="resources-group">
-      <i class="material-icons small">directions_bike</i>
-      <p><a target="_blank" href="http://bit.ly/2zPk5zq">Skill tutorials</a> - GMBN playlist with over over 60 videos teaching you different mountain biking skills. Skill acquisition comes 99% from riding and 1% from watching, so watch, take notes, and then put in the work.</p>
-    </div>
-
-    <h5 class="resources-group-header"><span>Trying new stuff?</span></h5>
-    <div class="resources-group">
-      <i class="material-icons small">directions_bike</i>
-      <p><a target="_blank" href="http://bit.ly/2yUNJUw">Situational tips</a> - GMBN playlist with quick tips that can save you a lot of time and trouble if you take a few minutes to watch. If you are going to try something new on your bike, like night riding, come here for some advice.</p>
-    </div>
-
-    <h5 class="resources-group-header"><span>Bike travel</span></h5>
-    <div class="resources-group">
-      <i class="material-icons small">directions_bike</i>
-      <p><a target="_blank" href="http://bit.ly/2lphZnr">MTB travel</a> - You probably won't need this right away, but if you do end up wanting to do some travel with your bike, this is a good beforehand read.</p>
+    <div class="resources-container">
+      <a target="_blank" href="important-notes.html">
+        <div class="resource-item">
+          <div class="resource">
+            <img src="../images/resources/important-notes.jpeg">
+            <div class="resource-header resource-header-1">
+              <p class="resource-title">our notes for you</p>
+              <p class="resource-header-subtext">our perspective on mtb discussions</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a target="_blank" href="http://bit.ly/2zWZhHf">
+        <div class="resource-item">
+          <div class="resource">
+            <img src="../images/resources/maintenance.jpeg">
+            <div class="resource-header resource-header-2">
+              <p class="resource-title">bike maintenance</p>
+              <p class="resource-header-subtext">learn how to care for your bike</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a target="_blank" href="https://www.singletracks.com/mountain-bike/trails.php">
+        <div class="resource-item">
+          <div class="resource">
+            <img src="../images/resources/trails.jpeg">
+            <div class="resource-header resource-header-3">
+              <p class="resource-title">trails</p>
+              <p class="resource-header-subtext">find your next adventure</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a target="_blank" href="http://bit.ly/2zPk5zq">
+        <div class="resource-item">
+          <div class="resource">
+            <img src="../images/resources/community.jpeg">
+            <div class="resource-header resource-header-4">
+              <p class="resource-title">community</p>
+              <p class="resource-header-subtext">meet people who share your interests</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a target="_blank" href="http://bit.ly/2DEcZjp">
+        <div class="resource-item">
+          <div class="resource">
+            <img src="../images/resources/how-tos.jpeg">
+            <div class="resource-header resource-header-5">
+              <p class="resource-title">how to's</p>
+              <p class="resource-header-subtext">mtb skill tutorials</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a target="_blank" href="http://bit.ly/2lphZnr">
+        <div class="resource-item">
+          <div class="resource">
+            <img src="../images/resources/travel.jpeg">
+            <div class="resource-header resource-header-6">
+              <p class="resource-title">travel</p>
+              <p class="resource-header-subtext">how to see the world on your bike</p>
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
   </body>
 </html>
