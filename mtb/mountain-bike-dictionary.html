@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/override-materialize.css">
     <link rel="stylesheet" href="../css/responsive.css">
@@ -18,6 +20,7 @@
     <link rel="stylesheet" href="../css/jumpstart-responsive.css">
     <link rel="stylesheet" href="../css/quiz-page.css">
     <link rel="stylesheet" href="../css/quiz-page-responsive.css">
+    <link rel="stylesheet" href="../css/dictionary.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="../js/mtb-script.js"></script>
     <!-- Google Tag Manager -->
@@ -38,13 +41,13 @@
     <div class="new-nav-container">
       <div id="comp-name-questions-page">
         <h5>
-          <a class="outside-guides-logo-link font-black" href="../index.html">
+          <a class="outside-guides-logo-link font-white" href="../index.html">
             Outside Guide
           </a>
         </h5>
       </div>
 
-      <div class="header-links-large font-black">
+      <div class="header-links-large font-white">
         <a href="mtb.html" class="active-sport jumpstart-header-link dropdown-button" data-activates='dropdown1'>mtn bike</a>
         <a href="#" class="jumpstart-header-link dropdown-button" data-activates='dropdown2'>snowboard</a>
         <a href="#" class="jumpstart-header-link">how it works</a>
@@ -94,137 +97,426 @@
       <li><div class="divider"></div></li>
     </ul>
 
-    <div class="page-title">
-      <p>MTB Terms</p>
+    <div class="header-container">
+      <img src="../images/background-glossary.png">
+      <div class="page-header">
+        <p class="page-title-header">Glossary</p>
+        <p class="page-header-subtext">Knowledge is power</p>
+      </div>
+      <div class="dictionary-section">
+        <div class="container-fluid dictionary-row-container">
+          <div class="glossary-section-header first-section">
+            <p>mountain biking terms</p>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front first-section-card">
+                <img src="../icons/mtb-icons/mtb-terms/singletrack-icon-v2.png" class="noun-icon">
+                <p>single track</p>
+              </div>
+              <div class="back first-section-card">
+                <p>single track</p>
+                <p>narrow trail designed for one rider at a time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front first-section-card">
+                <img src="../icons/mtb-icons/mtb-terms/doubletrack-icon-v2.png" class="noun-icon">
+                <p>double track</p>
+              </div>
+              <div class="back first-section-card">
+                <p>double track</p>
+                <p>trail typically twice as wide as single track designed for two riders at the same time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/trailhead-icon-v2.png" class="noun-icon">
+              <p>trailhead</p>
+            </div>
+            <div class="back first-section-card">
+              <p>trailhead</p>
+              <p>entrance to a trail system. Typically near where you park your car and get set up.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/line-icon-v2.png" class="noun-icon">
+              <p>line</p>
+            </div>
+            <div class="back first-section-card">
+              <p>line</p>
+              <p>the route you take on not so clearly defined paths of mountain bike terrain.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/bike-geometry-icon-v2.png" class="noun-icon">
+              <p>bike geometry</p>
+            </div>
+            <div class="back first-section-card">
+              <p>bike geometry</p>
+              <p>this refers to bike fit. It takes frame, handlebars, seat level, tire size and other factors into consideration for how a bike will handle and what it’s main purpose should be. Appropriate bike geometries will vary for different people.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/tire-icon-v2.png" class="noun-icon">
+              <p>26" tires</p>
+            </div>
+            <div class="back first-section-card">
+              <p>26" tires</p>
+              <p>these tires are smaller and lighter, easier to maneuver and quick to react. However, they are not as great as the larger tires at handling rougher terrain. At one point these were the only sizes offered on mountain bikes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/tire-icon-v2.png" class="noun-icon">
+              <p>27.5" tires</p>
+            </div>
+            <div class="back first-section-card">
+              <p>27.5" tires</p>
+              <p>evens out the positives and negatives of the 26" and 29" tires.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/tire-icon-v2.png" class="noun-icon">
+              <p>29" tires</p>
+            </div>
+            <div class="back first-section-card">
+              <p>29" tires</p>
+              <p>they can handle considerably more terrain and have excellent grip. They are heavier and require greater lead time when maneuvering.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/corner-v2.png" class="noun-icon">
+              <p>corners</p>
+            </div>
+            <div class="back first-section-card">
+              <p>corners</p>
+              <p>turns on a bike trail.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/berm-icon.png" class="noun-icon">
+              <p>berm</p>
+            </div>
+            <div class="back first-section-card">
+              <p>berm</p>
+              <p>a bermed corner is where the corner is built up higher on the outside of the corner than it is on the inside.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/switchback-icon-v2.png" class="noun-icon">
+              <p>switchback</p>
+            </div>
+            <div class="back first-section-card">
+              <p>switchback</p>
+              <p>Where a trail will turn 180 degrees on a tight corner.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/drop-icon-v2.png" class="noun-icon">
+              <p>drop</p>
+            </div>
+            <div class="back first-section-card">
+              <p>drop</p>
+              <p>where a trail falls away sharply and your bike has to leave the surface you’re riding in order to continue onward.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/double-icon-v2.png" class="noun-icon">
+              <p>double</p>
+            </div>
+            <div class="back first-section-card">
+              <p>double</p>
+              <p>jump with a gap in the middle that needs to be cleared.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/tabletop-icon-v2.png" class="noun-icon">
+              <p>tabletop</p>
+            </div>
+            <div class="back first-section-card">
+              <p>tabletop</p>
+              <p>jump with a filled in gap. These are less dangerous than doubles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/mtb-terms/skinny-icon-v2.png" class="noun-icon">
+              <p>skinny</p>
+            </div>
+            <div class="back first-section-card">
+              <p>skinny</p>
+              <p>a thin wooden beem raised off the ground for bikers to ride accross.</p>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="glossary-section-header second-section-header">
+            <p>bicycle component terms</p>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front second-section-card">
+                <img src="../icons/mtb-icons/bike-component-terms/bike-kit-icon-v2.png" class="noun-icon">
+                <p>bike kits</p>
+              </div>
+              <div class="back second-section-card">
+                <p>bike kits</p>
+                <p>composed of the components you see on the frame. Included in a complete mtb kit is your cassette, chain, shifter, derailleur, racket, fork.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front second-section-card">
+                <img src="../icons/mtb-icons/bike-component-terms/shifter-icon-v2.png" class="noun-icon">
+                <p>shifter</p>
+              </div>
+              <div class="back second-section-card">
+                <p>shifter</p>
+                <p>sets your gear. You can downshift and upshift. If you downshift you move the gears lower and the bike is easier to ride. Upshift and you move the gear index up, which makes the bike more difficult to pedal going uphill, but if flat or downhill you will pick up speed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front second-section-card">
+                <img src="../icons/mtb-icons/bike-component-terms/derailleur-icon-v2.png" class="noun-icon">
+                <p>derailleur</p>
+              </div>
+              <div class="back second-section-card">
+                <p>derailleur</p>
+                <p>you have front and rear derailleurs they are the mechanisms that shift the chains at the front and rear cogs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front second-section-card">
+                <img src="../icons/mtb-icons/bike-component-terms/fork-icon-v2.png" class="noun-icon">
+                <p>fork</p>
+              </div>
+              <div class="back second-section-card">
+                <p>fork</p>
+                <p>front suspension implementation generally categorized by the amount of travel the suspension provides.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front second-section-card">
+                <img src="../icons/mtb-icons/bike-component-terms/hub-icon-v2.png" class="noun-icon">
+                <p>hub</p>
+              </div>
+              <div class="back second-section-card">
+                <p>hub</p>
+                <p>what your cogset attaches to. Your hub is the component attached to your wheel.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front second-section-card">
+                <img src="../icons/mtb-icons/bike-component-terms/sprocket-icon-v2.png" class="noun-icon">
+                <p>sprocket</p>
+              </div>
+              <div class="back second-section-card">
+                <p>sprocket</p>
+                <p>the circular component with teeth (cogs) your bike chain rolls over as you are pedaling. Most bikes will be comprised of a ~10 sprockets.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front second-section-card">
+                <img src="../icons/mtb-icons/bike-component-terms/cogset-icon-v2.png" class="noun-icon">
+                <p>cogset</p>
+              </div>
+              <div class="back second-section-card">
+                <p>cogset</p>
+                <p>a complete set of sprockets that attach to the hub on the rear wheel. There are two types of corsets, freewheel, and casset (wiki links).</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="glossary-section-header first-section">
+            <p>general terms</p>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front first-section-card">
+                <img src="../icons/mtb-icons/general-bike-terms/suspension-icon-v2.png" class="noun-icon">
+                <p>suspension</p>
+              </div>
+              <div class="back first-section-card">
+                <p>suspension</p>
+                <p>spring and shock absorbers that cushion your bike from rough terrain.</p>
+              </div>
+            </div>
+          </div>
+          <div class="dictionary-card-wrapper">
+            <div class="card" id="card-id">
+              <div class="front first-section-card">
+                <!-- <i class="material-icons small">directions_bike</i> -->
+                <p>hardtail bike</p>
+              </div>
+              <div class="back first-section-card">
+                <p>hardtail bike</p>
+                <p>bike with only front suspension.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <!-- <i class="material-icons small">directions_bike</i> -->
+              <p>full suspension</p>
+            </div>
+            <div class="back first-section-card">
+              <p>full suspension</p>
+              <p>bike with front and rear suspension.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/general-bike-terms/rigid-icon-v2.png" class="noun-icon">
+              <p>rigid</p>
+            </div>
+            <div class="back first-section-card">
+              <p>rigid</p>
+              <p>bike with no suspension</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/general-bike-terms/suspension-travel-v2.png" class="noun-icon">
+              <p>suspension travel</p>
+            </div>
+            <div class="back first-section-card">
+              <p>suspension travel</p>
+              <p>this is the length your suspension will compress and decompress when riding over terrain or landing a jump. travel options vary but generally fall between 80-220mm.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/general-bike-terms/components-icon-v2.png" class="noun-icon">
+              <p>components</p>
+            </div>
+            <div class="back first-section-card">
+              <p>components</p>
+              <p>when referring to individual parts of a bike, they are referred to as components. the section below details more individual components.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/general-bike-terms/frame-icon-v2.png" class="noun-icon">
+              <p>frame</p>
+            </div>
+            <div class="back first-section-card">
+              <p>frame</p>
+              <p>main component of a bicycle, onto which wheels and other components are fitted.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/general-bike-terms/sadle-icon-v2.png" class="noun-icon">
+              <p>sadle</p>
+            </div>
+            <div class="back first-section-card">
+              <p>sadle</p>
+              <p>another term for bike seat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/general-bike-terms/brake-disc-icon-v2.png" class="noun-icon">
+              <p>disc brakes</p>
+            </div>
+            <div class="back first-section-card">
+              <p>disc brakes</p>
+              <p>brakes that use the friction of pads against a disc that is attached to the wheel. most mountain bikes will use some form of disc brakes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/general-bike-terms/rim-brakes-v2.png" class="noun-icon">
+              <p>rim brakes</p>
+            </div>
+            <div class="back first-section-card">
+              <p>rim brakes</p>
+              <p>brakes that use friction of pads against the tire rim. not freqently seen on mountain bikes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dictionary-card-wrapper">
+          <div class="card" id="card-id">
+            <div class="front first-section-card">
+              <img src="../icons/mtb-icons/general-bike-terms/drop-seat-icon-v2.png" class="noun-icon">
+              <p>drop seat</p>
+            </div>
+            <div class="back first-section-card">
+              <p>drop seat</p>
+              <p>a bike seat post that can be raised or lowered mid ride.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
-
-    <ul class="collapsible terms" data-collapsible="accordion">
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Tracks (2)</div>
-        <div class="collapsible-body"><span>Single Track: Narrow trail designed for one rider at a time.</span></div>
-        <div class="collapsible-body"><span>Double Track: Trail typically twice as wide as single track designed for two riders at the same time.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Trailhead</div>
-        <div class="collapsible-body"><span>Entrance to a trail system. Typically near where you park your car and get set up.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Line</div>
-        <div class="collapsible-body"><span>The route you take on not so clearly defined paths of mountain bike terrain.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Bike Geometry</div>
-        <div class="collapsible-body"><span>This refers to bike fit. It takes frame, handlebars, seat level, tire size and other factors into consideration for how a bike will handle and what it’s main purpose should be. Appropriate bike geometries will vary for different people.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Tire Sizes (3)</div>
-        <div class="collapsible-body"><span>26": These tires are smaller and lighter, easier to maneuver and quick to react. However, they are not as great as the larger tires at handling rougher terrain. At one point these were the only sizes offered on mountain bikes.</span></div>
-        <div class="collapsible-body"><span>27.5": Evens out the positives and negatives of the 26" and 29" wheels.</span></div>
-        <div class="collapsible-body"><span>29": They can handle considerably more terrain and have excellent grip. They are heavier and require greater lead time when maneuvering.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Corners</div>
-        <div class="collapsible-body"><span>Turns on a bike trail.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Berms</div>
-        <div class="collapsible-body"><span>A bermed corner is where the corner is built up higher on the outside of the corner than it is on the inside.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Switchback</div>
-        <div class="collapsible-body"><span>Where a trail will turn 180 degrees on a tight corner.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Drop</div>
-        <div class="collapsible-body"><span>Where a trail falls away sharply and your bike has to leave the surface you’re riding in order to continue onward.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Jumps / Ramps (2)</div>
-        <div class="collapsible-body"><span>Double: Jump with a gap in the middle that needs to be cleared.</span></div>
-        <div class="collapsible-body"><span>Tabletop: Jump with a filled in gap. These are less dangerous than doubles.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Skinny</div>
-        <div class="collapsible-body"><span>A think wooden beem raised off the ground for bikers to ride accross.</span></div>
-      </li>
-    </ul>
-
-    <div class="page-title-subheader">
-      <p>General Bicycle Terms</p>
-    </div>
-
-    <ul class="collapsible terms" data-collapsible="accordion">
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Suspension</div>
-        <div class="collapsible-body"><span>Spring and shock absorbers that cushion your bike from rough terrain.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>MTB Types (suspension types) (3)</div>
-        <div class="collapsible-body"><span>Hardtail: Bike with only front suspension.</span></div>
-        <div class="collapsible-body"><span>Full Suspension: Bike with front and rear suspension.</span></div>
-        <div class="collapsible-body"><span>Rigid: Bike with no suspension.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Suspension Travel</div>
-        <div class="collapsible-body"><span>This is the length your suspension will compress and decompress when riding over terrain or landing a jump. Travel options vary but generally fall between 80-220mm.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Frame</div>
-        <div class="collapsible-body"><span>Main component of a bicycle, onto which wheels and other components are fitted.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Components</div>
-        <div class="collapsible-body"><span>When referring to individual parts of a bike, they are referred to as components. The section below details more individual components.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Sadle</div>
-        <div class="collapsible-body"><span>Your bike seat.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Brake Types (2)</div>
-        <div class="collapsible-body"><span>Disc Brakes: Brakes that use the friction of pads against a disc that is attached to the wheel. Most mountain bikes will use some form of disc brakes.</span></div>
-        <div class="collapsible-body"><span>Rim Brakes: Brakes that use friction of pads against the tire rim. Not freqently seen on mountain bikes.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Drop seat</div>
-        <div class="collapsible-body"><span>A bike seat post that can be raised or lowered mid ride.</span></div>
-      </li>
-    </ul>
-
-    <div class="page-title-subheader">
-      <p>Bicycle Component Terms</p>
-    </div>
-
-    <ul class="collapsible terms" data-collapsible="accordion">
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Bike Kits</div>
-        <div class="collapsible-body"><span>Composed of the components you see on the frame. Included in a complete mtb kit is your cassette, chain, shifter, derailleur, racket, fork.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Shifter</div>
-        <div class="collapsible-body"><span>Sets your gear. You can downshift and upshift. If you downshift you move the gears lower and the bike is easier to ride. Upshift and you move the gear index up, which makes the bike more difficult to pedal going uphill, but if flat or downhill you will pick up speed.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Derailleur</div>
-        <div class="collapsible-body"><span>You have front and rear derailleurs they are the mechanisms that shift the chains at the front and rear cogs.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Fork</div>
-        <div class="collapsible-body"><span>Front suspension implementation generally categorized by the amount of travel the suspension provides.</span></div>
-      </li>
-
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Hub</div>
-        <div class="collapsible-body"><span>What your cogset attaches to. Your hub is the component attached to your wheel.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Sprocket</div>
-        <div class="collapsible-body"><span>The circular component with teeth (cogs) your bike chain rolls over as you are pedaling. Most bikes will be comprised of a ~10 sprockets.</span></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons terms-icon">add_circle</i>Cogset</div>
-        <div class="collapsible-body"><span>A complete set of sprockets that attach to the hub on the rear wheel. There are two types of corsets, freewheel, and casset (wiki links).</span></div>
-      </li>
-    </ul>
   </body>
 </html>
