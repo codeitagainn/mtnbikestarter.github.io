@@ -1,6 +1,6 @@
 body.body-green {
   background: #00251C;
-  /*background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/sport-bike-bicycle-fitness.jpg');*/
+  /*background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background-glossary.png');*/
   background-size: 100% 100%;
 }
 
@@ -137,4 +137,15 @@ input[type='radio']:disabled:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
+}
+
+#triangle-left {
+  position: absolute;
+  top: 470px;
+  width: 0;
+  height: 0;
+  border-top: 200px solid transparent;
+  border-right: 400px solid #068E71;
+  border-bottom: 200px solid transparent;
+  left: -180px;
 }
