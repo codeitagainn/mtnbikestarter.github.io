@@ -363,35 +363,42 @@ i.medium {
   width: 580px;
 }
 
- .about-container-text-wrapper p {
+.about-container-text-wrapper p {
   font-family: Octin College;
- }
+}
 
- .about-container-text-wrapper div {
-   font-family: Open Sans;
-   font-size: 14px;
-   line-height: 1.7;
- }
+.about-container-text-wrapper div {
+ font-family: Open Sans;
+ font-size: 14px;
+ line-height: 1.7;
+}
 
- .new-nav-container {
+.new-nav-container {
    position: absolute;
    width: 1200px;
    top: 10px;
    left: 50px;
    z-index: 100;
- }
+}
 
- .new-nav-container #comp-name-questions-page {
-    display: inline;
-    margin-right: 43%;
-  }
+.new-nav-container #comp-name-questions-page {
+  display: inline;
+  margin-right: 43%;
+}
 
-  .new-nav-container .font-black {
-    font-size: 18px;
-    color: black;
-  }
+.new-nav-container .font-black {
+  font-size: 18px;
+  color: black;
+}
 
-  .new-nav-container .font-white {
-    font-size: 18px;
-    color: white;
-  }
+.new-nav-container .font-white {
+  font-size: 18px;
+  color: white;
+}
+
+.dictionary-header-container img.noun-icon {
+  width: 40px;
+  height: 35px;
+  margin-left: 180px;
+  margin-top: 50px;
+}
